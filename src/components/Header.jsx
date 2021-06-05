@@ -68,19 +68,19 @@ class Header extends React.Component {
                 <MDBCollapse isOpen={collapsed} navbar>
                   <MDBNavbarNav left>
                     <MDBNavItem>
-                      <MDBNavLink className="px-3" to="Accueil">Accueil</MDBNavLink>
+                      <MDBNavLink className="px-3" to=" ">Accueil</MDBNavLink>
                     </MDBNavItem>
                     <MDBNavItem>
-                      <MDBNavLink className="px-3" to="Présentation">Présentation</MDBNavLink>
+                      <MDBNavLink className="px-3" to=" ">Présentation</MDBNavLink>
                     </MDBNavItem>
                     <MDBNavItem>
-                      <MDBNavLink className="px-3" to="Réalisation">Réalisation</MDBNavLink>
+                      <MDBNavLink className="px-3" to=" ">Réalisation</MDBNavLink>
                     </MDBNavItem>
                     <MDBNavItem>
-                      <MDBNavLink className="px-3" to="Compétences">Compétences</MDBNavLink>
+                      <MDBNavLink className="px-3" to=" ">Compétences</MDBNavLink>
                     </MDBNavItem>
                     <MDBNavItem>
-                      <MDBNavLink className="px-3" to="Contact">Contact</MDBNavLink>
+                      <MDBNavLink className="px-3" to=" ">Contact</MDBNavLink>
                     </MDBNavItem>
                     <MDBNavItem className="m-2 px-2">
                       <a className="white-text" href={CV} target="_blank">

@@ -16,7 +16,7 @@ const Competences = () => {
     <section className="gray-container">
       <MDBContainer>
         <section className="text-center mb-5">
-          <h1 className="h1-responsive font-weight-light mb-5">Competences</h1>
+          <h1 className="h1-responsive font-weight-light pt-5 mb-5">Competences</h1>
           <MDBCarousel
             activeItem={1}
             slide={true}
