@@ -14,7 +14,7 @@ import {
   MDBContainer,
 } from "mdbreact";
 import CV from "../assets/CV.pdf";
-// import Canvas from "./Particles.jsx";
+import Canvas from "./Particles.jsx";
 
 class Header extends React.Component {
 
@@ -96,11 +96,11 @@ class Header extends React.Component {
           </div>
         </Router>
         <MDBView
-          src={'https://mdbcdn.b-cdn.net/img/Photos/Others/images/76.jpg'}
+          // src={'https://mdbcdn.b-cdn.net/img/Photos/Others/images/76.jpg'}
           fixed
           className="bg-dark"
         >
-          {/* <Canvas inverted={+true}/> */}
+          <Canvas/>
 
           <MDBMask className="rgba-white-light" />
           <MDBContainer
