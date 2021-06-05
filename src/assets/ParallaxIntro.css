@@ -16,13 +16,14 @@
 	margin-left: auto !important;
 	margin-right: auto !important;
 }
-.cont-height{
-	height: 550px;
-}
 
 .h1H{
 	font-size: 5vmax;
 }
 .h5H{
 	font-size: 2vmax;
+}
+
+.height{
+	height: 55vmax;
 }

@@ -35,7 +35,6 @@ class Header extends React.Component {
   }
 
   render() {
-    const navStyle = { marginTop: "4rem" };
     const overlay = (
       <div
         id="sidenav-overlay"
@@ -45,18 +44,16 @@ class Header extends React.Component {
     );
     const { collapsed } = this.state;
     return (
-      <div id="parallaxintro">
+      <div  id="parallaxintro">
         <Router>
           <div>
             <MDBNavbar
               color="primary-color"
-              style={navStyle}
               dark
               expand="md"
               fixed="top"
               scrolling
               transparent
-              className="mt-0"
             >
               <MDBContainer>
                 <MDBNavbarBrand>
@@ -67,25 +64,25 @@ class Header extends React.Component {
                     <strong className="white-text">Amir Hatam</strong>
                   </a>
                 </MDBNavbarBrand>
-                <MDBNavbarToggler onClick={this.handleTogglerClick} />
+                <MDBNavbarToggler   onClick={this.handleTogglerClick} />
                 <MDBCollapse isOpen={collapsed} navbar>
                   <MDBNavbarNav left>
                     <MDBNavItem>
-                      <MDBNavLink to="Accueil">Accueil</MDBNavLink>
+                      <MDBNavLink className="px-3" to="Accueil">Accueil</MDBNavLink>
                     </MDBNavItem>
                     <MDBNavItem>
-                      <MDBNavLink to="Présentation">Présentation</MDBNavLink>
+                      <MDBNavLink className="px-3" to="Présentation">Présentation</MDBNavLink>
                     </MDBNavItem>
                     <MDBNavItem>
-                      <MDBNavLink to="Réalisation">Réalisation</MDBNavLink>
+                      <MDBNavLink className="px-3" to="Réalisation">Réalisation</MDBNavLink>
                     </MDBNavItem>
                     <MDBNavItem>
-                      <MDBNavLink to="Compétences">Compétences</MDBNavLink>
+                      <MDBNavLink className="px-3" to="Compétences">Compétences</MDBNavLink>
                     </MDBNavItem>
                     <MDBNavItem>
-                      <MDBNavLink to="Contact">Contact</MDBNavLink>
+                      <MDBNavLink className="px-3" to="Contact">Contact</MDBNavLink>
                     </MDBNavItem>
-                    <MDBNavItem className="m-2">
+                    <MDBNavItem className="m-2 px-2">
                       <a className="white-text" href={CV} target="_blank">
                         Mon CV
                       </a>
@@ -100,9 +97,14 @@ class Header extends React.Component {
         <MDBView
           // src={'https://mdbcdn.b-cdn.net/img/Photos/Others/images/76.jpg'}
           fixed
-          className="bg-dark"
+          className="bg-dark height"
+          
+          
+          // style={{height:`${window.innerHeight}px` }}
         >
           <Particles
+          className="height"
+        
             params={{
               particles: {
                 number: {
@@ -155,7 +157,7 @@ class Header extends React.Component {
             <MDBRow className="py-5">
               <MDBCol md="12" className="text-center">
                 <h1 className="mb-5">Présentation</h1>
-                <p>
+                <p className="text-justify px-4">
                   Dès le lycée, j’ai acquis des compétences en infographie
                   "Option Arts Plastiques" (Création d'images numériques
                   assistée par ordinateur), j’ai également suivi pendant un an
