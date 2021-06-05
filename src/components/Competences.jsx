@@ -13,7 +13,7 @@ import {
 
 const Competences = () => {
   return (
-    <section className="gray-container py-5">
+    <section className="gray-container">
       <MDBContainer>
         <section className="text-center mb-5">
           <h1 className="h1-responsive font-weight-light mb-5">Competences</h1>
