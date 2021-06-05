@@ -102,13 +102,32 @@ class Header extends React.Component {
           className="bg-dark"
         >
           {/* <Canvas/> */}
-          <Particles/>
+          <Particles
+          params={{
+            particles: {
+              number: {
+                value: 50,
+              },
+              size: {
+                value: 3,
+              },
+            },
+            interactivity: {
+              events: {
+                onhover: {
+                  enable: true,
+                  mode: "repulse",
+                },
+              },
+            },
+          }}
+          />
 
-          <MDBMask className="rgba-white-light" />
-          <MDBContainer
+          {/* <MDBMask className="rgba-white-light" /> */}
+          {/* <MDBContainer
             className="d-flex justify-content-center align-items-center"
             style={{ height: "100%", width: "100%", paddingTop: "15rem" }}
-          >
+          > */}
           <MDBCol
             style={{
               position: "absolute",
@@ -128,7 +147,7 @@ class Header extends React.Component {
               Développeur Web Full Stack
             </h5>
           </MDBCol>
-          </MDBContainer>
+          {/* </MDBContainer> */}
         </MDBView>
 
         <main className="gray-container">
