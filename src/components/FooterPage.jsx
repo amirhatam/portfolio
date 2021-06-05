@@ -13,7 +13,7 @@ const FooterPage = () => {
           </a>
         </p>
         <p className="text-white-50">Disponible sur Paris et ses alentours</p>
-        <p className="text-white-50">
+        <p className="text-white-50 mb-0 pb-2">
           &copy; {new Date().getFullYear()} Amir Hatam, Tous droits réservés
         </p>
       </MDBContainer>

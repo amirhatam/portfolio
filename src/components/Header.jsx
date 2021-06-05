@@ -7,7 +7,6 @@ import {
   MDBNavbarNav,
   MDBNavItem,
   MDBNavLink,
-  MDBMask,
   MDBRow,
   MDBCol,
   MDBView,
@@ -15,36 +14,13 @@ import {
 } from "mdbreact";
 import CV from "../assets/CV.pdf";
 import Particles from "react-particles-js";
-// import Canvas from "./Particles.jsx";
 
 class Header extends React.Component {
 
 
-  // state = {
-  //   collapsed: false,
-  // };
-
-  // handleTogglerClick = () => {
-  //   this.setState({
-  //     collapsed: !this.state.collapsed,
-  //   });
-  // };
-  // componentDidMount() {
-  //   document.querySelector("nav").style.height = "65px";
-  // }
-  // componentWillUnmount() {
-  //   document.querySelector("nav").style.height = "auto";
-  // }
+  
   render() {
-    // const overlay = (
-    //   <div
-    //     id="sidenav-overlay"
-    //     style={{ backgroundColor: "transparent" }}
-    //     onClick={this.handleTogglerClick}
-    //   />
-    // );
-
-    // const { collapsed } = this.state;
+ 
     return (
       <div id="parallaxintro">
         <Router>
@@ -66,8 +42,7 @@ class Header extends React.Component {
                     <strong className="white-text">Amir Hatam</strong>
                   </a>
                 </MDBNavbarBrand>
-                {/* <MDBNavbarToggler onClick={this.handleTogglerClick} />
-                <MDBCollapse isOpen={collapsed} navbar> */}
+               
                 <MDBNavbarNav left>
                   <MDBNavItem>
                     <MDBNavLink to="Accueil">Accueil</MDBNavLink>
@@ -90,10 +65,8 @@ class Header extends React.Component {
                     </a>
                   </MDBNavItem>
                 </MDBNavbarNav>
-                {/* </MDBCollapse> */}
               </MDBContainer>
             </MDBNavbar>
-            {/* {collapsed && overlay} */}
           </div>
         </Router>
         <MDBView
@@ -101,7 +74,6 @@ class Header extends React.Component {
           fixed
           className="bg-dark"
         >
-          {/* <Canvas/> */}
           <Particles
           params={{
             particles: {
@@ -123,11 +95,7 @@ class Header extends React.Component {
           }}
           />
 
-          {/* <MDBMask className="rgba-white-light" /> */}
-          {/* <MDBContainer
-            className="d-flex justify-content-center align-items-center"
-            style={{ height: "100%", width: "100%", paddingTop: "15rem" }}
-          > */}
+        
           <MDBCol
             style={{
               position: "absolute",
@@ -147,7 +115,6 @@ class Header extends React.Component {
               Développeur Web Full Stack
             </h5>
           </MDBCol>
-          {/* </MDBContainer> */}
         </MDBView>
 
         <main className="gray-container">
@@ -162,7 +129,7 @@ class Header extends React.Component {
                   la formation Microsoft certified solution expert “MCSE” à
                   l’université. Il y a un an que j'ai commencé à apprendre le
                   developpement web, car c'est un domaine qui me passionne
-                  depuis toujours J'aime créer et avoir un résultat à la hauteur
+                  depuis toujours. J'aime créer et avoir un résultat à la hauteur
                   de mes attentes. Souriant, bon vivant, sportif et sociable
                   j'apprécie être confronté à de nouveau challenge. Je suis un
                   travailleur acharné qui n'abandonne pas au premier obstacle.
