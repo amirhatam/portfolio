@@ -100,7 +100,7 @@ class Header extends React.Component {
           fixed
           className="bg-dark"
         >
-          <Canvas/>
+          {/* <Canvas/> */}
 
           <MDBMask className="rgba-white-light" />
           <MDBContainer
