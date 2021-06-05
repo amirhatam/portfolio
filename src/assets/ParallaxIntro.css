@@ -1,0 +1,21 @@
+/* #parallaxintro .view {
+	min-height: 100vh !important;
+	height: unset !important;
+  } */
+
+.projects-container {
+	width: 98%;
+	margin: auto;
+}
+
+.gray-container{
+	background-color: #f5f5f5;
+}
+
+.m-auto{
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+.cont-height{
+	height: 550px;
+}
