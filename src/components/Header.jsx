@@ -14,7 +14,8 @@ import {
   MDBContainer,
 } from "mdbreact";
 import CV from "../assets/CV.pdf";
-import Canvas from "./Particles.jsx";
+import Particles from "react-particles-js";
+// import Canvas from "./Particles.jsx";
 
 class Header extends React.Component {
 
@@ -101,6 +102,7 @@ class Header extends React.Component {
           className="bg-dark"
         >
           {/* <Canvas/> */}
+          <Particles/>
 
           <MDBMask className="rgba-white-light" />
           <MDBContainer
