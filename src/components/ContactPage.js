@@ -13,7 +13,7 @@ import {
 
 const ContactPage = () => {
   return (
-    <section id="Contact" className="my-5 container">
+    <section id="Contact"  className="my-5 container">
       <h2 className="h1-responsive font-weight-light text-center my-5">
         Contact
       </h2>
@@ -38,51 +38,40 @@ const ContactPage = () => {
                 DÉVELOPPEUR WEB FULL STACK
               </p>
 
-              <MDBRow md="12" className="d-flex justify-content-center">
-                <MDBCol className="p-0" md="3">
-                  <MDBBtn
-                    href={"https://www.linkedin.com/in/amir-hatam-7ba7601ba/"}
-                    rounded
-                    floating="true"
-                    color="blue"
-                    target="_blank"
-                    title="Linkedin"
-                  >
-                    <MDBIcon size="lg" fab icon="linkedin-in" />
-                  </MDBBtn>
-                    
-                  <p className="font-weight-light">Linkedin</p>
+              <MDBCol md="12" className="d-flex justify-content-center">
+                <MDBBtn
+                  href={"https://www.linkedin.com/in/amir-hatam-7ba7601ba/"}
+                  rounded
+                  floating="true"
+                  color="info"
+                  target="_blank"
+                  title="Linkedin"
+                >
+                  <MDBIcon size="lg" fab icon="linkedin-in" />
+                </MDBBtn>
 
-                </MDBCol>
+                <MDBBtn
+                  href={"https://github.com/amirhatam"}
+                  rounded
+                  floating="true"
+                  color="info"
+                  target="_blank"
+                  title="GitHub"
+                >
+                  <MDBIcon size="lg" fab icon="github"></MDBIcon>
+                </MDBBtn>
 
-                <MDBCol className="p-0" md="3">
-                  <MDBBtn
-                    href={"https://github.com/amirhatam"}
-                    rounded
-                    floating="true"
-                    color="blue"
-                    target="_blank"
-                    title="GitHub"
-                  >
-                    <MDBIcon size="lg" fab icon="github"></MDBIcon>
-                  </MDBBtn>
-                  <p className="font-weight-light">GitHub</p>
-
-                </MDBCol >
-                <MDBCol className="p-0" md="3">
-                  <MDBBtn
-                    href={"https://youpic.com/photographer/AmirHatam/"}
-                    rounded
-                    floating="true"
-                    color="blue"
-                    target="_blank"
-                    title="YouPic"
-                  >
-                    <i className="fab fa-yandex-international"></i>
-                  </MDBBtn>
-                  <p className="font-weight-light">YouPic</p>
-                </MDBCol>
-              </MDBRow>
+                <MDBBtn
+                  href={"https://youpic.com/photographer/AmirHatam/"}
+                  rounded
+                  floating="true"
+                  color="info"
+                  target="_blank"
+                  title="YouPic"
+                >
+                  <i className="fab fa-yandex-international"></i>
+                </MDBBtn>
+              </MDBCol>
             </MDBCardBody>
           </MDBCard>
         </MDBCol>
@@ -94,7 +83,7 @@ const ContactPage = () => {
             style={{ height: "400px" }}
           >
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5246.268411398868!2d2.3147880552843096!3d48.893779442071015!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fa907692ca9%3A0x25b27724e07e2cc6!2sPorte%20De%20Clichy!5e0!3m2!1sfr!2sfr!4v1622888103891!5m2!1sfr!2sfr"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11526.17969992383!2d2.308505240906459!3d48.88912850935417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sParis!5e0!3m2!1sfr!2sfr!4v1622499641775!5m2!1sfr!2sfr"
               title="This is a unique title"
               width="100%"
               height="100%"
@@ -105,17 +94,18 @@ const ContactPage = () => {
           <br />
           <MDBRow className="text-center">
             <MDBCol md="4">
-              <MDBBtn tag="a" floating="true" color="blue" className="accent-1">
+              <MDBBtn tag="a" floating="true" color="info" className="accent-1">
                 <MDBIcon icon="map-marker-alt" />
               </MDBBtn>
-              <p>Paris, France</p>
+              <p>Paris (75), France</p>
+              <p className="mb-md-0"></p>
             </MDBCol>
             <MDBCol md="4">
               <MDBBtn
                 href="tel:07 68 57 35 81"
                 tag="a"
                 floating="true"
-                color="blue"
+                color="info"
                 className="accent-1"
               >
                 <MDBIcon icon="phone" />
@@ -127,7 +117,7 @@ const ContactPage = () => {
                 href="mailto:amirhatam136@gmail.com"
                 tag="a"
                 floating="true"
-                color="blue"
+                color="info"
                 className="accent-1"
               >
                 <MDBIcon icon="envelope" />
