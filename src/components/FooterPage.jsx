@@ -7,7 +7,7 @@ const FooterPage = () => {
       <MDBContainer fluid>
         <p className="text-white-50">
           Email :
-          <a href="mailto:amirhatam136@gmail.com" className="text-dark">
+          <a href="mailto:amirhatam136@gmail.com" className="text-warning">
             {" "}
             amirhatam136@gmail.com
           </a>

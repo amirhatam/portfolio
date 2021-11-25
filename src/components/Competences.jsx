@@ -432,7 +432,7 @@ const Competences = () => {
                   <MDBCardTitle className="my-5" tag="h5">
                     Le contenu est référençable
                   </MDBCardTitle>
-                  <MDBCardText className="text-justify px-4 text-box">
+                  <MDBCardText className="text-justify px-4 text-box pb-5">
                     C’est LA fonctionnalité qui fait la différence par rapport
                     aux autres frameworks. Grâce à l’utilisation d’un serveur
                     Node, le code va pouvoir être généré côté client ET côté
@@ -462,7 +462,7 @@ const Competences = () => {
                   </MDBCardText>
                 </MDBCardBody>
               </MDBCard>
-              <MDBCard className="text-center mx-2 hoverable">
+              <MDBCard className="text-center mx-2 hoverable ">
                 <MDBCardBody>
                   <MDBCardTitle className="mt-5 mb-4 px-3" tag="h5">
                     Les composants sont le futur du développement web

@@ -18,11 +18,11 @@ class App extends React.Component {
     return (
       <div>
         <Element name="Header">
-        <Header />
+          <Header />
         </Element>
 
         <Element name="Presentation">
-        <Presentation />
+          <Presentation />
         </Element>
 
         <Element name="ProjectsPage">
