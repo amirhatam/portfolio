@@ -1,134 +1,106 @@
 import React from "react";
-import MyAvatar from "../assets/1.jpg";
 import {
   MDBRow,
   MDBCol,
   MDBCard,
   MDBCardBody,
   MDBIcon,
-  MDBBtn,
-  MDBCardImage,
-  MDBCardTitle,
+  MDBView,
+  MDBContainer,
+  MDBCardHeader,
 } from "mdbreact";
 
+import "../assets/styles/contact.css";
+
+
 const ContactPage = () => {
+
   return (
-    <section id="Contact"  className="my-5 container">
-      <h2 className="h1-responsive font-weight-light text-center my-5">
-        Contact
-      </h2>
+    <MDBView id="Contact" className="bgc-white mt-5">
+      <MDBContainer className="nav-space">
+        <MDBRow className="justify-content-around">
+          <MDBCol className="col-lg-5 col-8 lg-0 mb-4">
+            <MDBCard>
+              <MDBCardHeader className="form-header text-center deep-blue-gradient rounded">
+                <h3 className="my-3 text-white">
+                  Contactez moi <MDBIcon fab icon="telegram-plane" />
+                </h3>
+              </MDBCardHeader>
+              <MDBCardBody className="mb-lg-3 px-sm-4 px-0" >
+                <form action="https://formsubmit.co/amirhatam136@gmail.com" method="POST" className="px-3">
+                  <div className="my-sm-3 my-2">
+                    <input type="email" name="email" placeholder="Votre Email" required className="h6-fs form-control col" />
+                  </div>
+                  <div className="my-sm-3 my-2">
+                    <input type="text" name="Nom" placeholder="Votre Nom" required className="h6-fs form-control col" />
+                  </div>
+                  <div className="my-sm-3 my-2">
+                    <textarea rows="5" cols="33" type="text" name="message" placeholder="Commentaire" required className="h6-fs form-control col" />
+                  </div>
+                  <div className="text-center">
+                    <button type="submit" className="btn btn-info rounded-pill px-3 p-fs py-md-2 px-md-3 py-1 px-2  text-white" >Envoyer</button>
+                  </div>
+                </form>
+              </MDBCardBody>
+            </MDBCard>
+          </MDBCol>
 
-      <MDBRow id="contact">
-        <MDBCol lg="5" className="lg-0 mb-4">
-          <MDBCard>
-            <MDBCardImage
-              hover
-              overlay="white-light"
-              className="card-img-top"
-              src={MyAvatar}
-              alt="man"
-            />
+          <MDBCol className="col-lg-5 col-8 mt-lg-0 mt-4">
+            <MDBRow className="justify-content-center">
+              <h4 className="h4-fs fontW mb-3 ">Coordonnées</h4>
+              <MDBCol className="col-lg-12 col-6">
 
-            <MDBCardBody cascade className="text-center">
-              <MDBCardTitle className="card-title">
-                <strong>Amir Hatam</strong>
-              </MDBCardTitle>
-
-              <p className="font-weight-bold blue-text">
-                DÉVELOPPEUR WEB FULL STACK
-              </p>
-
-              <MDBCol md="12" className="d-flex justify-content-center">
-                <MDBBtn
-                  href={"https://www.linkedin.com/in/amir-hatam-7ba7601ba/"}
-                  rounded
-                  floating="true"
-                  color="info"
-                  target="_blank"
-                  title="Linkedin"
-                >
-                  <MDBIcon size="lg" fab icon="linkedin-in" />
-                </MDBBtn>
-
-                <MDBBtn
-                  href={"https://github.com/amirhatam"}
-                  rounded
-                  floating="true"
-                  color="info"
-                  target="_blank"
-                  title="GitHub"
-                >
-                  <MDBIcon size="lg" fab icon="github"></MDBIcon>
-                </MDBBtn>
-
-                <MDBBtn
-                  href={"https://youpic.com/photographer/AmirHatam/"}
-                  rounded
-                  floating="true"
-                  color="info"
-                  target="_blank"
-                  title="YouPic"
-                >
-                  <i className="fab fa-yandex-international"></i>
-                </MDBBtn>
+                <div className="my-lg-3">
+                  <MDBIcon fab icon="linkedin" className="col-1 px-0 mr-1 text-primary h4-fs" />
+                  <span className="fontW h5-fs ml-1">LINKEDIN</span>
+                  <div className="d-table">
+                    <a href="https://www.linkedin.com/in/amir-hatam-7ba7601ba/" target="_blank" rel="noreferrer" className="li-ic d-block txt-dark h6-fs textColor mb-md-0 my-lg-2 mt-1">https://www.linkedin.com/in/amir-hatam-7ba7601ba/</a>
+                  </div>
+                </div>
+                <div className="mt-lg-4 mt-3">
+                  <MDBIcon fab icon="github" className="col-1 px-0 mr-1 h4-fs" />
+                  <span className="fontW h5-fs ml-1">GitHub</span>
+                  <div className="d-table">
+                    <a href="https://www.facebook.com/assoazimuto/" target="_blank" rel="noreferrer" className="fb-ic d-block txt-dark h6-fs textColor mb-md-0 my-2 mt-1">https://github.com/amirhatam</a>
+                  </div>
+                </div>
+                <div className="mt-lg-4">
+                  <MDBIcon icon="camera-retro" className="col-1 px-0 mr-1 text-muted h4-fs" />
+                  <span className="fontW h5-fs ml-1">YouPic</span>
+                  <div className="d-table">
+                    <a href="https://youpic.com/photographer/AmirHatam/" target="_blank" rel="noreferrer" className="ins-ic d-block txt-dark h6-fs textColor mb-md-0 my-lg-2 mt-1">https://youpic.com/photographer/AmirHatam/</a>
+                  </div>
+                </div>
               </MDBCol>
-            </MDBCardBody>
-          </MDBCard>
-        </MDBCol>
 
-        <MDBCol lg="7">
-          <div
-            id="map-container"
-            className="rounded z-depth-1-half map-container"
-            style={{ height: "400px" }}
-          >
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11526.17969992383!2d2.308505240906459!3d48.88912850935417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sParis!5e0!3m2!1sfr!2sfr!4v1622499641775!5m2!1sfr!2sfr"
-              title="This is a unique title"
-              width="100%"
-              height="100%"
-              frameBorder="0"
-              style={{ border: 0 }}
-            />
-          </div>
-          <br />
-          <MDBRow className="text-center">
-            <MDBCol md="4">
-              <MDBBtn tag="a" floating="true" color="info" className="accent-1">
-                <MDBIcon icon="map-marker-alt" />
-              </MDBBtn>
-              <p>Paris (75), France</p>
-              <p className="mb-md-0"></p>
-            </MDBCol>
-            <MDBCol md="4">
-              <MDBBtn
-                href="tel:07 68 57 35 81"
-                tag="a"
-                floating="true"
-                color="info"
-                className="accent-1"
-              >
-                <MDBIcon icon="phone" />
-              </MDBBtn>
-              <p>07 68 57 35 81</p>
-            </MDBCol>
-            <MDBCol md="4">
-              <MDBBtn
-                href="mailto:amirhatam136@gmail.com"
-                tag="a"
-                floating="true"
-                color="info"
-                className="accent-1"
-              >
-                <MDBIcon icon="envelope" />
-              </MDBBtn>
-              <p className="mb-md-0">amirhatam136@gmail.com</p>
-            </MDBCol>
-          </MDBRow>
-        </MDBCol>
-      </MDBRow>
-    </section>
+              <MDBCol className="col-lg-12 col-6">
+                <div className="my-lg-4">
+                  <MDBIcon icon="envelope" className="col-1 px-0 mr-lg-1 mr-2 text-muted h4-fs" />
+                  <span className="fontW h5-fs ml-1">Email</span>
+                  <div className="d-table">
+                    <a href="mailto:amirhatam136@gmail.com" className="d-block h6-fs txt-dark mb-md-0 my-lg-2 mt-1"> amirhatam136@gmail.com</a>
+                  </div>
+                </div>
+                <div className="my-lg-4">
+                  <MDBIcon icon="phone-alt" className="col-1 px-0 mr-1 text-info h4-fs" />
+                  <span className="fontW h5-fs ml-1">Téléphone </span>
+                  <div className="d-table">
+                    <a href="tel:+33 7 68 57 35 81" className="d-block h6-fs txt-dark mb-md-0 my-lg-2 mt-1">+33 7 68 57 35 81</a>
+                  </div>
+                </div>
+                <div className="mb-lg-3 mt-lg-4 mt-3">
+                  <MDBIcon icon="map-marker-alt" className="col-1 text-danger h4-fs px-0 mr-1" />
+                  <span className="fontW h5-fs ml-1">Paris</span>
+                </div>
+              </MDBCol>
+            </MDBRow>
+          </MDBCol>
+        </MDBRow>
+      </MDBContainer>
+    </MDBView >
+
   );
-};
+}
 
 export default ContactPage;
+

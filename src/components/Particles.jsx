@@ -6,7 +6,7 @@ export default class Canvas extends Component {
     return (
       <>
         <Particles
-        className="height"
+          className="height"
           params={{
             particles: {
               number: {

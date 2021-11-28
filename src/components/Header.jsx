@@ -1,4 +1,4 @@
-import React from "react";
+import { React, useState } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import { scroller } from 'react-scroll'
 import { List, ListItem } from "@material-ui/core"
@@ -11,12 +11,22 @@ import {
   MDBCol,
   MDBView,
   MDBContainer,
-  MDBRow
+  MDBRow,
+  MDBNavbarToggler,
+  MDBCollapse,
+  MDBNavLink,
 } from "mdbreact";
 import CV from "../assets/CV.pdf";
 import Canvas from "./Particles.jsx";
 
 function Header() {
+
+  const [collapsed, setCollapsed] = useState([false]);
+
+  const handleTogglerClick = () => {
+    setCollapsed(!collapsed)
+  };
+
   const scrollToElement = (elem) => {
     scroller.scrollTo(elem, {
       duration: 1500,
@@ -28,52 +38,46 @@ function Header() {
   return (
     <div id="parallaxintro">
       <Router>
-        <div>
-          <MDBNavbar
-            color="unique-color"
-            dark
-            expand="md"
-            fixed="top"
-            scrolling
-            transparent
-          >
-            <MDBContainer>
-              <MDBNavbarBrand>
-                <a
-                  href="https://www.linkedin.com/in/amir-hatam-7ba7601ba/"
-                  target="_blank"
-                >
-                  <strong className="white-text">Amir Hatam</strong>
-                </a>
-              </MDBNavbarBrand>
-
-              <MDBNavbarNav left>
-                <List className="d-flex">
-                  <ListItem className="white-text" button onClick={() => scrollToElement("Header")}>
+        <MDBNavbar
+          color="stylish-color"
+          dark
+          expand="md"
+          fixed="top"
+          scrolling
+          transparent
+        >
+          <MDBContainer className="my-lg-3 my-md-3">
+            <MDBNavbarBrand className="py-lg-1 pt-0">
+              <strong className="white-text h4-fs">Amir Hatam</strong>
+            </MDBNavbarBrand>
+              <MDBNavbarNav left >
+                <List className="py-0 ">
+                  <ListItem className="d-inline mx-lg-3 mx-md-2 mx-1 px-0 py-1 white-text h5-fs" button onClick={() => scrollToElement("Header")}>
                     Accueil
                   </ListItem>
-                  <ListItem className="white-text" button onClick={() => scrollToElement("Presentation")}>
+                  <ListItem className="d-inline mx-lg-3 mx-md-2 mx-1 px-0 py-1 white-text h5-fs" button onClick={() => scrollToElement("Presentation")}>
                     Presentation
                   </ListItem>
-                  <ListItem className="white-text" button onClick={() => scrollToElement("ProjectsPage")}>
-                    Réalisation
-                  </ListItem>
-                  <ListItem className="white-text" button onClick={() => scrollToElement("Competences")}>
+                  <ListItem className="d-inline mx-lg-3 mx-md-2 mx-1 px-0 py-1 white-text h5-fs" button onClick={() => scrollToElement("Competences")}>
                     Competences
                   </ListItem>
-                  <ListItem className="white-text" button onClick={() => scrollToElement("Contact")}>
+                  <ListItem className="d-inline mx-lg-3 mx-md-2 mx-1 px-0 py-1 white-text h5-fs" button onClick={() => scrollToElement("ProjectsPage")}>
+                    Réalisation
+                  </ListItem>
+                  <ListItem className="d-inline mx-lg-3 mx-md-2 mx-1 px-0 py-1 white-text h5-fs" button onClick={() => scrollToElement("Contact")}>
                     Contact
                   </ListItem>
                 </List>
-                <MDBNavItem className="col align-self-center ">
-                  <a className="text-warning" href={CV} target="_blank">
+              </MDBNavbarNav>
+              <MDBNavbarNav right>
+                <MDBNavItem className="d-flex col align-self-center ">
+                  <a className="h5-fs text-warning" href={CV} target="_blank">
                     Mon CV
                   </a>
                 </MDBNavItem>
               </MDBNavbarNav>
-            </MDBContainer>
-          </MDBNavbar>
-        </div>
+          </MDBContainer>
+        </MDBNavbar>
       </Router>
       <MDBView
         fixed
@@ -84,7 +88,6 @@ function Header() {
 
         <MDBContainer
           className="d-flex justify-content-center align-items-center"
-          style={{ height: "100%", width: "100%" }}
         >
           <MDBRow>
             <MDBCol
@@ -97,11 +100,11 @@ function Header() {
               md="12"
               className="p-0 white-text text-center "
             >
-              <h1 className="display-3 h1H white-text font-weight-bold">
+              <h1 className="xlTitre-fs white-text fontW">
                 Amir
-                <span className="indigo-text font-weight-bold"> HATAM</span>
+                <span className="indigo-text fontW"> HATAM</span>
               </h1>
-              <h5 className=" text-uppercase h5H white-text font-weight-bold">
+              <h5 className=" text-uppercase h4-fs white-text fontW">
                 Développeur Web Full Stack
               </h5>
             </MDBCol>

@@ -1,433 +1,240 @@
 import React from "react";
 import {
-  MDBCarousel,
-  MDBCarouselInner,
-  MDBCarouselItem,
   MDBContainer,
   MDBRow,
   MDBCol,
-  MDBTable,
-  MDBTableBody,
+  MDBMask,
+  MDBView,
   MDBCardGroup,
   MDBCard,
   MDBCardBody,
   MDBCardTitle,
   MDBCardText,
 } from "mdbreact";
+import "../assets/styles/Competences.css"
+
+import JS from "../assets/Images/js.svg"
+import HTML from "../assets/Images/html.png"
+import CSS from "../assets/Images/css.png"
+import languages from "../assets/Images/languages.png"
+import FRONT from "../assets/Images/front.png"
+import logoReact from "../assets/Images/react.png"
+import logoJQuery from "../assets/Images/jquery.png"
+import Material from "../assets/Images/material-ui.png"
+import MDB from "../assets/Images/mdb.png"
+import Bootstrap from "../assets/Images/bootstrap.png"
+import Backend from "../assets/Images/Backend.png"
+import MongoDB from "../assets/Images/mongodb.png"
+import NodeJS from "../assets/Images/node.png"
+import Express from "../assets/Images/ex.jpg"
+import Postman from "../assets/Images/postman.png"
+import Robo3t from "../assets/Images/Robot3.png"
+import Handlebars from "../assets/Images/Handlebars.png"
+import RestApi from "../assets/Images/rest.png"
+import Carousel from "./Slider";
 
 const Competences = () => {
+
+
+
   return (
-    <section className="gray-container py-5">
+    <section className="gray-container" >
       <MDBContainer>
-        <section className="text-center mb-5">
-          <h1 className="h1-responsive font-weight-light mb-5">Competences</h1>
-          <h4 className="grey-text mb-5">Je suis toutefois enthousiaste à l'idée d'apprendre de nouvelles technologies</h4>
-          <MDBCarousel
-            activeItem={1}
-            slide={true}
-            showControls={true}
-            multiItem
-            testimonial
-            length={4}
-            showIndicators={false}
-            style={{ height: "550px" }}
-          >
-            <MDBCarouselInner >
-              <MDBRow>
-                <MDBCarouselItem itemId="1">
-                  <h2 className="font-weight-light blue-text mb-5 mt-0">
-                    Langages
-                  </h2>
-                  <MDBRow>
-                    <MDBCol lg="3" md="6" className="mb-lg-0 mb-5">
-                      <img
-                        tag="img"
-                        src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_960_720.png"
-                        className="rounded-circle hoverable img-fluid "
-                        alt="Sample avatar"
-                        style={{ width: "150px" }}
-                      />
-                      <h5 className="font-weight-bold mt-4 mb-3 ">HTML.5</h5>
-                    </MDBCol>
+        <section className="mb-5">
+          <h1 className="titre-fs text-center fontW py-lg-5 py-3">Competences</h1>
+          {/* <h4 className="grey-text mb-5">Je suis toutefois enthousiaste à l'idée d'apprendre de nouvelles technologies</h4> */}
 
-                    <MDBCol lg="3" md="6" className="mb-lg-0 mb-5">
-                      <img
-                        tag="img"
-                        src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png"
-                        className="rounded-circle hoverable img-fluid"
-                        alt="Sample avatar"
-                        style={{ width: "150px" }}
-                      />
-                      <h5 className="font-weight-bold mt-4 mb-3">CSS.3</h5>
-                    </MDBCol>
 
-                    <MDBCol lg="3" md="6" className="mb-lg-0 mb-5">
-                      <img
-                        tag="img"
-                        src="https://www.stimulsoft.com/images/products/reports-js/description/logo.svg"
-                        className="rounded-circle hoverable img-fluid"
-                        alt="Sample avatar"
-                        style={{ width: "150px" }}
-                      />
-                      <h5 className="font-weight-bold mt-4 mb-3">JavaScript</h5>
-                    </MDBCol>
-
-                    <MDBCol lg="3" md="6" className="mb-lg-0 mb-5">
-                      <img
-                        tag="img"
-                        src="https://previews.123rf.com/images/imagevectors/imagevectors1603/imagevectors160300756/53026462-flat-noir-question-mark-ic%C3%B4ne-web-en-cercle-sur-fond-blanc.jpg"
-                        className="rounded-circle hoverable img-fluid"
-                        alt="Sample avatar"
-                        style={{ width: "150px" }}
-                      />
-                      <h5 className="font-weight-bold mt-4 mb-3">...</h5>
-                    </MDBCol>
-                  </MDBRow>
-                </MDBCarouselItem>
-
-                <MDBCarouselItem itemId="2">
-                  <h2 className="font-weight-light blue-text mb-5 mt-0">
-                    Front-End
-                  </h2>
-                  <MDBRow>
-                    <MDBCol lg="2" md="6" className="mb-lg-0 mb-5">
-                      <img
-                        tag="img"
-                        src="https://miro.medium.com/max/1000/1*cPh7ujRIfcHAy4kW2ADGOw.png"
-                        className="rounded-circle hoverable img-fluid"
-                        alt="Sample avatar"
-                        style={{ width: "130px" }}
-                      />
-                      <h5 className="font-weight-bold mt-4 mb-3">
-                        React.JS / React.Native
-                      </h5>
-                    </MDBCol>
-
-                    <MDBCol lg="2" md="6" className="mb-lg-0 mb-5">
-                      <img
-                        tag="img"
-                        src="https://cdn.icon-icons.com/icons2/2415/PNG/512/jquery_plain_logo_icon_146444.png"
-                        className="rounded-circle hoverable img-fluid"
-                        alt="Sample avatar"
-                        style={{ width: "130px" }}
-                      />
-                      <h5 className="font-weight-bold mt-4 mb-3">JQuery</h5>
-                    </MDBCol>
-
-                    <MDBCol lg="2" md="6" className="mb-lg-0 mb-5">
-                      <img
-                        tag="img"
-                        src="https://images.opencollective.com/material-ui/381e99c/logo/256.png"
-                        className="rounded-circle hoverable img-fluid"
-                        alt="Sample avatar"
-                        style={{ width: "130px" }}
-                      />
-                      <h5 className="font-weight-bold mt-4 mb-3">
-                        Material-UI
-                      </h5>
-                    </MDBCol>
-
-                    <MDBCol lg="2" md="6" className="mb-lg-0 mb-5">
-                      <img
-                        tag="img"
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeGrHjczVH1P8SQVYE1WOiRppbZYSitA4JWWpkQ0RsPtUMd-2kH7FiZhRbMTApw1xv0ec&usqp=CAU"
-                        className="rounded-circle hoverable img-fluid"
-                        alt="Sample avatar"
-                        style={{ width: "130px" }}
-                      />
-                      <h5 className="font-weight-bold mt-4 mb-3">MDB React</h5>
-                    </MDBCol>
-
-                    <MDBCol lg="2" md="6" className="mb-lg-0 mb-5">
-                      <img
-                        tag="img"
-                        src="https://i2.wp.com/mareconversionpro.fr/wp-content/uploads/2017/05/bootstrap-logo.jpg?resize=300%2C300&ssl=1"
-                        className="rounded-circle hoverable img-fluid"
-                        alt="Sample avatar"
-                        style={{ width: "130px" }}
-                      />
-                      <h5 className="font-weight-bold mt-4 mb-3">Bootstrap</h5>
-                    </MDBCol>
-
-                    <MDBCol lg="2" md="6" className="mb-lg-0 mb-5">
-                      <img
-                        tag="img"
-                        src="https://previews.123rf.com/images/imagevectors/imagevectors1603/imagevectors160300756/53026462-flat-noir-question-mark-ic%C3%B4ne-web-en-cercle-sur-fond-blanc.jpg"
-                        className="rounded-circle hoverable img-fluid"
-                        alt="Sample avatar"
-                        style={{ width: "130px" }}
-                      />
-                      <h5 className="font-weight-bold mt-4 mb-3">...</h5>
-                    </MDBCol>
-                  </MDBRow>
-                </MDBCarouselItem>
-
-                <MDBCarouselItem itemId="3">
-                  <h2 className="font-weight-light blue-text mb-5 mt-0">
-                    Back-End
-                  </h2>
-                  <MDBRow>
-                    <MDBCol lg="2" md="6" className="mb-lg-0 mb-5">
-                      <img
-                        tag="img"
-                        src="http://etiennevilledieu.fr/wp-content/themes/capitheme/img/logo-node.png"
-                        className="rounded-circle hoverable img-fluid"
-                        alt="Sample avatar"
-                        style={{ width: "130px" }}
-                      />
-                      <h5 className="font-weight-bold mt-4 mb-3">Node.JS</h5>
-                    </MDBCol>
-
-                    <MDBCol lg="2" md="6" className="mb-lg-0 mb-5">
-                      <img
-                        tag="img"
-                        src="https://img.icons8.com/color/452/mongodb.png"
-                        className="rounded-circle hoverable img-fluid"
-                        alt="Sample avatar"
-                        style={{ width: "130px" }}
-                      />
-                      <h5 className="font-weight-bold mt-4 mb-3">MongoDB</h5>
-                    </MDBCol>
-
-                    <MDBCol lg="2" md="6" className="mb-lg-0 mb-5">
-                      <img
-                        tag="img"
-                        src="https://img2.freepng.fr/20180711/yfe/kisspng-express-js-node-js-javascript-mongodb-node-js-5b461d28173fc6.1251392115313216400952.jpg"
-                        className="rounded-circle hoverable img-fluid"
-                        alt="Sample avatar"
-                        style={{ width: "130px" }}
-                      />
-                      <h5 className="font-weight-bold mt-4 mb-3">Express</h5>
-                    </MDBCol>
-                    <MDBCol lg="2" md="6" className="mb-lg-0 mb-5">
-                      <img
-                        tag="img"
-                        src="https://avatars.githubusercontent.com/u/19378685?v=4&s=160"
-                        className="rounded-circle hoverable img-fluid"
-                        alt="Sample avatar"
-                        style={{ width: "130px" }}
-                      />
-                      <h5 className="font-weight-bold mt-4 mb-3">Handlebars</h5>
-                    </MDBCol>
-
-                    <MDBCol lg="2" md="6" className="mb-lg-0 mb-5">
-                      <img
-                        tag="img"
-                        src="https://toolynk.com/wp-content/uploads/2017/10/restApi580.png"
-                        className="rounded-circle hoverable img-fluid"
-                        alt="Sample avatar"
-                        style={{ width: "130px" }}
-                      />
-                      <h5 className="font-weight-bold mt-4 mb-3">REST</h5>
-                    </MDBCol>
-
-                    <MDBCol lg="2" md="6" className="mb-lg-0 mb-5">
-                      <img
-                        tag="img"
-                        src="https://previews.123rf.com/images/imagevectors/imagevectors1603/imagevectors160300756/53026462-flat-noir-question-mark-ic%C3%B4ne-web-en-cercle-sur-fond-blanc.jpg"
-                        className="rounded-circle hoverable img-fluid"
-                        alt="Sample avatar"
-                        style={{ width: "130px" }}
-                      />
-                      <h5 className="font-weight-bold mt-4 mb-3">...</h5>
-                    </MDBCol>
-                  </MDBRow>
-                </MDBCarouselItem>
-
-                <MDBCarouselItem itemId="4">
-                  <MDBCol className="m-auto" md="8">
-                    <h2 className="font-weight-light blue-text my-4">Outils</h2>
-
-                    <MDBTable>
-                      <MDBTableBody>
-                        <tr>
-                          <th>
-                            <img
-                              src="https://e1.pngegg.com/pngimages/354/761/png-clipart-visual-studio-code-icon-redesign-for-macos-vscode-blue-and-white-logo.png"
-                              alt=""
-                              className="rounded-circle hoverable"
-                              style={{ width: "50px" }}
-                            />
-                          </th>
-
-                          <th>
-                            <img
-                              src="https://user-images.githubusercontent.com/7853266/44114706-9c72dd08-9fd1-11e8-8d9d-6d9d651c75ad.png"
-                              alt=""
-                              className="rounded-circle hoverable"
-                              style={{ width: "50px" }}
-                            />
-                          </th>
-
-                          <th>
-                            <img
-                              src="https://img2.freepng.fr/20180425/bxe/kisspng-github-repository-version-control-source-code-network-node-5ae13f80e99f63.3541394415247112969569.jpg"
-                              alt=""
-                              className="rounded-circle hoverable"
-                              style={{ width: "50px" }}
-                            />
-                          </th>
-                          <th>
-                            <img
-                              src="https://user-images.githubusercontent.com/17736615/30980083-f7f8a860-a43c-11e7-939e-f6717a2210fe.png"
-                              alt=""
-                              className="rounded-circle hoverable"
-                              style={{ width: "50px" }}
-                            />
-                          </th>
-
-                          <th>
-                            <img
-                              src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Github-desktop-logo-symbol.svg"
-                              alt=""
-                              className="rounded-circle hoverable"
-                              style={{ width: "50px" }}
-                            />
-                          </th>
-                        </tr>
-                        <tr>
-                          <th className="px-5">VSCode</th>
-
-                          <th className="px-5">Postman</th>
-
-                          <th className="px-5">Git</th>
-
-                          <th className="px-5">Gitkraken</th>
-
-                          <th>GitHub Desktop</th>
-                        </tr>
-
-                        <tr>
-                          <th>
-                            <img
-                              src="https://cdn1.iconfinder.com/data/icons/ringtone-music-instruments/512/lambda-symbol-letter-greek-alphabet-2-512.png"
-                              alt=""
-                              className="rounded-circle hoverable"
-                              style={{ width: "50px" }}
-                            />
-                          </th>
-
-                          <th>
-                            <img
-                              src="https://www.drupal.org/files/issues/2019-12-11/heroku-logo-solid-purple_0.png"
-                              alt=""
-                              className="rounded-circle hoverable"
-                              style={{ width: "50px" }}
-                            />
-                          </th>
-
-                          <th>
-                            <img
-                              src="https://cdn1.iconfinder.com/data/icons/designer-skills/128/trello-512.png"
-                              alt=""
-                              className="rounded-circle hoverable"
-                              style={{ width: "50px" }}
-                            />
-                          </th>
-
-                          <th>
-                            <img
-                              src="https://1.bp.blogspot.com/-FHEoHVwdkKY/XIj6ufW5eKI/AAAAAAAAI2k/h9CAwSFM4rMvFTOKm6auS2UfuoU8aKPEgCK4BGAYYCw/s1600/logo%2Badobe%2Bphotoshop%2Bcc.png"
-                              alt=""
-                              className="rounded-circle hoverable"
-                              style={{ width: "50px" }}
-                            />
-                          </th>
-
-                          <th>
-                            <img
-                              src="https://e1.pngegg.com/pngimages/97/548/png-clipart-button-ui-microsoft-office-apps-red-and-white-logo.png"
-                              alt=""
-                              className="rounded-circle hoverable"
-                              style={{ width: "50px" }}
-                            />
-                          </th>
-                        </tr>
-
-                        <tr>
-                          <th className="px-5">Cmder</th>
-
-                          <th className="px-5">Heroku</th>
-
-                          <th className="px-5"> Trello</th>
-
-                          <th>Adobe Photoshop</th>
-
-                          <th>Microsoft Office</th>
-                        </tr>
-
-                        <tr>
-                          <th>
-                            <img
-                              src="https://img.utdstc.com/icon/7fc/48e/7fc48e2459f50e85a3a611eae3362c08461fde2fc4692a6b0a312a00c6101aeb:200"
-                              alt=""
-                              className="rounded-circle hoverable"
-                              style={{ width: "50px" }}
-                            />
-                          </th>
-
-                          <th>
-                            <img
-                              src="https://japaniste.fr/wp-content/uploads/2019/12/discord-logo-logodownload-download-logotipos-1.png"
-                              alt=""
-                              className="rounded-circle hoverable"
-                              style={{ width: "50px" }}
-                            />
-                          </th>
-
-                          <th>
-                            <img
-                              src="https://previews.123rf.com/images/imagevectors/imagevectors1603/imagevectors160300756/53026462-flat-noir-question-mark-ic%C3%B4ne-web-en-cercle-sur-fond-blanc.jpg"
-                              alt=""
-                              className="rounded-circle hoverable"
-                              style={{ width: "50px" }}
-                            />
-                          </th>
-
-                          <th>
-                            <img
-                              src="https://previews.123rf.com/images/imagevectors/imagevectors1603/imagevectors160300756/53026462-flat-noir-question-mark-ic%C3%B4ne-web-en-cercle-sur-fond-blanc.jpg"
-                              alt=""
-                              className="rounded-circle hoverable"
-                              style={{ width: "50px" }}
-                            />
-                          </th>
-
-                          <th>
-                            <img
-                              src="https://previews.123rf.com/images/imagevectors/imagevectors1603/imagevectors160300756/53026462-flat-noir-question-mark-ic%C3%B4ne-web-en-cercle-sur-fond-blanc.jpg"
-                              alt=""
-                              className="rounded-circle hoverable"
-                              style={{ width: "50px" }}
-                            />
-                          </th>
-                        </tr>
-
-                        <tr>
-                          <th className="px-5"> Slack</th>
-
-                          <th className="px-5">Discord</th>
-
-                          <th className="px-5">...</th>
-
-                          <th className="px-5">...</th>
-
-                          <th className="px-5">...</th>
-                        </tr>
-                      </MDBTableBody>
-                    </MDBTable>
-                  </MDBCol>
-                </MDBCarouselItem>
+          <MDBRow className="justify-content-start">
+            <MDBCol lg="4" className="align-self-center mb-lg-0 mb-5">
+              <img
+                src={languages}
+                alt=""
+                className="img-fluid rounded"
+              />
+            </MDBCol>
+            <MDBCol lg="6" className="align-self-center">
+              <MDBRow className="mb-3">
+                <MDBCol md="11" size="10">
+                  <h5 className="h4-fs fontW mb-5">Langages de programmation</h5>
+                </MDBCol>
               </MDBRow>
-            </MDBCarouselInner>
-          </MDBCarousel>
+              <MDBRow className="justify-content-around text-center mb-3">
+                <MDBView title="JavaScript" hover cascade waves className="col-3 logoContainer">
+                  <img
+                    src={JS}
+                    alt=""
+                    className="img-fluid rounded"
+                  />
+                  <MDBMask overlay="white-slight" className=" waves-light" />
+                </MDBView>
+                <MDBView title="HTML.5" hover cascade waves className="col-3 logoContainer">
+                  <img
+                    src={HTML}
+                    alt=""
+                    className="img-fluid rounded"
+                  />
+                  <MDBMask overlay="white-slight" className=" waves-light" />
+                </MDBView>
+                <MDBView title="CSS.3" hover cascade waves className="col-3 logoContainer">
+                  <img
+                    src={CSS}
+                    alt=""
+                    className="img-fluid rounded"
+                  />
+                  <MDBMask overlay="white-slight" className=" waves-light" />
+                </MDBView>
+              </MDBRow>
+            </MDBCol>
+          </MDBRow>
+
+          <hr className="" />
+
+          <MDBRow className="justify-content-end">
+            <MDBCol className="col-8 align-self-center">
+              <MDBRow className="mb-3 ">
+                <MDBCol className="">
+                  <h5 className="h4-fs txt-end fontW mb-5">Front-End</h5>
+                </MDBCol>
+              </MDBRow>
+              <MDBRow className="justify-content-around text-center mb-3">
+                <MDBView title="React.JS / React.Native" hover cascade waves className="col-2 logoContainer">
+                  <img
+                    src={logoReact}
+                    alt=""
+                    className="img-fluid rounded"
+                  />
+                  <MDBMask overlay="white-slight" className=" waves-light" />
+                </MDBView>
+                <MDBView title="JQuery" hover cascade waves className="col-2 logoContainer">
+                  <img
+                    src={logoJQuery}
+                    alt=""
+                    className="img-fluid rounded"
+                  />
+                  <MDBMask overlay="white-slight" className=" waves-light" />
+                </MDBView>
+                <MDBView title="Bootstrap" hover cascade waves className="col-2 logoContainer">
+                  <img
+                    src={Bootstrap}
+                    alt=""
+                    className="img-fluid rounded"
+                  />
+                  <MDBMask overlay="white-slight" className=" waves-light" />
+                </MDBView>
+                <MDBView title="Material-UI" hover cascade waves className="col-2 logoContainer">
+                  <img
+                    src={Material}
+                    alt=""
+                    className="img-fluid rounded"
+                  />
+                  <MDBMask overlay="white-slight" className=" waves-light" />
+                </MDBView>
+                <MDBView title="MDBReact" hover cascade waves className="col-2 align-self-center logoContainer">
+                  <img
+                    src={MDB}
+                    alt=""
+                    className="img-fluid rounded"
+                  />
+                  <MDBMask overlay="white-slight" className=" waves-light" />
+                </MDBView>
+              </MDBRow>
+            </MDBCol>
+            <MDBCol lg="4" className="align-self-center mb-lg-0 mb-5">
+              <img
+                src={FRONT}
+                alt=""
+                className="img-fluid rounded "
+              />
+            </MDBCol>
+          </MDBRow>
+
+          <hr className="" />
+
+          <MDBRow className="justify-content-start">
+            <MDBCol lg="4" className="align-self-center mb-lg-0 mb-5">
+              <img
+                src={Backend}
+                alt=""
+                className="img-fluid rounded"
+              />
+            </MDBCol>
+            <MDBCol className="col-8 align-self-center mt-5">
+              <MDBRow className="">
+                <MDBCol md="11" size="10">
+                  <h5 className="h4-fs fontW mb-5">Back-End</h5>
+                </MDBCol>
+              </MDBRow>
+              <MDBRow className="justify-content-around text-center ">
+                  <MDBView title="Node.JS" hover cascade waves className="col-2 align-self-center logoContainer">
+                    <img
+                      src={NodeJS}
+                      alt=""
+                      className="img-fluid rounded"
+                    />
+                    <MDBMask overlay="white-slight" className=" waves-light" />
+                  </MDBView>
+                  <MDBView title="MongoDB" hover cascade waves className="col-2 align-self-center logoContainer">
+                    <img
+                      src={MongoDB}
+                      alt=""
+                      className="img-fluid rounded"
+                    />
+                    <MDBMask overlay="white-slight" className=" waves-light" />
+                  </MDBView>
+                  <MDBView title="Express" hover cascade waves className="col-2 align-self-center logoContainer">
+                    <img
+                      src={Express}
+                      alt=""
+                      className="img-fluid rounded"
+                    />
+                    <MDBMask overlay="white-slight" className=" waves-light" />
+                  </MDBView>
+                  <MDBView title="Postman" hover cascade waves className="col-2 align-self-center logoContainer">
+                    <img
+                      src={Postman}
+                      alt=""
+                      className="img-fluid rounded"
+                    />
+                    <MDBMask overlay="white-slight" className=" waves-light" />
+                  </MDBView>
+                <MDBView title="REST.Api" hover cascade waves className="col-5 align-self-center logoContainer">
+                  <img
+                    src={RestApi}
+                    alt=""
+                    className="img-fluid rounded"
+                  />
+                  <MDBMask overlay="white-slight" className=" waves-light" />
+                </MDBView>
+                <MDBView title="Robo 3t" hover cascade waves className="col-2 align-self-center logoContainer">
+                  <img
+                    src={Robo3t}
+                    alt=""
+                    className="img-fluid rounded"
+                  />
+                  <MDBMask overlay="white-slight" className=" waves-light" />
+                </MDBView>
+                <MDBView title="Handlebars" hover cascade waves className=" align-self-center logoContainer">
+                  <img
+                    src={Handlebars}
+                    alt=""
+                    className="col-3 img-fluid rounded"
+                  />
+                  <MDBMask overlay="white-slight" className=" waves-light" />
+                </MDBView>
+              </MDBRow>
+            </MDBCol>
+          </MDBRow>
+          <hr className="mb-5" />
+
+          <Carousel />
 
           <MDBCardBody className="my-5">
             <h3 className='display-6 text-center font-weight-bold my-5 pt-md-3 pt-3'>  J'ai choisi
               <span className="blue-text font-weight-bold"> React.JS </span>
               pour mes projets car :</h3>
             <MDBCardGroup>
-              <MDBCard  className="text-center mx-2 hoverable">
+              <MDBCard className="text-center mx-2 hoverable">
                 <MDBCardBody>
                   <MDBCardTitle className="my-5" tag="h5">
                     Le contenu est référençable
@@ -483,8 +290,8 @@ const Competences = () => {
           </MDBCardBody>
 
         </section>
-      </MDBContainer>
-    </section>
+      </MDBContainer >
+    </section >
   );
 };
 
