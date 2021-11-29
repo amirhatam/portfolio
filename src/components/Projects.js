@@ -10,11 +10,99 @@ import {
   MDBCard
 
 } from "mdbreact";
+import Azi from "../assets/Images/Azimuto.PNG"
+import MERN from "../assets/Images/mern.png"
 
 const ProjectsPage = () => {
   return (
-    <section id="projects" className="text-center">
+    <section id="projects" className="">
       <MDBContainer className="p-0">
+        <h1 className="titre-fs text-center fontW my-lg-5 my-3">Le projet FullStack</h1>
+
+        <MDBCard className="py-5 mb-5 ">
+          <MDBRow className="justify-content-center ">
+
+            <MDBCol className="col-4">
+              <h5 className="h5-fs fontW text-center">Bibliothèques & Frameworks</h5>
+              <MDBRow className="justify-content-center my-5">
+                <div className="col-5 ">
+                  <h6 className="h6-fs mb-4 fontW">Back-End :</h6>
+                  <p className="p-fs grey-text "><MDBIcon icon="arrow-alt-circle-down" /> Mongoose</p>
+                  <p className="p-fs grey-text "><MDBIcon icon="arrow-alt-circle-down" /> Express</p>
+                  <p className="p-fs grey-text "><MDBIcon icon="arrow-alt-circle-down" /> Bcryptjs</p>
+                  <p className="p-fs grey-text "><MDBIcon icon="arrow-alt-circle-down" /> Dotenv</p>
+                  <p className="p-fs grey-text "><MDBIcon icon="arrow-alt-circle-down" /> Multer</p>
+                  <p className="p-fs grey-text "><MDBIcon icon="arrow-alt-circle-down" /> Express-validator</p>
+                  <p className="p-fs grey-text "><MDBIcon icon="arrow-alt-circle-down" /> Password-validator</p>
+                </div>
+                <div className="col-5 ">
+                  <h6 className="h6-fs mb-4 fontW">Front-End :</h6>
+                  <p className="p-fs grey-text "><MDBIcon icon="arrow-alt-circle-down" /> MDBReact</p>
+                  <p className="p-fs grey-text "><MDBIcon icon="arrow-alt-circle-down" /> MDBReact</p>
+                  <p className="p-fs grey-text "><MDBIcon icon="arrow-alt-circle-down" /> Axios</p>
+                  <p className="p-fs grey-text "><MDBIcon icon="arrow-alt-circle-down" /> React-router-dom</p>
+                  <p className="p-fs grey-text "><MDBIcon icon="arrow-alt-circle-down" /> React-scripts</p>
+                </div>
+              </MDBRow>
+            </MDBCol>
+
+            <MDBCol className="col-4 text-center">
+              <div className="m-auto ">
+                <h5 className="h5-fs fontW">Voici un lien vers le projet <MDBIcon far icon="hand-point-down" className="h5-fs" />
+                </h5>
+                <MDBBtn
+                  href={"https://azimuto.herokuapp.com/"}
+                  color="black"
+                  target="_blank"
+                  className="p-0"
+                >
+                  <MDBView className="overlay  z-depth-1" waves>
+                    <img
+                      src={Azi}
+                      alt=""
+                      className="img-fluid"
+                    />
+                  </MDBView>
+                </MDBBtn>
+              </div>
+              <MDBCardBody className="pb-0">
+                <h4 className="h4-fs mb-lg-3 mb-1 fontW">Azimuto</h4>
+                <p className="h6-fs mb-lg-3 mb-1 grey-text">Le projet pendant mon stage</p>
+                <img
+                  src={MERN}
+                  alt=""
+                  className="img-fluid"
+                />
+              </MDBCardBody>
+            </MDBCol>
+            <MDBCol className="col-4">
+              <div>
+                <h5 className="h5-fs fontW text-center mb-3">Objectif du stage</h5>
+                <h6 className="h6-fs text-justify px-4">Pendant mon stage j'ai créé un site web statique et dynamique
+                  pour l'association Azimuto, dans ce projet j'ai créé les fonctionnalités pour que administrateur
+                  puisse modifier certaines parties de site web.
+                </h6>
+              </div>
+              <div>
+                <h5 className="h5-fs fontW text-center mt-4 mb-3">Gestion de projets</h5>
+                <h6 className="h6-fs text-justify px-4">En termes de gestion de projet,
+                  ce projet suit les principes de la méthodologie <strong className="text-primary"> Agile SCRUM </strong>
+                  , en faisant deux points par semaine.
+                </h6>
+              </div>
+              <div>
+                <h5 className="h5-fs fontW text-center mt-4">Déploiement</h5>
+                <h6 className="h6-fs text-justify px-4">J'ai utilisé <strong className="text-success h6-fs"> MongoDB Atlas </strong> pour héberger la base de données MongoDB et, <strong className="text-secondary h6-fs"> Heroku </strong>
+                  pour le serveur Node.JS.
+                </h6>
+              </div>
+
+
+            </MDBCol>
+          </MDBRow>
+        </MDBCard>
+
+
 
         <h1 className="titre-fs fontW my-lg-5 my-3">Les projets Front-End</h1>
         <MDBRow className="justify-content-center text-center">
@@ -229,7 +317,7 @@ const ProjectsPage = () => {
           </MDBCol>
         </MDBRow>
       </MDBContainer>
-    </section>
+    </section >
 
   );
 };

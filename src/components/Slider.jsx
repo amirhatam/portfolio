@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { MDBView } from "mdbreact";
 import Slider from "react-slick";
-import "../assets/styles/Slider.css"
+
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
