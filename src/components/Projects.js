@@ -12,6 +12,7 @@ import {
 } from "mdbreact";
 import Azi from "../assets/Images/Azimuto.PNG"
 import MERN from "../assets/Images/mern.png"
+import PDF from "../assets/ProjetAzimuto.pdf"
 
 const ProjectsPage = () => {
   return (
@@ -72,6 +73,15 @@ const ProjectsPage = () => {
                   alt=""
                   className="img-fluid"
                 />
+                <MDBBtn
+                  href={PDF}
+                  target="_blank"
+                  className="rounded-pill px-3 mt-lg-3"
+                  color="mdb-color"
+                  size="sm"
+                >
+                  <MDBIcon far icon="clone" className="left my-2" /> Les Slides
+                </MDBBtn>
               </MDBCardBody>
             </MDBCol>
             <MDBCol className="col-4">
@@ -131,7 +141,7 @@ const ProjectsPage = () => {
                   color="mdb-color"
                   size="sm"
                 >
-                  <MDBIcon far icon="clone" className="left my-2" /> View les Codes
+                  <MDBIcon fab icon="github" className=" left my-2" /> Les Codes
                 </MDBBtn>
               </MDBCardBody>
             </MDBCard>
@@ -166,7 +176,7 @@ const ProjectsPage = () => {
                   color="mdb-color"
                   size="sm"
                 >
-                  <MDBIcon far icon="clone" className="left my-2" /> View les Codes
+                  <MDBIcon fab icon="github" className=" left my-2" /> Les Codes
                 </MDBBtn>
               </MDBCardBody>
             </MDBCard>
@@ -201,7 +211,7 @@ const ProjectsPage = () => {
                   color="mdb-color"
                   size="sm"
                 >
-                  <MDBIcon far icon="clone" className="left my-2" /> View les Codes
+                  <MDBIcon fab icon="github" className=" left my-2" /> Les Codes
                 </MDBBtn>
               </MDBCardBody>
             </MDBCard>
@@ -236,7 +246,7 @@ const ProjectsPage = () => {
                   color="mdb-color"
                   size="sm"
                 >
-                  <MDBIcon far icon="clone" className="left my-2" /> View les Codes
+                  <MDBIcon fab icon="github" className=" left my-2" /> Les Codes
                 </MDBBtn>
               </MDBCardBody>
             </MDBCard>
@@ -270,7 +280,7 @@ const ProjectsPage = () => {
                   color="mdb-color"
                   size="sm"
                 >
-                  <MDBIcon far icon="clone" className="left my-2" /> View les Codes
+                  <MDBIcon fab icon="github" className=" left my-2" /> Les Codes
                 </MDBBtn>
               </MDBCardBody>
             </MDBCard>
@@ -305,7 +315,7 @@ const ProjectsPage = () => {
                   color="mdb-color"
                   size="sm"
                 >
-                  <MDBIcon far icon="clone" className="left my-2" /> View les Codes
+                  <MDBIcon fab icon="github" className=" left my-2" /> Les Codes
                 </MDBBtn>
               </MDBCardBody>
             </MDBCard>
