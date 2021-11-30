@@ -13,7 +13,7 @@ export default function Presentation() {
                 <MDBContainer>
                     <MDBRow className="justify-content-center ">
                         <MDBCol className="col-8 text-center">
-                            <p className="h6-fs font-weight-light text-justify">
+                            <p className="h6-fs font-weight-light text-justify mb-0">
                                 Dès le lycée, j’ai acquis des compétences en infographie/design graphique,
                                 à travers l’apprentissage de logiciels comme Photoshop par exemple,
                                 j’ai suivi pendant un an la formation Microsoft Certified Solution Expert « MSCE » à l’université,

@@ -40,24 +40,22 @@ const Competences = () => {
   return (
     <section className="gray-container" >
       <MDBContainer>
-        <section className="mb-5">
-          <h1 className="titre-fs text-center fontW py-lg-5 py-3">Competences</h1>
+        <section className="my-lg-5 my-3">
+          <h1 className="titre-fs text-center fontW py-lg-5 pt-3">Competences</h1>
           {/* <h4 className="grey-text mb-5">Je suis toutefois enthousiaste à l'idée d'apprendre de nouvelles technologies</h4> */}
-
-
           <MDBRow className="justify-content-start">
-            <MDBCol lg="4" className="align-self-center mb-lg-0 mb-5">
+            <MDBCol className="col-4 align-self-center ">
               <img
                 src={languages}
                 alt=""
                 className="img-fluid rounded"
               />
             </MDBCol>
-            <MDBCol lg="6" className="align-self-center">
-              <MDBRow className="mb-3">
-                <MDBCol md="11" size="10">
-                  <h5 className="h4-fs fontW mb-5">Langages de programmation</h5>
-                </MDBCol>
+            <MDBCol  className="col-8 align-self-center">
+              <MDBRow className="mb-lg-4 mb-1">
+                <div className="" >
+                  <h5 className="h4-fs fontW mb-lg-4">Langages de programmation</h5>
+                </div>
               </MDBRow>
               <MDBRow className="justify-content-around text-center mb-3">
                 <MDBView title="JavaScript" hover cascade waves className="col-3 logoContainer">
@@ -94,11 +92,11 @@ const Competences = () => {
             <MDBCol className="col-8 align-self-center">
               <MDBRow className="mb-3 ">
                 <MDBCol className="">
-                  <h5 className="h4-fs txt-end fontW mb-5">Front-End</h5>
+                  <h5 className="h4-fs txt-end fontW mb-lg-4 mb-0">Front-End</h5>
                 </MDBCol>
               </MDBRow>
-              <MDBRow className="justify-content-around text-center mb-3">
-                <MDBView title="React.JS / React.Native" hover cascade waves className="col-2 logoContainer">
+              <MDBRow className="justify-content-around text-center mb-lg-3">
+                <MDBView title="React.JS / React.Native" hover cascade waves className="col-lg-2 col-3 logoContainer">
                   <img
                     src={logoReact}
                     alt=""
@@ -106,7 +104,7 @@ const Competences = () => {
                   />
                   <MDBMask overlay="white-slight" className=" waves-light" />
                 </MDBView>
-                <MDBView title="JQuery" hover cascade waves className="col-2 logoContainer">
+                <MDBView title="JQuery" hover cascade waves className="col-lg-2 col-3 logoContainer">
                   <img
                     src={logoJQuery}
                     alt=""
@@ -114,7 +112,7 @@ const Competences = () => {
                   />
                   <MDBMask overlay="white-slight" className=" waves-light" />
                 </MDBView>
-                <MDBView title="Bootstrap" hover cascade waves className="col-2 logoContainer">
+                <MDBView title="Bootstrap" hover cascade waves className="col-lg-2 col-3 logoContainer">
                   <img
                     src={Bootstrap}
                     alt=""
@@ -122,7 +120,7 @@ const Competences = () => {
                   />
                   <MDBMask overlay="white-slight" className=" waves-light" />
                 </MDBView>
-                <MDBView title="Material-UI" hover cascade waves className="col-2 logoContainer">
+                <MDBView title="Material-UI" hover cascade waves className="col-lg-2 col-3 mx-2 my-3 logoContainer">
                   <img
                     src={Material}
                     alt=""
@@ -130,7 +128,7 @@ const Competences = () => {
                   />
                   <MDBMask overlay="white-slight" className=" waves-light" />
                 </MDBView>
-                <MDBView title="MDBReact" hover cascade waves className="col-2 align-self-center logoContainer">
+                <MDBView title="MDBReact" hover cascade waves className="col-lg-2 col-3 my-3 logoContainer">
                   <img
                     src={MDB}
                     alt=""
@@ -140,7 +138,7 @@ const Competences = () => {
                 </MDBView>
               </MDBRow>
             </MDBCol>
-            <MDBCol lg="4" className="align-self-center mb-lg-0 mb-5">
+            <MDBCol className="col-4 align-self-center ">
               <img
                 src={FRONT}
                 alt=""

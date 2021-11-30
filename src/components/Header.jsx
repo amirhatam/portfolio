@@ -48,34 +48,34 @@ function Header() {
         >
           <MDBContainer className="my-lg-3 my-md-3">
             <MDBNavbarBrand className="py-lg-1 pt-0">
-              <strong className="white-text h4-fs">Amir Hatam</strong>
+              <strong className="white-text h5-fs">Amir Hatam</strong>
             </MDBNavbarBrand>
-              <MDBNavbarNav left >
-                <List className="py-0 ">
-                  <ListItem className="d-inline mx-lg-3 mx-md-2 mx-1 px-0 py-1 white-text h5-fs" button onClick={() => scrollToElement("Header")}>
-                    Accueil
-                  </ListItem>
-                  <ListItem className="d-inline mx-lg-3 mx-md-2 mx-1 px-0 py-1 white-text h5-fs" button onClick={() => scrollToElement("Presentation")}>
-                    Presentation
-                  </ListItem>
-                  <ListItem className="d-inline mx-lg-3 mx-md-2 mx-1 px-0 py-1 white-text h5-fs" button onClick={() => scrollToElement("Competences")}>
-                    Competences
-                  </ListItem>
-                  <ListItem className="d-inline mx-lg-3 mx-md-2 mx-1 px-0 py-1 white-text h5-fs" button onClick={() => scrollToElement("ProjectsPage")}>
-                    Réalisation
-                  </ListItem>
-                  <ListItem className="d-inline mx-lg-3 mx-md-2 mx-1 px-0 py-1 white-text h5-fs" button onClick={() => scrollToElement("Contact")}>
-                    Contact
-                  </ListItem>
-                </List>
-              </MDBNavbarNav>
-              <MDBNavbarNav right>
-                <MDBNavItem className="d-flex col align-self-center ">
-                  <a className="h5-fs text-warning" href={CV} target="_blank">
-                    Mon CV
-                  </a>
-                </MDBNavItem>
-              </MDBNavbarNav>
+            <MDBNavbarNav left >
+              <List className="py-0 ">
+                <ListItem className="d-inline mx-lg-3 mx-md-2 mx-1 px-0 py-1 white-text h6-fs" button onClick={() => scrollToElement("Header")}>
+                  Accueil
+                </ListItem>
+                <ListItem className="d-inline mx-lg-3 mx-md-2 mx-1 px-0 py-1 white-text h6-fs" button onClick={() => scrollToElement("Presentation")}>
+                  Presentation
+                </ListItem>
+                <ListItem className="d-inline mx-lg-3 mx-md-2 mx-1 px-0 py-1 white-text h6-fs" button onClick={() => scrollToElement("Competences")}>
+                  Competences
+                </ListItem>
+                <ListItem className="d-inline mx-lg-3 mx-md-2 mx-1 px-0 py-1 white-text h6-fs" button onClick={() => scrollToElement("ProjectsPage")}>
+                  Réalisation
+                </ListItem>
+                <ListItem className="d-inline mx-lg-3 mx-md-2 mx-1 px-0 py-1 white-text h6-fs" button onClick={() => scrollToElement("Contact")}>
+                  Contact
+                </ListItem>
+              </List>
+            </MDBNavbarNav>
+            <MDBNavbarNav right>
+              <MDBNavItem className="d-flex col align-self-center ">
+                <a className="h6-fs text-warning" href={CV} target="_blank">
+                  Mon CV
+                </a>
+              </MDBNavItem>
+            </MDBNavbarNav>
           </MDBContainer>
         </MDBNavbar>
       </Router>
@@ -111,7 +111,6 @@ function Header() {
           </MDBRow>
         </MDBContainer>
       </MDBView>
-
     </div>
   );
 }
