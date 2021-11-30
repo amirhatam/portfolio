@@ -16,14 +16,15 @@ import "../assets/styles/contact.css";
 const ContactPage = () => {
 
   return (
-    <MDBView id="Contact" className="bgc-white mt-5">
+    <MDBView id="Contact" className="gray-container pb-5">
       <MDBContainer className="nav-space">
+      <h1 className="titre-fs text-center fontW py-lg-5 pt-3">Contact</h1>
         <MDBRow className="justify-content-around">
           <MDBCol className="col-lg-5 col-8 lg-0 mb-4">
             <MDBCard>
               <MDBCardHeader className="form-header text-center deep-blue-gradient rounded">
                 <h3 className="my-3 text-white">
-                  Contactez moi <MDBIcon fab icon="telegram-plane" />
+                  Contactez-moi <MDBIcon fab icon="telegram-plane" />
                 </h3>
               </MDBCardHeader>
               <MDBCardBody className="mb-lg-3 px-sm-4 px-0" >
@@ -45,11 +46,12 @@ const ContactPage = () => {
             </MDBCard>
           </MDBCol>
 
-          <MDBCol className="col-lg-5 col-8 mt-lg-0 mt-4">
+          <MDBCol className="col-lg-5 col-8 mt-lg-0">
             <MDBRow className="justify-content-center">
-              <h4 className="h4-fs fontW mb-3 ">Coordonnées</h4>
+              <div className="col-12">
+                <h4 className="h4-fs text-center fontW mb-3 ">Coordonnées</h4>
+              </div>
               <MDBCol className="col-lg-12 col-6">
-
                 <div className="my-lg-3">
                   <MDBIcon fab icon="linkedin" className="col-1 px-0 mr-1 text-primary h4-fs" />
                   <span className="fontW h5-fs ml-1">LINKEDIN</span>
@@ -57,11 +59,11 @@ const ContactPage = () => {
                     <a href="https://www.linkedin.com/in/amir-hatam-7ba7601ba/" target="_blank" rel="noreferrer" className="li-ic d-block txt-dark h6-fs textColor mb-md-0 my-lg-2 mt-1">https://www.linkedin.com/in/amir-hatam-7ba7601ba/</a>
                   </div>
                 </div>
-                <div className="mt-lg-4 mt-3">
+                <div className="mt-lg-4 mt-lg-3">
                   <MDBIcon fab icon="github" className="col-1 px-0 mr-1 h4-fs" />
                   <span className="fontW h5-fs ml-1">GitHub</span>
                   <div className="d-table">
-                    <a href="https://www.facebook.com/assoazimuto/" target="_blank" rel="noreferrer" className="fb-ic d-block txt-dark h6-fs textColor mb-md-0 my-2 mt-1">https://github.com/amirhatam</a>
+                    <a href="https://www.facebook.com/assoazimuto/" target="_blank" rel="noreferrer" className="fb-ic d-block txt-dark h6-fs textColor mb-md-0 my-lg-2 mt-1">https://github.com/amirhatam</a>
                   </div>
                 </div>
                 <div className="mt-lg-4">
@@ -88,7 +90,7 @@ const ContactPage = () => {
                     <a href="tel:+33 7 68 57 35 81" className="d-block h6-fs txt-dark mb-md-0 my-lg-2 mt-1">+33 7 68 57 35 81</a>
                   </div>
                 </div>
-                <div className="mb-lg-3 mt-lg-4 mt-3">
+                <div className="mb-lg-3 mt-lg-4 ">
                   <MDBIcon icon="map-marker-alt" className="col-1 text-danger h4-fs px-0 mr-1" />
                   <span className="fontW h5-fs ml-1">Paris</span>
                 </div>

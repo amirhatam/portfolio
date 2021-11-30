@@ -223,21 +223,21 @@ const Competences = () => {
               </MDBRow>
             </MDBCol>
           </MDBRow>
-          <hr className="mb-5" />
+          <hr className="mb-lg-5" />
 
           <Carousel />
 
-          <MDBCardBody className="pb-5">
-            <h3 className='h4-fs fontW text-center mb-5 pt-md-3 pt-3'>  J'ai choisi
+          <MDBCardBody className="pb-lg-5">
+            <h3 className='h4-fs fontW text-center mb-lg-5 pt-md-3 mb-3'>  J'ai choisi
               <span className="blue-text h4-fs fontW"> React.JS </span>
               pour mes projets car :</h3>
-            <MDBCardGroup>
-              <MDBCard className="text-center mx-2 hoverable">
-                <MDBCardBody>
-                  <MDBCardTitle className="h6-fs my-5" tag="h6">
+            <MDBCardGroup className="row justify-content-between">
+              <MDBCard className="col-lg-4 col-3 text-center px-0 hoverable">
+                <MDBCardBody className="px-lg-5 px-2">
+                  <MDBCardTitle className="h6-fs my-lg-5" tag="h6">
                     Le contenu est référençable
                   </MDBCardTitle>
-                  <p className="text-muted p-fs text-justify px-4 text-box">
+                  <p className="text-muted p-fs text-justify  text-box">
                     C’est LA fonctionnalité qui fait la différence par rapport
                     aux autres frameworks. Grâce à l’utilisation d’un serveur
                     Node, le code va pouvoir être généré côté client ET côté
@@ -252,11 +252,11 @@ const Competences = () => {
                   </p>
                 </MDBCardBody>
               </MDBCard>
-              <MDBCard className="text-center mx-2 hoverable">
-                <MDBCardBody>
-                  <MDBCardTitle className="h6-fs  my-5" tag="h5">
+              <MDBCard className="col-lg-4 col-3 mx-lg-4 mx-1 text-center px-0 hoverable">
+                <MDBCardBody className="px-lg-5 px-2">
+                  <MDBCardTitle className="h6-fs my-lg-5" tag="h5">
                     ReactJS est très rapide</MDBCardTitle>
-                  <p className="text-muted p-fs text-justify px-4 text-box">
+                  <p className="text-muted p-fs text-justify  text-box">
                     ReactJS crée son propre DOM virtuel où sont rattachés vos
                     composants. Cette approche vous donne énormément de
                     flexibilité et des performances exceptionnelles, car
@@ -267,12 +267,12 @@ const Competences = () => {
                   </p>
                 </MDBCardBody>
               </MDBCard>
-              <MDBCard className="text-center mx-2 hoverable ">
-                <MDBCardBody>
-                  <MDBCardTitle className="h6-fs  mt-5 mb-4 px-3" tag="h5">
+              <MDBCard className="col-lg-4 col-3 text-center px-0 hoverable">
+                <MDBCardBody className="px-lg-5 px-2">
+                  <MDBCardTitle className="h6-fs my-lg-5 px-3" tag="h5">
                     Les composants sont le futur du développement web
                   </MDBCardTitle>
-                  <p className="text-muted p-fs text-justify px-4 text-box">
+                  <p className="text-muted p-fs text-justify  text-box">
                     ReactJS à pris le concept de Shadow DOM et du framework
                     PolymerJS et l’a poussé à un niveau supérieur. React.js
                     n’utilise pas Shadow DOM – à la place il vous donne
@@ -286,7 +286,6 @@ const Competences = () => {
               </MDBCard>
             </MDBCardGroup>
           </MDBCardBody>
-
         </section>
       </MDBContainer >
     </section >
