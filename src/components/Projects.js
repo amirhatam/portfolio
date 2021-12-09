@@ -16,8 +16,8 @@ import PDF from "../assets/ProjetAzimuto.pdf"
 
 const ProjectsPage = () => {
   return (
-    <section id="projects" className="">
-      <MDBContainer className="">
+    <section id="projects" className="container">
+      {/* <MDBContainer className=""> */}
         <h1 className="titre-fs text-center fontW my-lg-5 my-3">Le projet FullStack</h1>
 
         <MDBCard className="py-lg-5 pt-4 mb-5 ">
@@ -321,7 +321,7 @@ const ProjectsPage = () => {
             </MDBCard>
           </MDBCol>
         </MDBRow>
-      </MDBContainer>
+      {/* </MDBContainer> */}
     </section >
 
   );
