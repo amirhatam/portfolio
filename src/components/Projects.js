@@ -166,7 +166,7 @@ const ProjectsPage = () => {
 
               <MDBCardBody className="pb-0">
                 <h4 className="h4-fs mb-lg-3 mb-1 fontW"> Événement</h4>
-                <p className="h6-fs mb-lg-3 mb-1 grey-text">Projet E-marketing</p>
+                <p className="h6-fs mb-lg-3 mb-1 grey-text">Projet E-marketing pour une événement</p>
                 <p className="h6-fs mb-lg-3 mb-1"><i className="fab fa-react text-primary"></i> React JS</p>
 
                 <MDBBtn
@@ -201,7 +201,7 @@ const ProjectsPage = () => {
               </MDBBtn>
               <MDBCardBody className="pb-0">
                 <h4 className="h4-fs mb-lg-3 mb-1 fontW">Petits chevaux</h4>
-                <p className="h6-fs mb-lg-3 mb-1 grey-text">Projet en groupe</p>
+                <p className="h6-fs mb-lg-3 mb-1 grey-text">Projet de groupe créer un jeux vidéo</p>
                 <p className="h6-fs mb-lg-3 mb-1"><i className="fab fa-react text-primary"></i> React JS</p>
 
                 <MDBBtn
@@ -236,7 +236,7 @@ const ProjectsPage = () => {
               <MDBCardBody className="pb-0">
                 <h4 className="h4-fs mb-lg-3 mb-1 fontW">Movies</h4>
                 <p className="h6-fs mb-lg-3 mb-1 grey-text">
-                  Projet Liste de bases de données cinématographiques
+                 Liste de bases de données cinématographiques
                 </p>
                 <p className="h6-fs mb-lg-3 mb-1">API  /<i className="fab fa-react text-primary"></i> React JS</p>
                 <MDBBtn
@@ -269,8 +269,8 @@ const ProjectsPage = () => {
                 </MDBView>
               </MDBBtn>
               <MDBCardBody className="pb-0">
-                <h4 className="h4-fs mb-lg-3 mb-1 fontW">Search Countries</h4>
-                <p className="h6-fs mb-lg-3 mb-1 grey-text">Projet liste de base de données des pays du monde</p>
+                <h4 className="h4-fs mb-lg-3 mb-1 fontW">Countries</h4>
+                <p className="h6-fs mb-lg-3 mb-1 grey-text">Liste de base de données des pays du monde</p>
                 <p className="h6-fs mb-lg-3 mb-1">API / <i className="fab fa-react text-primary"></i> React JS</p>
 
                 <MDBBtn
@@ -305,8 +305,8 @@ const ProjectsPage = () => {
               </MDBBtn>
               <MDBCardBody className="pb-0">
                 <h4 className="h4-fs mb-lg-3 mb-1 fontW">Bakery</h4>
-                <p className="h6-fs mb-lg-3 mb-1 grey-text">Projet E-marketing</p>
-                <p className="h6-fs mb-lg-3 mb-1"><i className="fab fa-react text-primary mt-4 mb-2"></i> React JS</p>
+                <p className="h6-fs mb-lg-3 mb-1 grey-text">Projet E-marketing les achats des produits de boulangerie</p>
+                <p className="h6-fs mb-lg-3 mb-1"><i className="fab fa-react text-primary  mb-2"></i> React JS</p>
 
                 <MDBBtn
                   href={"https://github.com/amirhatam/bakery"}
