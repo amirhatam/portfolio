@@ -305,7 +305,7 @@ const ProjectsPage = () => {
               </MDBBtn>
               <MDBCardBody className="pb-0">
                 <h4 className="h4-fs mb-lg-3 mb-1 fontW">Bakery</h4>
-                <p className="h6-fs mb-lg-3 mb-1 grey-text">Projet E-marketing les achats des produits de boulangerie</p>
+                <p className="h6-fs mb-lg-3 mb-1 grey-text">E-marketing - Les achats des produits de boulangerie</p>
                 <p className="h6-fs mb-lg-3 mb-1"><i className="fab fa-react text-primary  mb-2"></i> React JS</p>
 
                 <MDBBtn
