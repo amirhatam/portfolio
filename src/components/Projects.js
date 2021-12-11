@@ -129,10 +129,9 @@ const ProjectsPage = () => {
               </MDBBtn>
               <MDBCardBody className="pb-0">
                 <h4 className="h4-fs mb-lg-3 mb-1 fontW">La France</h4>
-                <p className="h6-fs mb-lg-3 mb-1 grey-text">Mon premier projet personnel</p>
+                <p className="h6-fs mb-lg-3 mb-1 grey-text">Mon premier projet personnel <br/> L'information des départements de France</p>
                 <p className="h6-fs mb-lg-3 mb-1">
-                  <i className="fab fa-html5 text-danger"></i> HTML /{" "}
-                  <i className="fab fa-css3-alt text-primary"></i> CSS{" "}
+                  <i className="fab fa-html5 text-danger"></i> HTML / <i className="fab fa-css3-alt text-primary"></i> CSS / <i class="fab fa-js-square text-warning"></i> JS
                 </p>
                 <MDBBtn
                   href={"https://github.com/amirhatam/la-france.io"}
@@ -166,8 +165,9 @@ const ProjectsPage = () => {
 
               <MDBCardBody className="pb-0">
                 <h4 className="h4-fs mb-lg-3 mb-1 fontW"> Événement</h4>
-                <p className="h6-fs mb-lg-3 mb-1 grey-text">Projet E-marketing pour une événement</p>
-                <p className="h6-fs mb-lg-3 mb-1"><i className="fab fa-react text-primary"></i> React JS</p>
+                <p className="h6-fs mb-lg-3 mb-1 grey-text">Projet personnel E-marketing <br/> L'information d'un événement concert </p>
+                <p className="h6-fs mb-lg-3 mb-1"><i className="fab fa-react text-primary"></i> React JS / Material-UI</p> 
+
 
                 <MDBBtn
                   href={"https://github.com/amirhatam/concert-max-richter"}
@@ -200,8 +200,8 @@ const ProjectsPage = () => {
                 </MDBView>
               </MDBBtn>
               <MDBCardBody className="pb-0">
-                <h4 className="h4-fs mb-lg-3 mb-1 fontW">Petits chevaux</h4>
-                <p className="h6-fs mb-lg-3 mb-1 grey-text">Projet de groupe créer un jeux vidéo</p>
+                <h4 className="h4-fs mb-lg-3 mb-1 fontW">Petits Chevaux</h4>
+                <p className="h6-fs mb-lg-3 mb-1 grey-text">Projet de groupe <br/> Créer un jeux vidéo <br/> Jeu des Petits Chevaux</p>
                 <p className="h6-fs mb-lg-3 mb-1"><i className="fab fa-react text-primary"></i> React JS</p>
 
                 <MDBBtn
@@ -236,9 +236,9 @@ const ProjectsPage = () => {
               <MDBCardBody className="pb-0">
                 <h4 className="h4-fs mb-lg-3 mb-1 fontW">Movies</h4>
                 <p className="h6-fs mb-lg-3 mb-1 grey-text">
-                 Liste de bases de données cinématographiques
+                Projet personnel cinématographiques<br/> Liste des films 
                 </p>
-                <p className="h6-fs mb-lg-3 mb-1">API  /<i className="fab fa-react text-primary"></i> React JS</p>
+                <p className="h6-fs mb-lg-3 mb-1"><i className="fab fa-react text-primary"></i> React JS / API (movieDB)</p>
                 <MDBBtn
                   href={"https://github.com/amirhatam/moviedb"}
                   target="_blank"
@@ -270,8 +270,8 @@ const ProjectsPage = () => {
               </MDBBtn>
               <MDBCardBody className="pb-0">
                 <h4 className="h4-fs mb-lg-3 mb-1 fontW">Countries</h4>
-                <p className="h6-fs mb-lg-3 mb-1 grey-text">Liste de base de données des pays du monde</p>
-                <p className="h6-fs mb-lg-3 mb-1">API / <i className="fab fa-react text-primary"></i> React JS</p>
+                <p className="h6-fs mb-lg-3 mb-1 grey-text">Projet personnel <br/> Images et informations de tous les pays du Monde</p>
+                <p className="h6-fs mb-lg-3 mb-1"> <i className="fab fa-react text-primary"></i> React JS  / API / Material-UI</p>
 
                 <MDBBtn
                   href={"https://github.com/amirhatam/country"}
@@ -305,7 +305,7 @@ const ProjectsPage = () => {
               </MDBBtn>
               <MDBCardBody className="pb-0">
                 <h4 className="h4-fs mb-lg-3 mb-1 fontW">Bakery</h4>
-                <p className="h6-fs mb-lg-3 mb-1 grey-text">E-marketing - Les achats des produits de boulangerie</p>
+                <p className="h6-fs mb-lg-3 mb-1 grey-text">Exercice E-Shop de formation  <br/> Les achats des produits de boulangerie</p>
                 <p className="h6-fs mb-lg-3 mb-1"><i className="fab fa-react text-primary  mb-2"></i> React JS</p>
 
                 <MDBBtn
