@@ -6,11 +6,11 @@ import {
   MDBIcon,
   MDBBtn,
   MDBView,
-  MDBContainer,
   MDBCard
 
 } from "mdbreact";
-import Azi from "../assets/Images/Azimuto.PNG"
+import Azi from "../assets/Images/screenshots/Azimuto.png"
+import Movies from "../assets/Images/screenshots/movies.png"
 import MERN from "../assets/Images/mern.png"
 import PDF from "../assets/ProjetAzimuto.pdf"
 
@@ -18,7 +18,7 @@ const ProjectsPage = () => {
   return (
     <section id="projects" className="container">
       {/* <MDBContainer className=""> */}
-      <h1 className="titre-fs text-center fontW my-lg-5 my-3">Le projet FullStack</h1>
+      <h1 className="titre-fs text-center fontW my-lg-5 my-3">Les projets FullStack</h1>
 
       <MDBCard className="py-lg-5 pt-4 mb-5 ">
         <MDBRow className="justify-content-center ">
@@ -106,9 +106,50 @@ const ProjectsPage = () => {
               </h6>
             </div>
           </MDBCol>
+
         </MDBRow>
       </MDBCard>
+      <MDBRow className="justify-content-center text-center">
+        <MDBCol className="col-lg-6 col-8">
+          <MDBCard className="p-3 mb-5 ">
+            <h5 className="h5-fs fontW">Voici un lien vers le projet <MDBIcon far icon="hand-point-down" className="h5-fs" />
+            </h5>
+            <MDBBtn
+              href={"https://the-movies-database.herokuapp.com/"}
+              color="black"
+              target="_blank"
+              className="p-0"
+            >
+              <MDBView className="overlay  z-depth-1" waves>
+                <img
+                  src={Movies}
+                  alt=""
+                  className="img-fluid"
+                />
+              </MDBView>
+            </MDBBtn>
+            <MDBCardBody className="pb-0">
+              <h4 className="h4-fs mb-lg-3 mb-1 fontW">The MoviesDB</h4>
+              <p className="h6-fs mb-lg-3 mb-1 grey-text">
+                Projet personnel Cinématographiques<br /> L'information sur les films
+              </p>
+              <p className="h6-fs mb-lg-3 mb-1"><i className="fab fa-react text-primary"></i> React JS / API (themovieDB)</p>
+              <p className="h6-fs mb-lg-3 mb-1"> Node.JS / Express / MongoDB</p>
+              <MDBBtn
+                href={"https://github.com/amirhatam/Smartch"}
+                target="_blank"
+                className="rounded-pill px-3"
+                color="mdb-color"
+                size="sm"
+              >
+                <MDBIcon fab icon="github" className=" left my-2" /> Les Codes
+              </MDBBtn>
+            </MDBCardBody>
+          </MDBCard>
+        </MDBCol>
+      </MDBRow>
 
+      <hr />
       <h1 className="titre-fs text-center fontW my-lg-5 my-3">Les projets Front-End</h1>
       <MDBRow className="justify-content-center text-center">
         <MDBCol className="col-lg-4 col-8">
