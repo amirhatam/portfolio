@@ -18,7 +18,7 @@ const ContactPage = () => {
   return (
     <MDBView id="Contact" className="gray-container pb-5">
       <MDBContainer className="nav-space">
-      <h1 className="titre-fs text-center fontW py-lg-5 pt-3">Contact</h1>
+        <h1 className="titre-fs text-center fontW py-lg-5 pt-3">Contact</h1>
         <MDBRow className="justify-content-around">
           <MDBCol className="col-lg-5 col-8 lg-0 mb-4">
             <MDBCard>
@@ -63,7 +63,7 @@ const ContactPage = () => {
                   <MDBIcon fab icon="github" className="col-1 px-0 mr-1 h4-fs" />
                   <span className="fontW h5-fs ml-1">GitHub</span>
                   <div className="d-table">
-                    <a href="https://www.facebook.com/assoazimuto/" target="_blank" rel="noreferrer" className="fb-ic d-block txt-dark h6-fs textColor mb-md-0 my-lg-2 mt-1">https://github.com/amirhatam</a>
+                    <a href="https://github.com/amirhatam" target="_blank" rel="noreferrer" className="fb-ic d-block txt-dark h6-fs textColor mb-md-0 my-lg-2 mt-1">https://github.com/amirhatam</a>
                   </div>
                 </div>
                 <div className="mt-lg-4">
