@@ -11,7 +11,7 @@ import {
   MDBCardTitle,
 } from "mdbreact";
 import "../assets/styles/Competences.css"
-import Carousel from "./Slider";
+import Carousel from "../view/Slider";
 
 import JS from "../assets/Images/js.svg"
 import TS from "../assets/Images/Typescript.svg"
