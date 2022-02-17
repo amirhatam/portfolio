@@ -261,16 +261,16 @@ const Competences = () => {
           <Carousel />
 
           <MDBCardBody className="pb-lg-5">
-            <h3 className='h4-fs fontW text-center mb-lg-5 pt-lg-5 mb-5'>  J'ai choisi
+            <h3 className='h4-fs fontW text-center mb-lg-5 pt-lg-5 mb-4'>  J'ai choisi
               <span className="blue-text h4-fs fontW"> React.JS </span>
               pour mes projets car :</h3>
             <MDBCardGroup className="row justify-content-between">
-              <MDBCard className="col-lg-4 col-3 text-center px-0 hoverable">
-                <MDBCardBody className="px-lg-5 px-2">
+              <MDBCard className="col-lg-4 col-12 text-center hoverable">
+                <MDBCardBody className="">
                   <MDBCardTitle className="h6-fs my-lg-5" tag="h6">
                     Le contenu est référençable
                   </MDBCardTitle>
-                  <p className="text-muted p-fs text-justify  text-box">
+                  <p className="text-muted p-fs text-justify text-box">
                     C’est LA fonctionnalité qui fait la différence par rapport
                     aux autres frameworks. Grâce à l’utilisation d’un serveur
                     Node, le code va pouvoir être généré côté client ET côté
@@ -285,11 +285,11 @@ const Competences = () => {
                   </p>
                 </MDBCardBody>
               </MDBCard>
-              <MDBCard className="col-lg-4 col-3 mx-lg-4 mx-1 text-center px-0 hoverable">
-                <MDBCardBody className="px-lg-5 px-2">
+              <MDBCard className="col-lg-4 col-12 mx-lg-4 mx-1 text-center hoverable">
+                <MDBCardBody className="">
                   <MDBCardTitle className="h6-fs my-lg-5" tag="h5">
                     ReactJS est très rapide</MDBCardTitle>
-                  <p className="text-muted p-fs text-justify  text-box">
+                  <p className="text-muted p-fs text-justify text-box">
                     ReactJS crée son propre DOM virtuel où sont rattachés vos
                     composants. Cette approche vous donne énormément de
                     flexibilité et des performances exceptionnelles, car
@@ -300,8 +300,8 @@ const Competences = () => {
                   </p>
                 </MDBCardBody>
               </MDBCard>
-              <MDBCard className="col-lg-4 col-3 text-center px-0 hoverable">
-                <MDBCardBody className="px-lg-5 px-2">
+              <MDBCard className="col-lg-4 col-12 text-center hoverable">
+                <MDBCardBody className="">
                   <MDBCardTitle className="h6-fs my-lg-5 px-3" tag="h5">
                     Les composants sont le futur du développement web
                   </MDBCardTitle>
