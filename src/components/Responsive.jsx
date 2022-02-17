@@ -1,7 +1,6 @@
 import React from 'react'
 import { MDBRow, MDBCol, MDBCardBody, MDBMask, MDBView, MDBContainer } from "mdbreact";
 
-import "../assets/styles/Responsive.css"
 import RespoIMG from "../assets/Images/responsive.png"
 
 
