@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
-import { MDBContainer } from "mdbreact";
+import { MDBContainer, MDBView } from "mdbreact";
 import Slider from "react-slick";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import "../assets/styles/Slider.css";
 
 import VSCode from "../assets/Images/vscode.png"
 import Git from "../assets/Images/git.jpg"
@@ -40,105 +41,105 @@ export default class Carousel extends Component {
                 <MDBContainer>
                     <h5 className="text-center h4-fs fontW my-lg-5">Les Outils</h5>
                     <Slider  {...settings} className="row">
-                        <div className="col-2 d-flex  px-0">
+                        <div className="col-2 d-flex px-0 py-lg-3 py-5">
                             <div className="col-12">
                                 <img
                                     src={VSCode}
                                     alt="VSCode"
-                                    className=" mx-0 img-fluid rounded d-flex"
+                                    className="imgMA mx-0 rounded"
                                 />
-                                <h4 className="h5-fs mt-2 mx-0  text-center">VSCode</h4>
+                                <h4 className="h6-fs text-center mt-2 mx-0">VSCode</h4>
                             </div>
                             <div className="col-12">
                                 <img
                                     src={Git}
                                     alt=""
-                                    className=" mx-0 img-fluid rounded d-flex"
+                                    className="imgMA mx-0 rounded"
                                 />
-                                <h4 className="h5-fs mt-2 mx-0 text-center">Git</h4>
+                                <h4 className="h6-fs text-center mt-2 mx-0">Git</h4>
                             </div>
                             <div className="col-12">
                                 <img
                                     src={GitDesk}
                                     alt=""
-                                    className=" mx-0 img-fluid rounded d-flex"
+                                    className="imgMA mx-0 rounded"
                                 />
-                                <h4 className="h5-fs mt-2 mx-0 text-center">GitHub Desktop</h4>
+                                <h4 className="h6-fs text-center mt-2 ">GitHub Desktop</h4>
                             </div>
                             <div className="col-12">
                                 <img
                                     src={Gitkraken}
                                     alt=""
-                                    className=" mx-0 img-fluid rounded "
+                                    className="imgMA mx-0 rounded "
                                 />
-                                <h4 className="h5-fs mt-2 mx-0 text-center">Gitkraken</h4>
+                                <h4 className="h6-fs text-center mt-2">Gitkraken</h4>
                             </div>
                             <div className="col-12">
                                 <img
                                     src={Heroku}
                                     alt=""
-                                    className=" mx-0 img-fluid rounded "
+                                    className="imgMA mx-0 rounded "
                                 />
-                                <h4 className="h5-fs mt-2 mx-0 text-center">Heroku</h4>
+                                <h4 className="h6-fs text-center mt-2">Heroku</h4>
                             </div>
                             <div className="col-12">
                                 <img
                                     src={Atlas}
                                     alt=""
-                                    className=" mx-0 img-fluid rounded "
+                                    className="imgMA mx-0 rounded "
                                 />
-                                <h4 className="h5-fs mt-2  text-center">MongoDB Atlas</h4>
+                                <h4 className="h6-fs text-center mt-2 ">MongoDB Atlas</h4>
                             </div>
                         </div>
 
-                        <div className="col-2 d-flex px-0">
+                        <div className="col-2 d-flex px-0 py-lg-3 py-5">
                             <div className="col-12">
                                 <img
                                     src={Netlify}
                                     alt=""
-                                    className=" mx-0 img-fluid rounded "
+                                    className="imgMA mx-0 rounded "
                                 />
-                                <h4 className="h5-fs mt-2  text-center">Netlify</h4>
+                                <h4 className="h6-fs text-center mt-2 ">Netlify</h4>
                             </div>
                             <div className="col-12">
                                 <img
                                     src={Cmder}
                                     alt=""
-                                    className=" mx-0 img-fluid rounded "
+                                    className="imgMA mx-0 rounded "
                                 />
-                                <h4 className="h5-fs mt-2  text-center">Cmder</h4>
+                                <h4 className="h6-fs text-center mt-2 ">Cmder</h4>
                             </div>
                             <div className="col-12">
                                 <img
                                     src={Slack}
                                     alt=""
-                                    className=" mx-0 img-fluid rounded "
+                                    className="imgMA mx-0 rounded "
                                 />
-                                <h4 className="h5-fs mt-2  text-center">Slack</h4>
+                                <h4 className="h6-fs text-center mt-2 ">Slack</h4>
                             </div>
                             <div className="col-12">
                                 <img
                                     src={Discord}
                                     alt=""
-                                    className=" mx-0 img-fluid rounded "
+                                    className="imgMA mx-0 rounded "
                                 />
-                                <h4 className="h5-fs mt-2  text-center">Discord</h4>
+                                <h4 className="h6-fs text-center mt-2 ">Discord</h4>
                             </div>
                             <div className="col-12">
                                 <img
                                     src={Photoshop}
                                     alt=""
-                                    className=" mx-0 img-fluid rounded "
+                                    className="imgMA mx-0 rounded "
                                 />
-                                <h4 className="h5-fs mt-2  text-center">Photoshop</h4>
+                                <h4 className="h6-fs text-center mt-2 ">Photoshop</h4>
                             </div>
                             <div className="col-12">
                                 <img
                                     src={Office}
                                     alt=""
-                                    className=" mx-0 img-fluid rounded "
+                                    className="imgMA mx-0 rounded "
                                 />
-                                <h4 className="h5-fs mt-2  text-center">Microsoft Office</h4>
+                                <h4 className="h6-fs text-center mt-2 ">Microsoft Office</h4>
                             </div>
                         </div>
                     </Slider>
