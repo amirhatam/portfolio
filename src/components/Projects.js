@@ -20,11 +20,20 @@ const ProjectsPage = () => {
       {/* <MDBContainer className=""> */}
       <h1 className="titre-fs text-center fontW my-lg-5 my-3">Les projets FullStack</h1>
 
-      <MDBCard className="py-lg-5 pt-4 mb-5 ">
+      <MDBCard className="py-lg-5 py-4 pt-4 mb-5 ">
         <MDBRow className="justify-content-center ">
-          <MDBCol className="col-4">
+          <MDBCol className="col-12 text-center">
+            <h4 className="h4-fs mb-lg-3 mb-1 fontW ">Azimuto</h4>
+            <p className="h6-fs mb-lg-3 mb-1 grey-text">Le projet pendant mon stage</p>
+          </MDBCol>
+          <MDBCol className="col-lg-4 col-10 mt-lg-0 mt-4">
             <h5 className="h5-fs fontW text-center">Bibliothèques & Frameworks</h5>
-            <MDBRow className="justify-content-center my-lg-5 mt-4">
+            <img
+              src={MERN}
+              alt=""
+              className="img-fluid"
+            />
+            <MDBRow className="justify-content-center mt-lg-5 mt-4">
               <div className="col-5 ">
                 <h6 className="h6-fs mb-lg-4 mb-3 fontW">Back-End :</h6>
                 <p className="p-fs mb-lg-3 mb-2 grey-text "><MDBIcon icon="arrow-alt-circle-down" /> Mongoose</p>
@@ -38,7 +47,7 @@ const ProjectsPage = () => {
               <div className="col-5 ">
                 <h6 className="h6-fs mb-lg-4 mb-3 fontW">Front-End :</h6>
                 <p className="p-fs mb-lg-3 mb-2 grey-text "><MDBIcon icon="arrow-alt-circle-down" /> MDBReact</p>
-                <p className="p-fs mb-lg-3 mb-2 grey-text "><MDBIcon icon="arrow-alt-circle-down" /> MDBReact</p>
+                <p className="p-fs mb-lg-3 mb-2 grey-text "><MDBIcon icon="arrow-alt-circle-down" /> Bootstrap</p>
                 <p className="p-fs mb-lg-3 mb-2 grey-text "><MDBIcon icon="arrow-alt-circle-down" /> Axios</p>
                 <p className="p-fs mb-lg-3 mb-2 grey-text "><MDBIcon icon="arrow-alt-circle-down" /> React-router-dom</p>
                 <p className="p-fs mb-lg-3 mb-2 grey-text "><MDBIcon icon="arrow-alt-circle-down" /> React-scripts</p>
@@ -46,17 +55,15 @@ const ProjectsPage = () => {
             </MDBRow>
           </MDBCol>
 
-          <MDBCol className="col-4 text-center">
+          <MDBCol className="col-lg-4 col-10 text-center">
             <div className="m-auto ">
-              <h5 className="h5-fs fontW">Voici un lien vers le projet <MDBIcon far icon="hand-point-down" className="h5-fs" />
-              </h5>
               <MDBBtn
                 href={"https://projet-stage-azimuto.herokuapp.com/"}
                 color="black"
                 target="_blank"
                 className="p-0"
               >
-                <MDBView className="overlay  z-depth-1" waves>
+                <MDBView className="overlay z-depth-1" waves>
                   <img
                     src={Azi}
                     alt=""
@@ -64,27 +71,12 @@ const ProjectsPage = () => {
                   />
                 </MDBView>
               </MDBBtn>
+              <h5 className="h5-fs fontW grey-text mt-lg-2">Voici un lien vers le projet <MDBIcon far icon="hand-point-up" className="h5-fs text-dark" />
+              </h5>
             </div>
-            <MDBCardBody className="p-lg-3 p-1">
-              <h4 className="h4-fs mb-lg-3 mb-1 fontW">Azimuto</h4>
-              <p className="h6-fs mb-lg-3 mb-1 grey-text">Le projet pendant mon stage</p>
-              <img
-                src={MERN}
-                alt=""
-                className="img-fluid"
-              />
-              <MDBBtn
-                href={PDF}
-                target="_blank"
-                className="rounded-pill px-3 mt-lg-3"
-                color="mdb-color"
-                size="sm"
-              >
-                <MDBIcon far icon="clone" className="left my-2" /> Les Slides
-              </MDBBtn>
-            </MDBCardBody>
+
           </MDBCol>
-          <MDBCol className="col-4">
+          <MDBCol className="col-lg-4 col-10 mt-lg-0 mt-4">
             <div>
               <h5 className="h5-fs fontW text-center mb-lg-3 ">Objectif du stage</h5>
               <h6 className="h6-fs text-justify px-4">Pendant mon stage j'ai créé un site web statique et dynamique
@@ -106,21 +98,34 @@ const ProjectsPage = () => {
               </h6>
             </div>
           </MDBCol>
-
+          <MDBCol className="text-center">
+            <MDBBtn
+              href={PDF}
+              target="_blank"
+              className="rounded-pill px-3 mt-lg-3"
+              color="mdb-color"
+              size="sm"
+            >
+              <MDBIcon far icon="clone" className="left my-2" /> Les Slides
+            </MDBBtn>
+          </MDBCol>
         </MDBRow>
       </MDBCard>
-      <MDBRow className="justify-content-center text-center">
+
+      <MDBRow className="justify-content-center ">
         <MDBCol className="col-lg-6 col-8">
-          <MDBCard className="p-3 mb-5 ">
-            <h5 className="h5-fs fontW">Voici un lien vers le projet <MDBIcon far icon="hand-point-down" className="h5-fs" />
-            </h5>
+          <MDBCard className="p-3 mb-5 pt-lg-5">
+            <h4 className="h4-fs mb-lg-3 mb-1 fontW text-center m">The MoviesDB</h4>
+            <p className="h6-fs mb-lg-3 mb-1 grey-text text-center">
+              Projet personnel Cinématographiques<br /> L'information sur les films
+            </p>
             <MDBBtn
               href={"https://the-movies-database.herokuapp.com/"}
               color="black"
               target="_blank"
               className="p-0"
             >
-              <MDBView className="overlay  z-depth-1" waves>
+              <MDBView className="overlay z-depth-1" waves>
                 <img
                   src={Movies}
                   alt=""
@@ -129,21 +134,35 @@ const ProjectsPage = () => {
               </MDBView>
             </MDBBtn>
             <MDBCardBody className="pb-0">
-              <h4 className="h4-fs mb-lg-3 mb-1 fontW">The MoviesDB</h4>
-              <p className="h6-fs mb-lg-3 mb-1 grey-text">
-                Projet personnel Cinématographiques<br /> L'information sur les films
-              </p>
-              <p className="h6-fs mb-lg-3 mb-1"><i className="fab fa-react text-primary"></i> React JS / API (themovieDB)</p>
-              <p className="h6-fs mb-lg-3 mb-1"> Node.JS / Express / MongoDB</p>
-              <MDBBtn
-                href={"https://github.com/amirhatam/Smartch"}
-                target="_blank"
-                className="rounded-pill px-3"
-                color="mdb-color"
-                size="sm"
-              >
-                <MDBIcon fab icon="github" className=" left my-2" /> Les Codes
-              </MDBBtn>
+              <h5 className="h5-fs fontW grey-text mb-lg-5 text-center">Voici un lien vers le projet <MDBIcon far icon="hand-point-up" className="h5-fs text-dark" />
+              </h5>
+              <MDBRow className="justify-content-center my-lg-2 mt-4">
+                <div className="col-5 ">
+                  <h6 className="h6-fs mb-lg-4 mb-3 fontW">Back-End :</h6>
+                  <p className="p-fs mb-lg-3 mb-2 grey-text "><MDBIcon icon="arrow-alt-circle-down" /> Mongoose</p>
+                  <p className="p-fs mb-lg-3 mb-2 grey-text "><MDBIcon icon="arrow-alt-circle-down" /> Express</p>
+                  <p className="p-fs mb-lg-3 mb-2 grey-text "><MDBIcon icon="arrow-alt-circle-down" /> Bcryptjs</p>
+                  <p className="p-fs mb-lg-3 mb-2 grey-text "><MDBIcon icon="arrow-alt-circle-down" /> Express-validator</p>
+                  <p className="p-fs mb-lg-3 mb-2 grey-text "><MDBIcon icon="arrow-alt-circle-down" /> Password-validator</p>
+                </div>
+                <div className="col-5 ">
+                  <h6 className="h6-fs mb-lg-4 mb-3 fontW">Front-End :</h6>
+                  <p className="p-fs mb-lg-3 mb-2 grey-text "><MDBIcon icon="arrow-alt-circle-down" /> MDBReact</p>
+                  <p className="p-fs mb-lg-3 mb-2 grey-text "><MDBIcon icon="arrow-alt-circle-down" /> Bootstrap</p>
+                  <p className="p-fs mb-lg-3 mb-2 grey-text "><MDBIcon icon="arrow-alt-circle-down" /> Axios</p>
+                </div>
+              </MDBRow>
+              <MDBRow className="justify-content-center">
+                <MDBBtn
+                  href={"https://github.com/amirhatam/Smartch"}
+                  target="_blank"
+                  className="rounded-pill px-3"
+                  color="mdb-color"
+                  size="sm"
+                >
+                  <MDBIcon fab icon="github" className=" left my-2" /> Les Codes
+                </MDBBtn>
+              </MDBRow>
             </MDBCardBody>
           </MDBCard>
         </MDBCol>
