@@ -13,7 +13,6 @@ function CodeWars() {
         (async () => {
             try {
                 const response = await axios.get("https://www.codewars.com/api/v1/users/AmirHatam")
-                console.log(response.data);
                 const data = response.data
                 if (response.status === 200) {
                     setRank(data.ranks.overall.name)
