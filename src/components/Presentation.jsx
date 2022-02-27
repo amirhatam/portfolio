@@ -4,6 +4,7 @@ import {
     MDBCol,
     MDBContainer,
 } from "mdbreact";
+import CodeWars from './CodeWars';
 
 export default function Presentation() {
     return (
@@ -26,6 +27,14 @@ export default function Presentation() {
                                 j'apprécie être confronté à de nouveau challenge. Je suis un
                                 travailleur acharné qui n'abandonne pas au premier obstacle.
                             </p>
+                        </MDBCol>
+                    </MDBRow>
+                    <MDBRow className='mt-5'>
+                        <MDBCol className='col-lg-6'>
+                            <CodeWars />
+                        </MDBCol>
+                        <MDBCol className='col-lg-6'>
+
                         </MDBCol>
                     </MDBRow>
                 </MDBContainer>
