@@ -7,17 +7,19 @@ function CodeWars() {
     const [rank, setRank] = useState("")
     const [honor, setHonor] = useState("")
     const [total, setTotal] = useState("")
-
+    const [position, setPosition] = useState("")
 
     useEffect(() => {
         (async () => {
             try {
                 const response = await axios.get("https://www.codewars.com/api/v1/users/AmirHatam")
                 const data = response.data
+                // console.log(data);
                 if (response.status === 200) {
                     setRank(data.ranks.overall.name)
                     setHonor(data.honor)
                     setTotal(data.codeChallenges.totalCompleted)
+                    setPosition(data.leaderboardPosition)
                 }
             } catch (error) {
                 console.log(error)
@@ -50,6 +52,7 @@ function CodeWars() {
                         <p className='text-light h6-fs'> <strong>Progress</strong> </p>
                         <p className='text-light mb-1'>Rank: <strong>{rank}</strong> </p>
                         <p className='text-light mb-1'>Honor: <strong>{honor}</strong></p>
+                        <p className='text-light mb-1'>Leaderboard Position: <strong>{position}</strong></p>
                         <p className='text-light mb-1'>Total Completed Kata: <strong>{total}</strong></p>
                     </div>
                 </MDBCol>
