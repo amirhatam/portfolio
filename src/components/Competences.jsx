@@ -9,6 +9,7 @@ import {
   MDBCard,
   MDBCardBody,
   MDBCardTitle,
+  MDBBtn
 } from "mdbreact";
 import "../assets/styles/Competences.css"
 import Carousel from "../view/Slider";
@@ -63,7 +64,17 @@ const Competences = () => {
             </MDBCol>
             <MDBCol className="col-6 align-self-center">
               <MDBRow className="justify-content-around text-center mb-3">
-                <MDBView title="JavaScript" hover cascade waves className="col-lg-2 col-3 logoContainer">
+                {/* <MDBView hover zoom waves title="JavaScript" className="col-lg-2 col-3 logoContainer py-2">
+                  <img
+                    src={JS}
+                    className="img-fluid"
+                    alt=""
+                  />
+                  <MDBMask className="flex-center">
+                  </MDBMask>
+                </MDBView> */}
+
+                <MDBView title="JavaScript" hover zoom waves className="col-lg-2 col-3 logoContainer py-2">
                   <img
                     src={JS}
                     alt=""
@@ -71,7 +82,7 @@ const Competences = () => {
                   />
                   <MDBMask overlay="white-slight" className=" waves-light" />
                 </MDBView>
-                <MDBView title="Typescript" hover cascade waves className="col-lg-2 col-3 logoContainer">
+                <MDBView title="Typescript" hover zoom waves className="col-lg-2 col-3 logoContainer py-2">
                   <img
                     src={TS}
                     alt=""
@@ -79,7 +90,7 @@ const Competences = () => {
                   />
                   <MDBMask overlay="white-slight" className=" waves-light" />
                 </MDBView>
-                <MDBView title="HTML.5" hover cascade waves className="col-lg-2 col-3 logoContainer">
+                <MDBView title="HTML.5" hover zoom waves className="col-lg-2 col-3 logoContainer py-2">
                   <img
                     src={HTML}
                     alt=""
@@ -87,7 +98,7 @@ const Competences = () => {
                   />
                   <MDBMask overlay="white-slight" className=" waves-light" />
                 </MDBView>
-                <MDBView title="CSS.3" hover cascade waves className="col-lg-2 col-3 logoContainer">
+                <MDBView title="CSS.3" hover zoom waves className="col-lg-2 col-3 logoContainer py-2">
                   <img
                     src={CSS}
                     alt=""
@@ -107,7 +118,7 @@ const Competences = () => {
             </MDBCol>
             <MDBCol className="col-6 align-self-center">
               <MDBRow className="justify-content-around text-center mb-lg-3">
-                <MDBView title="React.JS / React.Native" hover cascade waves className="col-lg-2 col-3 logoContainer">
+                <MDBView title="React.JS / React.Native" hover zoom waves className="col-lg-2 col-3 logoContainer py-2">
                   <img
                     src={logoReact}
                     alt=""
@@ -115,7 +126,7 @@ const Competences = () => {
                   />
                   <MDBMask overlay="white-slight" className=" waves-light" />
                 </MDBView>
-                <MDBView title="JQuery" hover cascade waves className="col-lg-2 col-3 logoContainer">
+                <MDBView title="JQuery" hover zoom waves className="col-lg-2 col-3 logoContainer py-2">
                   <img
                     src={logoJQuery}
                     alt=""
@@ -123,7 +134,7 @@ const Competences = () => {
                   />
                   <MDBMask overlay="white-slight" className=" waves-light" />
                 </MDBView>
-                <MDBView title="Bootstrap" hover cascade waves className="col-lg-2 col-3 mt-lg-3 mt-1 logoContainer">
+                <MDBView title="Bootstrap" hover zoom waves className="col-lg-2 col-3 mt-lg-3 mt-1 logoContainer py-2">
                   <img
                     src={Bootstrap}
                     alt=""
@@ -131,7 +142,7 @@ const Competences = () => {
                   />
                   <MDBMask overlay="white-slight" className=" waves-light" />
                 </MDBView>
-                <MDBView title="Material-UI" hover cascade waves className="col-lg-2 col-3 mx-2 mt-lg-2 mt-3 logoContainer">
+                <MDBView title="Material-UI" hover zoom waves className="col-lg-2 col-3 mx-2 mt-lg-2 mt-3 logoContainer py-2">
                   <img
                     src={Material}
                     alt=""
@@ -139,7 +150,7 @@ const Competences = () => {
                   />
                   <MDBMask overlay="white-slight" className=" waves-light" />
                 </MDBView>
-                <MDBView title="MDBReact" hover cascade waves className="col-lg-2 col-3 mt-lg-0 mt-1 px-0 px-0 logoContainer">
+                <MDBView title="MDBReact" hover zoom waves className="col-lg-2 col-3 mt-lg-0 mt-1 px-0 px-0 logoContainer py-2">
                   <img
                     src={MDB}
                     alt=""
@@ -173,7 +184,7 @@ const Competences = () => {
             </MDBCol>
             <MDBCol className="col-6 align-self-center ">
               <MDBRow className="justify-content-around text-center ">
-                <MDBView title="Node.JS" hover cascade waves className="col-lg-2 col-3 my-lg-2 my-1 mx-lg-1 align-self-center logoContainer">
+                <MDBView title="Node.JS" hover zoom waves className="col-lg-2 col-3 my-lg-2 my-1 mx-lg-1 align-self-center logoContainer py-2">
                   <img
                     src={NodeJS}
                     alt=""
@@ -181,7 +192,7 @@ const Competences = () => {
                   />
                   <MDBMask overlay="white-slight" className=" waves-light" />
                 </MDBView>
-                <MDBView title="Nest.JS" hover cascade waves className="col-lg-2 col-3 my-lg-2 my-1  align-self-center logoContainer">
+                <MDBView title="Nest.JS" hover zoom waves className="col-lg-2 col-3 my-lg-2 my-1  align-self-center logoContainer py-2">
                   <img
                     src={NestJS}
                     alt=""
@@ -189,7 +200,7 @@ const Competences = () => {
                   />
                   <MDBMask overlay="white-slight" className=" waves-light" />
                 </MDBView>
-                <MDBView title="MongoDB" hover cascade waves className="col-lg-2 col-3 my-lg-2 my-1 align-self-center logoContainer">
+                <MDBView title="MongoDB" hover zoom waves className="col-lg-2 col-3 my-lg-2 my-1 align-self-center logoContainer py-2">
                   <img
                     src={MongoDB}
                     alt=""
@@ -197,7 +208,7 @@ const Competences = () => {
                   />
                   <MDBMask overlay="white-slight" className=" waves-light" />
                 </MDBView>
-                <MDBView title="Express" hover cascade waves className="col-lg-2 col-3 my-lg-2 my-1 align-self-center logoContainer">
+                <MDBView title="Express" hover zoom waves className="col-lg-2 col-3 my-lg-2 my-1 align-self-center logoContainer py-2">
                   <img
                     src={Express}
                     alt=""
@@ -205,7 +216,7 @@ const Competences = () => {
                   />
                   <MDBMask overlay="white-slight" className=" waves-light" />
                 </MDBView>
-                <MDBView title="Mongoose" hover cascade waves className="col-lg-2 col-3 my-lg-2 my-1 align-self-center logoContainer">
+                <MDBView title="Mongoose" hover zoom waves className="col-lg-2 col-3 my-lg-2 my-1 align-self-center logoContainer py-2">
                   <img
                     src={Mongoose}
                     alt=""
@@ -213,7 +224,7 @@ const Competences = () => {
                   />
                   <MDBMask overlay="white-slight" className=" waves-light" />
                 </MDBView>
-                <MDBView title="Postman" hover cascade waves className="col-lg-2 col-3 my-lg-2 my-1 align-self-center logoContainer">
+                <MDBView title="Postman" hover zoom waves className="col-lg-2 col-3 my-lg-2 my-1 align-self-center logoContainer py-2">
                   <img
                     src={Postman}
                     alt=""
@@ -221,7 +232,7 @@ const Competences = () => {
                   />
                   <MDBMask overlay="white-slight" className=" waves-light" />
                 </MDBView>
-                <MDBView title="Robo 3t" hover cascade waves className="col-lg-2 col-3 my-lg-2 my-1 align-self-center logoContainer">
+                <MDBView title="Robo 3t" hover zoom waves className="col-lg-2 col-3 my-lg-2 my-1 align-self-center logoContainer py-2">
                   <img
                     src={Robo3t}
                     alt=""
@@ -229,7 +240,7 @@ const Competences = () => {
                   />
                   <MDBMask overlay="white-slight" className=" waves-light" />
                 </MDBView>
-                <MDBView title="Handlebars" hover cascade waves className="col-lg-2 col-3 my-lg-2 my-1 align-self-center logoContainer">
+                <MDBView title="Handlebars" hover zoom waves className="col-lg-2 col-3 my-lg-2 my-1 align-self-center logoContainer py-2">
                   <img
                     src={Handlebars}
                     alt=""
@@ -237,7 +248,7 @@ const Competences = () => {
                   />
                   <MDBMask overlay="white-slight" className=" waves-light" />
                 </MDBView>
-                <MDBView title="REST.Api" hover cascade waves className="col-lg-2 col-3 align-self-center logoContainer">
+                <MDBView title="REST.Api" hover zoom waves className="col-lg-2 col-3 align-self-center logoContainer py-2">
                   <img
                     src={RestApi}
                     alt=""
@@ -245,7 +256,7 @@ const Competences = () => {
                   />
                   <MDBMask overlay="white-slight" className=" waves-light" />
                 </MDBView>
-                <MDBView title="NoSQL" hover cascade waves className="col-lg-2 col-3 mt-lg-2 mt-3 align-self-center logoContainer">
+                <MDBView title="NoSQL" hover zoom waves className="col-lg-2 col-3 mt-lg-2 mt-3 align-self-center logoContainer py-2">
                   <img
                     src={NoSQL}
                     alt=""
