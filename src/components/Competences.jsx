@@ -64,47 +64,41 @@ const Competences = () => {
             </MDBCol>
             <MDBCol className="col-6 align-self-center">
               <MDBRow className="justify-content-around text-center mb-3">
-                {/* <MDBView hover zoom waves title="JavaScript" className="col-lg-2 col-3 logoContainer py-2">
-                  <img
-                    src={JS}
-                    className="img-fluid"
-                    alt=""
-                  />
-                  <MDBMask className="flex-center">
-                  </MDBMask>
-                </MDBView> */}
-
-                <MDBView title="JavaScript" hover zoom waves className="col-lg-2 col-3 logoContainer py-2">
-                  <img
-                    src={JS}
-                    alt=""
-                    className="img-fluid rounded"
-                  />
-                  <MDBMask overlay="white-slight" className=" waves-light" />
+                <MDBView title="JavaScript" hover zoom className="col-lg-2 col-3 logoContainer border-radius-logo p-1">
+                  <a href="https://www.javascript.com/" target="_blank">
+                    <img
+                      src={JS}
+                      alt=""
+                      className="img-fluid border-radius-logo"
+                    />
+                  </a>
                 </MDBView>
-                <MDBView title="Typescript" hover zoom waves className="col-lg-2 col-3 logoContainer py-2">
-                  <img
-                    src={TS}
-                    alt=""
-                    className="img-fluid rounded"
-                  />
-                  <MDBMask overlay="white-slight" className=" waves-light" />
+                <MDBView title="Typescript" hover zoom className="col-lg-2 col-3 logoContainer p-1">
+                  <a href="https://www.typescriptlang.org/" target="_blank">
+                    <img
+                      src={TS}
+                      alt=""
+                      className="img-fluid"
+                    />
+                  </a>
                 </MDBView>
-                <MDBView title="HTML.5" hover zoom waves className="col-lg-2 col-3 logoContainer py-2">
-                  <img
-                    src={HTML}
-                    alt=""
-                    className="img-fluid rounded"
-                  />
-                  <MDBMask overlay="white-slight" className=" waves-light" />
+                <MDBView title="HTML.5" hover zoom className="col-lg-2 col-3 logoContainer border-radius-logo p-1">
+                  <a href="https://html.com/" target="_blank">
+                    <img
+                      src={HTML}
+                      alt=""
+                      className="img-fluid border-radius-logo"
+                    />
+                  </a>
                 </MDBView>
-                <MDBView title="CSS.3" hover zoom waves className="col-lg-2 col-3 logoContainer py-2">
-                  <img
-                    src={CSS}
-                    alt=""
-                    className="img-fluid rounded"
-                  />
-                  <MDBMask overlay="white-slight" className=" waves-light" />
+                <MDBView title="CSS.3" hover zoom className="col-lg-2 col-3 logoContainer border-radius-logo p-1">
+                  <a href="https://www.css3.com/" target="_blank">
+                    <img
+                      src={CSS}
+                      alt=""
+                      className="img-fluid border-radius-logo"
+                    />
+                  </a>
                 </MDBView>
               </MDBRow>
             </MDBCol>
@@ -118,45 +112,50 @@ const Competences = () => {
             </MDBCol>
             <MDBCol className="col-6 align-self-center">
               <MDBRow className="justify-content-around text-center mb-lg-3">
-                <MDBView title="React.JS / React.Native" hover zoom waves className="col-lg-2 col-3 logoContainer py-2">
-                  <img
-                    src={logoReact}
-                    alt=""
-                    className="img-fluid rounded"
-                  />
-                  <MDBMask overlay="white-slight" className=" waves-light" />
+                <MDBView title="React.JS / React.Native" hover zoom className="col-lg-2 col-3 logoContainer border-radius-logo p-1">
+                  <a href="https://www.reactjs.org/" target="_blank">
+                    <img
+                      src={logoReact}
+                      alt=""
+                      className="img-fluid border-radius-logo"
+                    />
+                  </a>
                 </MDBView>
-                <MDBView title="JQuery" hover zoom waves className="col-lg-2 col-3 logoContainer py-2">
-                  <img
-                    src={logoJQuery}
-                    alt=""
-                    className="img-fluid rounded"
-                  />
-                  <MDBMask overlay="white-slight" className=" waves-light" />
+                <MDBView title="JQuery" hover zoom className="col-lg-2 col-3 logoContainer border-radius-logo p-1">
+                  <a href="https://jquery.com/" target="_blank">
+                    <img
+                      src={logoJQuery}
+                      alt=""
+                      className="img-fluid border-radius-logo"
+                    />
+                  </a>
                 </MDBView>
-                <MDBView title="Bootstrap" hover zoom waves className="col-lg-2 col-3 mt-lg-3 mt-1 logoContainer py-2">
-                  <img
-                    src={Bootstrap}
-                    alt=""
-                    className="img-fluid rounded"
-                  />
-                  <MDBMask overlay="white-slight" className=" waves-light" />
+                <MDBView title="Bootstrap" hover zoom className="col-lg-2 col-3 mt-lg-3 mt-1 logoContainer border-radius-logo p-1">
+                  <a href="https://getbootstrap.com/" target="_blank">
+                    <img
+                      src={Bootstrap}
+                      alt=""
+                      className="img-fluid border-radius-logo"
+                    />
+                  </a>
                 </MDBView>
-                <MDBView title="Material-UI" hover zoom waves className="col-lg-2 col-3 mx-2 mt-lg-2 mt-3 logoContainer py-2">
-                  <img
-                    src={Material}
-                    alt=""
-                    className="img-fluid rounded"
-                  />
-                  <MDBMask overlay="white-slight" className=" waves-light" />
+                <MDBView title="Material-UI" hover zoom className="col-lg-2 col-3 mx-2 mt-lg-2 mt-3 logoContainer border-radius-logo p-1">
+                  <a href="https://mui.com/" target="_blank">
+                    <img
+                      src={Material}
+                      alt=""
+                      className="img-fluid border-radius-logo"
+                    />
+                  </a>
                 </MDBView>
-                <MDBView title="MDBReact" hover zoom waves className="col-lg-2 col-3 mt-lg-0 mt-1 px-0 px-0 logoContainer py-2">
-                  <img
-                    src={MDB}
-                    alt=""
-                    className="img-fluid rounded"
-                  />
-                  <MDBMask overlay="white-slight" className=" waves-light" />
+                <MDBView title="MDBReact" hover zoom className="col-lg-2 col-3 mt-lg-0 mt-1 px-0 px-0 logoContainer border-radius-logo p-1">
+                  <a href="https://mdbootstrap.com/docs/react/" target="_blank">
+                    <img
+                      src={MDB}
+                      alt=""
+                      className="img-fluid border-radius-logo"
+                    />
+                  </a>
                 </MDBView>
               </MDBRow>
             </MDBCol>
@@ -184,85 +183,95 @@ const Competences = () => {
             </MDBCol>
             <MDBCol className="col-6 align-self-center ">
               <MDBRow className="justify-content-around text-center ">
-                <MDBView title="Node.JS" hover zoom waves className="col-lg-2 col-3 my-lg-2 my-1 mx-lg-1 align-self-center logoContainer py-2">
-                  <img
-                    src={NodeJS}
-                    alt=""
-                    className="img-fluid rounded"
-                  />
-                  <MDBMask overlay="white-slight" className=" waves-light" />
+                <MDBView title="Node.JS" hover zoom className="col-lg-2 col-3 my-lg-2 my-1 mx-lg-1 align-self-center logoContainer border-radius-logo p-1">
+                  <a href="https://nodejs.org/en/docs/" target="_blank">
+                    <img
+                      src={NodeJS}
+                      alt=""
+                      className="img-fluid border-radius-logo"
+                    />
+                  </a>
                 </MDBView>
-                <MDBView title="Nest.JS" hover zoom waves className="col-lg-2 col-3 my-lg-2 my-1  align-self-center logoContainer py-2">
-                  <img
-                    src={NestJS}
-                    alt=""
-                    className="img-fluid rounded"
-                  />
-                  <MDBMask overlay="white-slight" className=" waves-light" />
+                <MDBView title="Nest.JS" hover zoom className="col-lg-2 col-3 my-lg-2 my-1  align-self-center logoContainer border-radius-logo p-1">
+                  <a href="https://docs.nestjs.com/" target="_blank">
+                    <img
+                      src={NestJS}
+                      alt=""
+                      className="img-fluid border-radius-logo"
+                    />
+                  </a>
                 </MDBView>
-                <MDBView title="MongoDB" hover zoom waves className="col-lg-2 col-3 my-lg-2 my-1 align-self-center logoContainer py-2">
-                  <img
-                    src={MongoDB}
-                    alt=""
-                    className="img-fluid rounded"
-                  />
-                  <MDBMask overlay="white-slight" className=" waves-light" />
+                <MDBView title="MongoDB" hover zoom className="col-lg-2 col-3 my-lg-2 my-1 align-self-center logoContainer border-radius-logo p-1">
+                  <a href="https://www.mongodb.com/" target="_blank">
+                    <img
+                      src={MongoDB}
+                      alt=""
+                      className="img-fluid border-radius-logo"
+                    />
+                  </a>
                 </MDBView>
-                <MDBView title="Express" hover zoom waves className="col-lg-2 col-3 my-lg-2 my-1 align-self-center logoContainer py-2">
-                  <img
-                    src={Express}
-                    alt=""
-                    className="img-fluid rounded"
-                  />
-                  <MDBMask overlay="white-slight" className=" waves-light" />
+                <MDBView title="Express" hover zoom className="col-lg-2 col-3 my-lg-2 my-1 align-self-center logoContainer border-radius-logo p-1">
+                  <a href="https://expressjs.com" target="_blank">
+                    <img
+                      src={Express}
+                      alt=""
+                      className="img-fluid border-radius-logo"
+                    />
+                  </a>
                 </MDBView>
-                <MDBView title="Mongoose" hover zoom waves className="col-lg-2 col-3 my-lg-2 my-1 align-self-center logoContainer py-2">
-                  <img
-                    src={Mongoose}
-                    alt=""
-                    className="img-fluid rounded"
-                  />
-                  <MDBMask overlay="white-slight" className=" waves-light" />
+                <MDBView title="Mongoose" hover zoom className="col-lg-2 col-3 my-lg-2 my-1 align-self-center logoContainer border-radius-logo p-1">
+                  <a href="https://mongoosejs.com/docs/guide.html" target="_blank">
+                    <img
+                      src={Mongoose}
+                      alt=""
+                      className="img-fluid border-radius-logo"
+                    />
+                  </a>
                 </MDBView>
-                <MDBView title="Postman" hover zoom waves className="col-lg-2 col-3 my-lg-2 my-1 align-self-center logoContainer py-2">
-                  <img
-                    src={Postman}
-                    alt=""
-                    className="img-fluid rounded"
-                  />
-                  <MDBMask overlay="white-slight" className=" waves-light" />
+                <MDBView title="Postman" hover zoom className="col-lg-2 col-3 my-lg-2 my-1 align-self-center logoContainer border-radius-logo p-1">
+                  <a href="https://www.postman.com/" target="_blank">
+                    <img
+                      src={Postman}
+                      alt=""
+                      className="img-fluid border-radius-logo"
+                    />
+                  </a>
                 </MDBView>
-                <MDBView title="Robo 3t" hover zoom waves className="col-lg-2 col-3 my-lg-2 my-1 align-self-center logoContainer py-2">
-                  <img
-                    src={Robo3t}
-                    alt=""
-                    className="img-fluid rounded"
-                  />
-                  <MDBMask overlay="white-slight" className=" waves-light" />
+                <MDBView title="Robo 3t" hover zoom className="col-lg-2 col-3 my-lg-2 my-1 align-self-center logoContainer border-radius-logo p-1">
+                  <a href="https://robomongo.org/" target="_blank">
+                    <img
+                      src={Robo3t}
+                      alt=""
+                      className="img-fluid border-radius-logo"
+                    />
+                  </a>
                 </MDBView>
-                <MDBView title="Handlebars" hover zoom waves className="col-lg-2 col-3 my-lg-2 my-1 align-self-center logoContainer py-2">
-                  <img
-                    src={Handlebars}
-                    alt=""
-                    className="img-fluid rounded"
-                  />
-                  <MDBMask overlay="white-slight" className=" waves-light" />
+                <MDBView title="Handlebars" hover zoom className="col-lg-2 col-3 my-lg-2 my-1 align-self-center logoContainer border-radius-logo p-1">
+                  <a href="https://handlebarsjs.com/" target="_blank">
+                    <img
+                      src={Handlebars}
+                      alt=""
+                      className="img-fluid border-radius-logo"
+                    />
+                  </a>
                 </MDBView>
-                <MDBView title="REST.Api" hover zoom waves className="col-lg-2 col-3 align-self-center logoContainer py-2">
-                  <img
-                    src={RestApi}
-                    alt=""
-                    className="img-fluid rounded"
-                  />
-                  <MDBMask overlay="white-slight" className=" waves-light" />
+                <MDBView title="REST.Api" hover zoom className="col-lg-2 col-3 align-self-center logoContainer border-radius-logo p-1">
+                  <a href="https://restfulapi.net/" target="_blank">
+                    <img
+                      src={RestApi}
+                      alt=""
+                      className="img-fluid border-radius-logo"
+                    />
+                  </a>
                 </MDBView>
-                <MDBView title="NoSQL" hover zoom waves className="col-lg-2 col-3 mt-lg-2 mt-3 align-self-center logoContainer py-2">
-                  <img
-                    src={NoSQL}
-                    alt=""
-                    className="img-fluid rounded"
-                  />
-                  <MDBMask overlay="white-slight" className=" waves-light" />
+                <MDBView title="NoSQL" hover zoom className="col-lg-2 col-3 mt-lg-2 mt-3 align-self-center logoContainer border-radius-logo p-1">
+                  <a href="https://fr.wikipedia.org/wiki/NoSQL" target="_blank">
+                    <img
+                      src={NoSQL}
+                      alt=""
+                      className="img-fluid border-radius-logo"
+                    />
+                  </a>
                 </MDBView>
               </MDBRow>
             </MDBCol>

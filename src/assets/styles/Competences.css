@@ -1,3 +1,7 @@
 .logoContainer {
     height: 80%;
 }
+
+.border-radius-logo {
+    border-radius: 50% !important;
+}
