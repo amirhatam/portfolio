@@ -43,6 +43,7 @@ export const TheMoviesDB = () => {
                         </p>
                         <p className="h6-fs "> Création de une liste favoris personnalisée.</p>
                         <p className="h6-fs mb-lg-5 mb-2 ">API : <strong> TheMovieDB.org </strong></p>
+
                         <MDBRow className="justify-content-center my-lg-2 mt-4">
                             <div className="col-5 ">
                                 <h6 className="h6-fs mb-lg-4 mb-3 fontW">Back-End :</h6>
@@ -58,7 +59,9 @@ export const TheMoviesDB = () => {
                                 <p className="p-fs mb-lg-3 mb-2 grey-text "><MDBIcon icon="arrow-alt-circle-down" /> Bootstrap</p>
                                 <p className="p-fs mb-lg-3 mb-2 grey-text "><MDBIcon icon="arrow-alt-circle-down" /> Axios</p>
                             </div>
+                            <p className="p-fs mb-lg-3 mb-1">Date de realisation : <strong> Décembre/2021</strong> </p>
                         </MDBRow>
+
                         <MDBRow className="justify-content-center">
                             <MDBBtn
                                 href={"https://github.com/amirhatam/Smartch"}
