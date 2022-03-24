@@ -4,7 +4,7 @@ import {
     MDBCol,
     MDBContainer,
 } from "mdbreact";
-import CodeWars from './CodeWars';
+import CodeWars from '../components/CodeWars';
 
 export default function Presentation() {
     return (

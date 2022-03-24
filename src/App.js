@@ -2,12 +2,12 @@ import React from "react";
 import { Element } from 'react-scroll'
 
 import "./assets/styles/styles.css";
-import Competences from "./components/Competences.jsx";
-import ContactPage from "./components/ContactPage";
+import Competences from "./views/Competences.jsx";
+import ContactPage from "./views/ContactPage";
 import FooterPage from "./components/FooterPage";
 import Header from "./components/Header.jsx";
-import Presentation from "./components/Presentation";
-import ProjectsPage from "./components/Projects";
+import Presentation from "./views/Presentation";
+import ProjectsPage from "./views/Realisation";
 import Responsive from "./components/Responsive";
 
 
@@ -28,7 +28,7 @@ class App extends React.Component {
         </Element>
 
         <Element name="Responsive">
-          <Responsive/>
+          <Responsive />
         </Element>
 
         <Element name="Competences">
