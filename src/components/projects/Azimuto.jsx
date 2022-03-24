@@ -19,7 +19,7 @@ export const Azimuto = () => {
             <MDBRow className="justify-content-center ">
                 <MDBCol className="col-12 text-center">
                     <h4 className="h4-fs mb-lg-3 mb-1 fontW ">Azimuto</h4>
-                    <p className="h6-fs mb-lg-3 mb-1 grey-text">Le projet pendant mon stage</p>
+                    <p className="h6-fs mb-1 grey-text">Le projet pendant mon stage</p>
                 </MDBCol>
                 <MDBCol className="col-lg-4 col-10 mt-lg-0 mt-4">
                     <h5 className="h5-fs fontW text-center">Bibliothèques & Frameworks</h5>
@@ -66,7 +66,8 @@ export const Azimuto = () => {
                                 />
                             </MDBView>
                         </MDBBtn>
-                        <h5 className="h5-fs fontW grey-text mt-lg-2">Voici un lien vers le projet <MDBIcon far icon="hand-point-up" className="h5-fs text-dark" />
+                        <h5 className="h6-fs fontW grey-text mt-lg-2">
+                            Voici un lien vers le projet <MDBIcon far icon="hand-point-up" className="h5-fs text-dark" />
                         </h5>
                     </div>
 

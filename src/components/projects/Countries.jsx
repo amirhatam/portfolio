@@ -12,6 +12,7 @@ export const Countries = () => {
     return (
         <MDBCol className="col-lg-4 col-8">
             <MDBCard className="p-3 mb-5 ">
+                <p className="h6-fs mb-1 grey-text">Projet personnel</p>
                 <MDBBtn
                     href={"https://search-info-country.netlify.app/"}
                     color="black"
@@ -26,10 +27,14 @@ export const Countries = () => {
                         />
                     </MDBView>
                 </MDBBtn>
+                <h5 className="p-fs fontW grey-text mt-lg-2">
+                    Voici un lien vers le projet <MDBIcon far icon="hand-point-up" className="h5-fs text-dark" />
+                </h5>
                 <MDBCardBody className="pb-0">
-                    <h4 className="h4-fs mb-lg-3 mb-1 fontW">Countries</h4>
-                    <p className="h6-fs mb-lg-3 mb-1 grey-text">Projet personnel <br /> Images et informations de tous les pays du Monde</p>
-                    <p className="h6-fs mb-lg-3 mb-1"> <i className="fab fa-react text-primary"></i> React JS  / API / Material-UI</p>
+                    <h4 className="h4-fs mb-lg-3 mb-1 fontW">The Countries</h4>
+                    <p className="h6-fs mb-lg-3 mb-1 ">Images et informations de tous les pays du Monde</p>
+                    <p className="h6-fs mb-lg-3 mb-1 grey-text"> <i className="fab fa-react text-primary"></i> React JS  / API / Material-UI</p>
+                    <p className="p-fs mb-lg-3 mb-1">Date de realisation : <strong> Décembre/2021</strong> </p>
 
                     <MDBBtn
                         href={"https://github.com/amirhatam/country"}

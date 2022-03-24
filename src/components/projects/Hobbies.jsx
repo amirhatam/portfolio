@@ -8,33 +8,36 @@ import {
     MDBCard
 } from "mdbreact";
 
-export const Evenement = () => {
+export const Hobbies = () => {
     return (
         <MDBCol className="col-lg-4 col-8">
             <MDBCard className="p-3 mb-5 ">
+                <p className="h6-fs mb-1 grey-text">Projet personnel d'Algorithmique</p>
                 <MDBBtn
-                    href={"https://concert-max-richter.netlify.app/"}
+                    href={"https://hobbies-leisure.herokuapp.com/"}
                     color="black"
                     target="_blank"
                     className="p-0"
                 >
-                    <MDBView className="overlay  z-depth-1" waves>
+                    <MDBView className="overlay z-depth-1" waves>
                         <img
-                            src="https://d33wubrfki0l68.cloudfront.net/60b28a502f3747f62ffcdd30/screenshot_2021-05-29-18-40-49-0000.png"
+                            src="https://www.site-shot.com/cached_image/hrarpKuwEeyHcAJCrBEABA"
                             alt=""
                             className="img-fluid"
                         />
                     </MDBView>
                 </MDBBtn>
+                <h5 className="p-fs fontW grey-text mt-lg-2">
+                    Voici un lien vers le projet <MDBIcon far icon="hand-point-up" className="h5-fs text-dark" />
+                </h5>
 
                 <MDBCardBody className="pb-0">
-                    <h4 className="h4-fs mb-lg-3 mb-1 fontW"> Événement</h4>
-                    <p className="h6-fs mb-lg-3 mb-1 grey-text">Projet personnel E-marketing <br /> L'information d'un événement concert </p>
-                    <p className="h6-fs mb-lg-3 mb-1"><i className="fab fa-react text-primary"></i> React JS / Material-UI</p>
-
-
+                    <h4 className="h4-fs mb-lg-3 mb-1 fontW"> Hobbies & Leisure</h4>
+                    <p className="h6-fs mb-lg-3 mb-1">Ensemble des calculators et jeux vidéo </p>
+                    <p className="h6-fs mb-lg-3 mb-1 grey-text"><i className="fab fa-react text-primary"></i> React JS / Material-UI</p>
+                    <p className="p-fs mb-lg-3 mb-1">Date de realisation : <strong> Mars/2022</strong> </p>
                     <MDBBtn
-                        href={"https://github.com/amirhatam/concert-max-richter"}
+                        href={"https://github.com/amirhatam/loisir"}
                         target="_blank"
                         className="rounded-pill px-3"
                         color="mdb-color"

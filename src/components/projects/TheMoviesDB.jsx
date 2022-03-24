@@ -17,8 +17,8 @@ export const TheMoviesDB = () => {
             <MDBCol className="col-lg-6 col-8">
                 <MDBCard className="p-3 mb-5 pt-lg-5">
                     <h4 className="h4-fs mb-lg-3 mb-1 fontW text-center m">The MoviesDB</h4>
-                    <p className="h6-fs mb-lg-3 mb-1 grey-text text-center">
-                        Projet personnel Cinématographiques<br /> L'information sur les films
+                    <p className="h6-fs mb-1 grey-text text-center">
+                        Projet personnel Cinématographiques
                     </p>
                     <MDBBtn
                         href={"https://the-movies-database.herokuapp.com/"}
@@ -34,9 +34,15 @@ export const TheMoviesDB = () => {
                             />
                         </MDBView>
                     </MDBBtn>
+
                     <MDBCardBody className="pb-0">
-                        <h5 className="h5-fs fontW grey-text mb-lg-5 text-center">Voici un lien vers le projet <MDBIcon far icon="hand-point-up" className="h5-fs text-dark" />
+                        <h5 className="h6-fs fontW grey-text mb-lg-3 text-center">Voici un lien vers le projet <MDBIcon far icon="hand-point-up" className="h5-fs text-dark" />
                         </h5>
+                        <p className="h6-fs ">
+                            Informations et bande annonce de tous les films au cinéma en ce moment et ancien.
+                        </p>
+                        <p className="h6-fs "> Création de une liste favoris personnalisée.</p>
+                        <p className="h6-fs mb-lg-5 mb-2 ">API : <strong> TheMovieDB.org </strong></p>
                         <MDBRow className="justify-content-center my-lg-2 mt-4">
                             <div className="col-5 ">
                                 <h6 className="h6-fs mb-lg-4 mb-3 fontW">Back-End :</h6>

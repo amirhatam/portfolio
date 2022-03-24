@@ -8,20 +8,20 @@ import {
     MDBCard
 } from "mdbreact";
 
-export const Bakery = () => {
+export const MaxRichter = () => {
     return (
         <MDBCol className="col-lg-4 col-8">
             <MDBCard className="p-3 mb-5 ">
-                <p className="h6-fs mb-1 grey-text">Projet E-Shop pendant la formation</p>
+                <p className="h6-fs mb-1 grey-text">Projet personnel E-marketing</p>
                 <MDBBtn
-                    href={"https://bakery-shop-react.netlify.app/"}
+                    href={"https://concert-max-richter.netlify.app/"}
                     color="black"
                     target="_blank"
                     className="p-0"
                 >
-                    <MDBView className="overlay rounded z-depth-1" waves>
+                    <MDBView className="overlay  z-depth-1" waves>
                         <img
-                            src="https://d33wubrfki0l68.cloudfront.net/60a6a42af92d67008edc9e14/screenshot_2021-05-20-18-03-36-0000.png"
+                            src="https://d33wubrfki0l68.cloudfront.net/60b28a502f3747f62ffcdd30/screenshot_2021-05-29-18-40-49-0000.png"
                             alt=""
                             className="img-fluid"
                         />
@@ -31,13 +31,12 @@ export const Bakery = () => {
                     Voici un lien vers le projet <MDBIcon far icon="hand-point-up" className="h5-fs text-dark" />
                 </h5>
                 <MDBCardBody className="pb-0">
-                    <h4 className="h4-fs mb-lg-3 mb-1 fontW">Bakery</h4>
-                    <p className="h6-fs mb-lg-3 mb-1 ">Les achats des produits de boulangerie</p>
-                    <p className="h6-fs mb-lg-3 mb-1 grey-text"><i className="fab fa-react text-primary  mb-2"></i> React JS</p>
-                    <p className="p-fs mb-lg-3 mb-1">Date de realisation : <strong> Juin/2021</strong> </p>
-
+                    <h4 className="h4-fs mb-lg-3 mb-1 fontW">Concert</h4>
+                    <p className="h6-fs mb-lg-3 mb-1 ">L'information d'un événement consert de Max Richter </p>
+                    <p className="h6-fs mb-lg-3 mb-1 grey-text"><i className="fab fa-react text-primary"></i> React JS / Material-UI</p>
+                    <p className="p-fs mb-lg-3 mb-1">Date de realisation : <strong> May/2021</strong> </p>
                     <MDBBtn
-                        href={"https://github.com/amirhatam/bakery"}
+                        href={"https://github.com/amirhatam/concert-max-richter"}
                         target="_blank"
                         className="rounded-pill px-3"
                         color="mdb-color"

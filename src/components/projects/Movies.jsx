@@ -12,6 +12,9 @@ export const Movies = () => {
     return (
         <MDBCol className="col-lg-4 col-8">
             <MDBCard className="p-3 mb-5 ">
+                <p className="h6-fs mb-1 grey-text">
+                    Projet personnel Cinématographiques
+                </p>
                 <MDBBtn
                     href={"https://movies-m-d.netlify.app/"}
                     color="black"
@@ -26,12 +29,16 @@ export const Movies = () => {
                         />
                     </MDBView>
                 </MDBBtn>
+                <h5 className="h6-fs fontW grey-text mt-lg-2">
+                    Voici un lien vers le projet <MDBIcon far icon="hand-point-up" className="h5-fs text-dark" />
+                </h5>
                 <MDBCardBody className="pb-0">
                     <h4 className="h4-fs mb-lg-3 mb-1 fontW">Movies</h4>
-                    <p className="h6-fs mb-lg-3 mb-1 grey-text">
-                        Projet personnel cinématographiques<br /> Liste des films
+                    <p className="h6-fs mb-lg-3 mb-1 ">
+                        Informations tous les films au cinéma en ce moment et ancien
                     </p>
-                    <p className="h6-fs mb-lg-3 mb-1"><i className="fab fa-react text-primary"></i> React JS / API (movieDB)</p>
+                    <p className="h6-fs mb-lg-3 mb-1 grey-text"><i className="fab fa-react text-primary"></i> React JS / API (movieDB)</p>
+                    <p className="p-fs mb-lg-3 mb-1">Date de realisation : <strong> May/2021</strong> </p>
                     <MDBBtn
                         href={"https://github.com/amirhatam/moviedb"}
                         target="_blank"
