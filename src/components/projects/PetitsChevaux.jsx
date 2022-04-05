@@ -32,7 +32,7 @@ export const PetitsChevaux = () => {
                 </h5>
                 <MDBCardBody className="pb-0">
                     <h4 className="h4-fs mb-lg-3 mb-1 fontW">Petits Chevaux</h4>
-                    <p className="h6-fs mb-lg-3 mb-1 ">Jeu des Petits Chevaux</p>
+                    <p className="h6-fs mb-lg-3 mb-1 ">Jeu des Petits Chevaux, nombre de joueurs : 2</p>
                     <p className="h6-fs mb-lg-3 mb-1 grey-text"><i className="fab fa-react text-primary"></i> React JS</p>
                     <p className="p-fs mb-lg-3 mb-1">Date de realisation : <strong> April/2021</strong> </p>
                     <MDBBtn
