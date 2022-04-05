@@ -11,7 +11,7 @@ export default function Presentation() {
     return (
         <div>
             <main className="py-lg-5 py-3">
-                <h1 className="text-center titre-fs fontW mb-lg-5">Présentation</h1>
+                <h1 className="text-center titre-fs font-light mb-lg-5">Présentation</h1>
                 <MDBContainer>
                     <MDBRow className="justify-content-center ">
                         <MDBCol className="col-8 text-center">

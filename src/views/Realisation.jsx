@@ -18,14 +18,14 @@ import { Pendu } from "../components/projects/Pendu";
 const ProjectsPage = () => {
   return (
     <section id="projects" className="container">
-      <h1 className="titre-fs text-center fontW my-lg-5 my-3">Les projets FullStack</h1>
+      <h1 className="titre-fs text-center font-light my-lg-5 my-3">Les projets FullStack</h1>
 
       <Azimuto />
       <TheMoviesDB />
 
 
       <hr />
-      <h1 className="titre-fs text-center fontW my-lg-5 my-3">Les projets Front-End</h1>
+      <h1 className="titre-fs text-center font-light my-lg-5 my-3">Les projets Front-End</h1>
       <MDBRow className="justify-content-center text-center">
         <LaFrance />
         <Hobbies />

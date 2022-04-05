@@ -49,7 +49,7 @@ const Competences = () => {
     <section className="gray-container" >
       <MDBContainer>
         {/* <section className="my-lg-5 my-3"> */}
-        <h1 className="titre-fs text-center fontW py-lg-5 pt-3">Competences</h1>
+        <h1 className="titre-fs text-center font-light py-lg-5 pt-3">Competences</h1>
 
         <Responsive />
 
@@ -329,7 +329,7 @@ const Competences = () => {
         <Carousel />
 
         <MDBCardBody className="pb-lg-5">
-          <h3 className='h4-fs fontW text-center mb-lg-5 pt-lg-5 mb-4'>  J'ai choisi
+          <h3 className='h4-fs font-light text-center mb-lg-5 pt-lg-5 mb-4'>  J'ai choisi
             <span className="blue-text h4-fs fontW"> React.JS </span>
             pour mes projets car :</h3>
           <MDBCardGroup className="row justify-content-between">
