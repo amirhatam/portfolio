@@ -27,9 +27,9 @@ class App extends React.Component {
           <Presentation />
         </Element>
 
-        <Element name="Responsive">
+        {/* <Element name="Responsive">
           <Responsive />
-        </Element>
+        </Element> */}
 
         <Element name="Competences">
           <Competences />

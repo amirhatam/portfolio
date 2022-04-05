@@ -12,6 +12,7 @@ import { Movies } from "../components/projects/Movies";
 import { Countries } from "../components/projects/Countries";
 import { Bakery } from "../components/projects/Bakery";
 import { Hobbies } from "../components/projects/Hobbies";
+import { Pendu } from "../components/projects/Pendu";
 
 
 const ProjectsPage = () => {
@@ -29,6 +30,7 @@ const ProjectsPage = () => {
         <LaFrance />
         <Hobbies />
         <MaxRichter />
+        <Pendu />
         <Countries />
         <Bakery />
         <Movies />

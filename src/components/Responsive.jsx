@@ -11,10 +11,10 @@ export default function Responsive() {
                 <MDBRow className="">
                     <MDBCol md="12" className="my-lg-5 my-3 px-0">
                         <MDBCardBody cascade className="text-center mb-lg-5 p-0">
-                            <h5 className="h5-fs mb-lg-2 mb-1">
+                            <h5 className="h6-fs mb-lg-2 mb-1">
                                 Compatible Mobile, Tablettes & P.C
                             </h5>
-                            <h2 className="titre-fs fontW">Développement Web Responsive</h2>
+                            <h2 className="h5-fs fontW">Développement Web Responsive</h2>
                         </MDBCardBody>
                         <MDBView hover cascade waves className="col-6 m-auto">
                             <img
