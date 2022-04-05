@@ -7,6 +7,9 @@ import {
     MDBView,
     MDBCard
 } from "mdbreact";
+import HobbiesImg from '../../assets/Images/Hobbies.png'
+
+
 
 export const Hobbies = () => {
     return (
@@ -21,7 +24,7 @@ export const Hobbies = () => {
                 >
                     <MDBView className="overlay z-depth-1" waves>
                         <img
-                            src="https://www.site-shot.com/cached_image/hrarpKuwEeyHcAJCrBEABA"
+                            src={HobbiesImg}
                             alt=""
                             className="img-fluid"
                         />
