@@ -15,18 +15,18 @@ import {
   MDBNavbarToggler,
   MDBCollapse,
   MDBIcon,
+  MDBNavLink,
 } from "mdbreact";
 import CV from "../assets/CV.pdf";
 import Canvas from "./Particles.jsx";
 
 function Header() {
-  // const [showNavColorSecond, setShowNavColorSecond] = useState(false);
+  const [collapsed, setCollapsed] = useState([false]);
 
-  // const [collapsed, setCollapsed] = useState([false]);
+  const handleTogglerClick = () => {
+    setCollapsed(!collapsed)
+  };
 
-  // const handleTogglerClick = () => {
-  //   setCollapsed(!collapsed)
-  // };
 
   const scrollToElement = (elem) => {
     scroller.scrollTo(elem, {
@@ -52,46 +52,38 @@ function Header() {
               <strong className="white-text h5-fs">Amir Hatam</strong>
             </MDBNavbarBrand>
 
-            {/* <MDBNavbarToggler
-              type='button'
-              data-target='#navbarColor02'
-              aria-controls='navbarColor02'
-              aria-expanded='false'
-              aria-label='Toggle navigation'
-              onClick={() => setShowNavColorSecond(!showNavColorSecond)}
-            >
-              <MDBIcon icon='bars' fas />
-            </MDBNavbarToggler>
-            <MDBCollapse show={showNavColorSecond} navbar id='navbarColor02'> */}
+            <MDBNavbarToggler onClick={handleTogglerClick} />
 
-            <MDBNavbarNav left >
-              <List className="py-0 ">
-                <ListItem className="d-inline mx-lg-3 mx-md-2 mx-1 px-0 py-1 white-text h6-fs" button onClick={() => scrollToElement("Header")}>
-                  Accueil
-                </ListItem>
-                <ListItem className="d-inline mx-lg-3 mx-md-2 mx-1 px-0 py-1 white-text h6-fs" button onClick={() => scrollToElement("Presentation")}>
-                  Presentation
-                </ListItem>
-                <ListItem className="d-inline mx-lg-3 mx-md-2 mx-1 px-0 py-1 white-text h6-fs" button onClick={() => scrollToElement("Competences")}>
-                  Competences
-                </ListItem>
-                <ListItem className="d-inline mx-lg-3 mx-md-2 mx-1 px-0 py-1 white-text h6-fs" button onClick={() => scrollToElement("ProjectsPage")}>
-                  Réalisation
-                </ListItem>
-                <ListItem className="d-inline mx-lg-3 mx-md-2 mx-1 px-0 py-1 white-text h6-fs" button onClick={() => scrollToElement("Contact")}>
-                  Contact
-                </ListItem>
-              </List>
-            </MDBNavbarNav>
-            <MDBNavbarNav right>
-              <MDBNavItem className="d-flex col align-self-center ">
-                <a className="h6-fs text-warning" href={CV} target="_blank">
-                  Mon CV
-                </a>
-              </MDBNavItem>
-            </MDBNavbarNav>
+            <MDBCollapse isOpen={collapsed} navbar>
 
-            {/* </MDBCollapse> */}
+              <MDBNavbarNav left className="">
+                <List className=" py-0 " style={{ display: "contents" }}>
+                  <ListItem className="d-inline mx-lg-3 mx-md-2 mx-1 px-0 py-1 white-text h6-fs" button onClick={() => scrollToElement("Header")}>
+                    Accueil
+                  </ListItem>
+                  <ListItem className="d-inline mx-lg-3 mx-md-2 mx-1 px-0 py-1 white-text h6-fs" button onClick={() => scrollToElement("Presentation")}>
+                    Presentation
+                  </ListItem>
+                  <ListItem className="d-inline mx-lg-3 mx-md-2 mx-1 px-0 py-1 white-text h6-fs" button onClick={() => scrollToElement("Competences")}>
+                    Competences
+                  </ListItem>
+                  <ListItem className="d-inline mx-lg-3 mx-md-2 mx-1 px-0 py-1 white-text h6-fs" button onClick={() => scrollToElement("ProjectsPage")}>
+                    Réalisation
+                  </ListItem>
+                  <ListItem className="d-inline mx-lg-3 mx-md-2 mx-1 px-0 py-1 white-text h6-fs" button onClick={() => scrollToElement("Contact")}>
+                    Contact
+                  </ListItem>
+                </List>
+              </MDBNavbarNav>
+              <MDBNavbarNav right>
+                <MDBNavItem className="">
+                  <MDBNavLink className="h6-fs text-warning" to={CV} target="_blank">
+                    Mon CV
+                  </MDBNavLink>
+                </MDBNavItem>
+              </MDBNavbarNav>
+
+            </MDBCollapse>
 
           </MDBContainer>
         </MDBNavbar>
