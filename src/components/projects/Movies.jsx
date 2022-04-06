@@ -7,6 +7,7 @@ import {
     MDBView,
     MDBCard
 } from "mdbreact";
+import Flip from 'react-reveal/Flip';
 
 export const Movies = () => {
     return (
@@ -15,20 +16,22 @@ export const Movies = () => {
                 <p className="h6-fs mb-1 grey-text">
                     Projet personnel Cinématographiques
                 </p>
-                <MDBBtn
-                    href={"https://movies-m-d.netlify.app/"}
-                    color="black"
-                    target="_blank"
-                    className="p-0"
-                >
-                    <MDBView className="overlay  z-depth-1" waves>
-                        <img
-                            src="https://d33wubrfki0l68.cloudfront.net/60acf265616b8d0008e71441/screenshot_2021-05-25-12-50-11-0000.png"
-                            alt=""
-                            className="img-fluid"
-                        />
-                    </MDBView>
-                </MDBBtn>
+                <Flip left duration={1500}>
+                    <MDBBtn
+                        href={"https://movies-m-d.netlify.app/"}
+                        color="black"
+                        target="_blank"
+                        className="p-0"
+                    >
+                        <MDBView className="overlay  z-depth-1" waves>
+                            <img
+                                src="https://d33wubrfki0l68.cloudfront.net/60acf265616b8d0008e71441/screenshot_2021-05-25-12-50-11-0000.png"
+                                alt=""
+                                className="img-fluid"
+                            />
+                        </MDBView>
+                    </MDBBtn>
+                </Flip>
                 <h5 className="h6-fs fontW grey-text mt-lg-2">
                     Voici un lien vers le projet <MDBIcon far icon="hand-point-up" className="h5-fs text-dark" />
                 </h5>

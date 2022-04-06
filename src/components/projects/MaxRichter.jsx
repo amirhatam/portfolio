@@ -7,26 +7,29 @@ import {
     MDBView,
     MDBCard
 } from "mdbreact";
+import Flip from 'react-reveal/Flip';
 
 export const MaxRichter = () => {
     return (
         <MDBCol className="col-lg-4 col-8">
             <MDBCard className="p-3 mb-5 ">
                 <p className="h6-fs mb-1 grey-text">Projet personnel E-marketing</p>
-                <MDBBtn
-                    href={"https://concert-max-richter.netlify.app/"}
-                    color="black"
-                    target="_blank"
-                    className="p-0"
-                >
-                    <MDBView className="overlay  z-depth-1" waves>
-                        <img
-                            src="https://d33wubrfki0l68.cloudfront.net/60b28a502f3747f62ffcdd30/screenshot_2021-05-29-18-40-49-0000.png"
-                            alt=""
-                            className="img-fluid"
-                        />
-                    </MDBView>
-                </MDBBtn>
+                <Flip left duration={1500}>
+                    <MDBBtn
+                        href={"https://concert-max-richter.netlify.app/"}
+                        color="black"
+                        target="_blank"
+                        className="p-0"
+                    >
+                        <MDBView className="overlay  z-depth-1" waves>
+                            <img
+                                src="https://d33wubrfki0l68.cloudfront.net/60b28a502f3747f62ffcdd30/screenshot_2021-05-29-18-40-49-0000.png"
+                                alt=""
+                                className="img-fluid"
+                            />
+                        </MDBView>
+                    </MDBBtn>
+                </Flip>
                 <h5 className="p-fs fontW grey-text mt-lg-2">
                     Voici un lien vers le projet <MDBIcon far icon="hand-point-up" className="h5-fs text-dark" />
                 </h5>

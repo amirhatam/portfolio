@@ -6,8 +6,8 @@ import {
     MDBBtn,
     MDBView,
     MDBCard
-
 } from "mdbreact";
+import Flip from 'react-reveal/Flip';
 
 import Azi from "../../assets/Images/screenshots/Azimuto.png"
 import MERN from "../../assets/Images/mern.png"
@@ -52,20 +52,22 @@ export const Azimuto = () => {
 
                 <MDBCol className="col-lg-4 col-10 text-center">
                     <div className="m-auto ">
-                        <MDBBtn
-                            href={"https://projet-stage-azimuto.herokuapp.com/"}
-                            color="black"
-                            target="_blank"
-                            className="p-0"
-                        >
-                            <MDBView className="overlay z-depth-1" waves>
-                                <img
-                                    src={Azi}
-                                    alt=""
-                                    className="img-fluid"
-                                />
-                            </MDBView>
-                        </MDBBtn>
+                        <Flip left duration={1500}>
+                            <MDBBtn
+                                href={"https://projet-stage-azimuto.herokuapp.com/"}
+                                color="black"
+                                target="_blank"
+                                className="p-0"
+                            >
+                                <MDBView className="overlay z-depth-1" waves>
+                                    <img
+                                        src={Azi}
+                                        alt=""
+                                        className="img-fluid"
+                                    />
+                                </MDBView>
+                            </MDBBtn>
+                        </Flip>
                         <h5 className="h6-fs fontW grey-text mt-lg-2">
                             Voici un lien vers le projet <MDBIcon far icon="hand-point-up" className="h5-fs text-dark" />
                         </h5>

@@ -31,7 +31,7 @@ function CodeWars() {
 
     return (
 
-        <Slide bottom duration={1000}>
+        <Slide left duration={1000}>
             <MDBCard className='bg-dark px-3'>
                 <MDBRow>
                     <MDBCol>

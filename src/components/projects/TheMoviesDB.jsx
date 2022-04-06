@@ -8,7 +8,7 @@ import {
     MDBView,
     MDBCard
 } from "mdbreact";
-
+import Flip from 'react-reveal/Flip';
 import Movies from "../../assets/Images/screenshots/movies.png"
 
 export const TheMoviesDB = () => {
@@ -20,21 +20,22 @@ export const TheMoviesDB = () => {
                     <p className="h6-fs mb-1 grey-text text-center">
                         Projet personnel Cinématographiques
                     </p>
-                    <MDBBtn
-                        href={"https://the-movies-database.herokuapp.com/"}
-                        color="black"
-                        target="_blank"
-                        className="p-0"
-                    >
-                        <MDBView className="overlay z-depth-1" waves>
-                            <img
-                                src={Movies}
-                                alt=""
-                                className="img-fluid"
-                            />
-                        </MDBView>
-                    </MDBBtn>
-
+                    <Flip left duration={1500}>
+                        <MDBBtn
+                            href={"https://the-movies-database.herokuapp.com/"}
+                            color="black"
+                            target="_blank"
+                            className="p-0"
+                        >
+                            <MDBView className="overlay z-depth-1" waves>
+                                <img
+                                    src={Movies}
+                                    alt=""
+                                    className="img-fluid"
+                                />
+                            </MDBView>
+                        </MDBBtn>
+                    </Flip>
                     <MDBCardBody className="pb-0">
                         <h5 className="h6-fs fontW grey-text mb-lg-3 text-center">Voici un lien vers le projet <MDBIcon far icon="hand-point-up" className="h5-fs text-dark" />
                         </h5>
