@@ -30,48 +30,52 @@ function CodeWars() {
 
 
     return (
+        <MDBRow className='justify-content-center mt-5 mb-3'>
+            <MDBCol className='col-lg-8 '>
+                <Slide left duration={1000}>
+                    <MDBCard className='bg-dark px-3'>
+                        <MDBRow>
+                            <MDBCol >
+                                <img
+                                    src="https://www.codewars.com/users/AmirHatam/badges/large"
+                                    alt=""
+                                    className="img-fluid rounded"
+                                />
+                                <span className='text-light h6-fs'>
+                                    codwars
+                                </span>
+                            </MDBCol>
+                        </MDBRow>
+                        <MDBRow className='justify-content-end container pt-2'>
+                            <p className='text-light justify-content-end p-fs'>Member Since: <strong>Feb 2022</strong> </p>
+                        </MDBRow>
+                        <MDBRow>
+                            <MDBCol className='col-6'>
+                                <div className='container py-3'>
+                                    <MDBIcon className='codewars-color xlTitre-fs' icon="chart-line" />
+                                    <p className='text-light h6-fs'> <strong>Progress</strong> </p>
+                                    <p className='text-light mb-1'>Rank: <strong>{rank}</strong> </p>
+                                    <p className='text-light mb-1'>Honor: <strong>{honor}</strong></p>
+                                    <p className='text-light mb-1'>Leaderboard Position: <strong>{position}</strong></p>
+                                    <p className='text-light mb-1'>Total Completed Kata: <strong>{total}</strong></p>
+                                </div>
+                            </MDBCol>
+                            <MDBCol className='col-6'>
+                                <div className='container py-3'>
+                                    <MDBIcon className='codewars-color xlTitre-fs' icon="laptop-code" />
+                                    <p className='text-light h6-fs pt-lg-1'> <strong>Languages</strong> </p>
+                                    <p className='text-light mb-1'>JavaScript</p>
+                                </div>
+                            </MDBCol>
+                        </MDBRow>
+                        <MDBRow className='justify-content-center'>
+                            <a href="https://dev.codewars.com/#get-user" target="_blank" className='txtGray aHover h6-fs mb-1 mt-4'>Codewars API Reference</a>
+                        </MDBRow>
+                    </MDBCard>
+                </Slide>
+            </MDBCol>
 
-        <Slide left duration={1000}>
-            <MDBCard className='bg-dark px-3'>
-                <MDBRow>
-                    <MDBCol>
-                        <img
-                            src="https://www.codewars.com/users/AmirHatam/badges/large"
-                            alt=""
-                            className="img-fluid rounded"
-                        />
-                        <span className='text-light h6-fs'>
-                            codwars
-                        </span>
-                    </MDBCol>
-                </MDBRow>
-                <MDBRow className='justify-content-end container pt-2'>
-                    <p className='text-light justify-content-end p-fs'>Member Since: <strong>Feb 2022</strong> </p>
-                </MDBRow>
-                <MDBRow>
-                    <MDBCol className='col-6'>
-                        <div className='container py-3'>
-                            <MDBIcon className='codewars-color xlTitre-fs' icon="chart-line" />
-                            <p className='text-light h6-fs'> <strong>Progress</strong> </p>
-                            <p className='text-light mb-1'>Rank: <strong>{rank}</strong> </p>
-                            <p className='text-light mb-1'>Honor: <strong>{honor}</strong></p>
-                            <p className='text-light mb-1'>Leaderboard Position: <strong>{position}</strong></p>
-                            <p className='text-light mb-1'>Total Completed Kata: <strong>{total}</strong></p>
-                        </div>
-                    </MDBCol>
-                    <MDBCol className='col-6'>
-                        <div className='container py-3'>
-                            <MDBIcon className='codewars-color xlTitre-fs' icon="laptop-code" />
-                            <p className='text-light h6-fs pt-lg-1'> <strong>Languages</strong> </p>
-                            <p className='text-light mb-1'>JavaScript</p>
-                        </div>
-                    </MDBCol>
-                </MDBRow>
-                <MDBRow className='justify-content-center'>
-                    <a href="https://dev.codewars.com/#get-user" target="_blank" className='txtGray aHover h6-fs mb-1 mt-4'>Codewars API Reference</a>
-                </MDBRow>
-            </MDBCard>
-        </Slide>
+        </MDBRow>
     )
 }
 

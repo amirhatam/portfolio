@@ -8,7 +8,6 @@ import FooterPage from "./components/FooterPage";
 import Header from "./components/Header.jsx";
 import Presentation from "./views/Presentation";
 import ProjectsPage from "./views/Realisation";
-import Responsive from "./components/Responsive";
 
 
 
@@ -27,9 +26,6 @@ class App extends React.Component {
           <Presentation />
         </Element>
 
-        {/* <Element name="Responsive">
-          <Responsive />
-        </Element> */}
 
         <Element name="Competences">
           <Competences />

@@ -30,12 +30,9 @@ export default function Presentation() {
                             </p>
                         </MDBCol>
                     </MDBRow>
-                    <MDBRow className='justify-content-center mt-5'>
-                        <MDBCol className='col-lg-8'>
-                            <CodeWars />
-                        </MDBCol>
 
-                    </MDBRow>
+                    <CodeWars />
+
                 </MDBContainer>
             </main>
         </div>

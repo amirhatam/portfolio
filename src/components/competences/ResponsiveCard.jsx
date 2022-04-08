@@ -1,10 +1,10 @@
 import React from 'react'
 import { MDBRow, MDBCol, MDBCardBody, MDBMask, MDBView, MDBContainer } from "mdbreact";
 
-import RespoIMG from "../assets/Images/responsive.png"
+import RespoIMG from "../../assets/Images/responsive.png"
 
 
-export default function Responsive() {
+export default function ResponsiveCard() {
     return (
         <MDBContainer>
             <MDBCardBody className="p-0">
