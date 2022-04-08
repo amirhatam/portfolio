@@ -37,7 +37,7 @@ export const BackEndCard = () => {
                 </MDBCol>
                 <MDBCol className="col-6 align-self-center ">
                     <MDBRow className="justify-content-around text-center ">
-                        <MDBView title="Node.JS" hover zoom className="col-lg-2 col-3 my-lg-2 my-1 mx-lg-1 align-self-center logoContainer border-radius-logo p-1">
+                        <MDBView title="Node.JS" hover zoom className="col-lg-2 col-2 my-lg-2 my-1 mx-lg-1 align-self-center border-radius-logo p-1">
                             <a href="https://nodejs.org/en/docs/" target="_blank">
                                 <Flip left duration={1500}>
                                     <img
@@ -48,7 +48,7 @@ export const BackEndCard = () => {
                                 </Flip>
                             </a>
                         </MDBView>
-                        <MDBView title="Nest.JS" hover zoom className="col-lg-2 col-3 my-lg-2 my-1 align-self-center logoContainer border-radius-logo p-1">
+                        <MDBView title="Nest.JS" hover zoom className="col-lg-2 col-2 my-lg-2 my-1 align-self-center border-radius-logo p-1">
                             <a href="https://docs.nestjs.com/" target="_blank">
                                 <Flip left duration={1500}>
                                     <img
@@ -59,7 +59,7 @@ export const BackEndCard = () => {
                                 </Flip>
                             </a>
                         </MDBView>
-                        <MDBView title="MongoDB" hover zoom className="col-lg-2 col-3 my-lg-2 my-1 align-self-center logoContainer border-radius-logo p-1">
+                        <MDBView title="MongoDB" hover zoom className="col-lg-2 col-2 my-lg-2 my-1 align-self-center border-radius-logo p-1">
                             <a href="https://www.mongodb.com/" target="_blank">
                                 <Flip left duration={1500}>
                                     <img
@@ -70,7 +70,7 @@ export const BackEndCard = () => {
                                 </Flip>
                             </a>
                         </MDBView>
-                        <MDBView title="Express" hover zoom className="col-lg-2 col-3 my-lg-2 my-1 align-self-center logoContainer border-radius-logo p-1">
+                        <MDBView title="Express" hover zoom className="col-lg-2 col-2 my-lg-2 my-1 align-self-center border-radius-logo p-1">
                             <a href="https://expressjs.com" target="_blank">
                                 <Flip left duration={1500}>
                                     <img
@@ -81,7 +81,7 @@ export const BackEndCard = () => {
                                 </Flip>
                             </a>
                         </MDBView>
-                        <MDBView title="Mongoose" hover zoom className="col-lg-2 col-3 my-lg-2 my-1 align-self-center logoContainer border-radius-logo p-1">
+                        <MDBView title="Mongoose" hover zoom className="col-lg-2 col-2 my-lg-2 my-1 align-self-center border-radius-logo p-1">
                             <a href="https://mongoosejs.com/docs/guide.html" target="_blank">
                                 <Flip left duration={1500}>
                                     <img
@@ -92,7 +92,7 @@ export const BackEndCard = () => {
                                 </Flip>
                             </a>
                         </MDBView>
-                        <MDBView title="Handlebars" hover zoom className="col-lg-2 col-3 my-lg-2 my-1 align-self-center logoContainer border-radius-logo p-1">
+                        <MDBView title="Handlebars" hover zoom className="col-lg-2 col-2 my-lg-2 my-1 align-self-center border-radius-logo p-1">
                             <a href="https://handlebarsjs.com/" target="_blank">
                                 <Flip left duration={1500}>
                                     <img
@@ -103,7 +103,7 @@ export const BackEndCard = () => {
                                 </Flip>
                             </a>
                         </MDBView>
-                        <MDBView title="Postman" hover zoom className="col-lg-2 col-3 my-lg-2 my-1 align-self-center logoContainer border-radius-logo p-1">
+                        <MDBView title="Postman" hover zoom className="col-lg-2 col-2 my-lg-2 my-1 align-self-center border-radius-logo p-1">
                             <a href="https://www.postman.com/" target="_blank">
                                 <Flip left duration={1500}>
                                     <img
@@ -114,7 +114,7 @@ export const BackEndCard = () => {
                                 </Flip>
                             </a>
                         </MDBView>
-                        <MDBView title="Robo 3t" hover zoom className="col-lg-2 col-3 my-lg-2 my-1 align-self-center logoContainer p-1">
+                        <MDBView title="Robo 3t" hover zoom className="col-lg-2 col-2 my-lg-2 my-1 align-self-center p-1">
                             <a href="https://robomongo.org/" target="_blank">
                                 <Flip left duration={1500}>
                                     <img
@@ -125,7 +125,7 @@ export const BackEndCard = () => {
                                 </Flip>
                             </a>
                         </MDBView>
-                        <MDBView title="NoSQL" hover zoom className="col-lg-2 col-3 align-self-center logoContainer p-1">
+                        <MDBView title="NoSQL" hover zoom className="col-lg-2 col-2 align-self-center p-1">
                             <a href="https://fr.wikipedia.org/wiki/NoSQL" target="_blank">
                                 <Flip left duration={1500}>
                                     <img
@@ -136,7 +136,7 @@ export const BackEndCard = () => {
                                 </Flip>
                             </a>
                         </MDBView>
-                        <MDBView title="REST.Api" hover zoom className="col-lg-2 col-3 align-self-center logoContainer border-radius-logo p-1">
+                        <MDBView title="REST.Api" hover zoom className="col-lg-2 col-2 align-self-center border-radius-logo p-1">
                             <a href="https://restfulapi.net/" target="_blank">
                                 <Flip left duration={1500}>
                                     <img

@@ -23,57 +23,57 @@ export const FrontEndCard = () => {
                 </MDBCol>
                 <MDBCol className="col-6 align-self-center">
                     <MDBRow className="justify-content-around text-center mb-lg-3">
-                        <MDBView title="React.JS / React.Native" hover zoom className="col-lg-2 col-3 logoContainer border-radius-logo p-1">
+                        <MDBView title="React.JS / React.Native" hover zoom className="col-lg-2 col-2  border-radius-logo p-1">
                             <a href="https://www.reactjs.org/" target="_blank">
                                 <Flip left duration={1500}>
                                     <img
                                         src={logoReact}
                                         alt=""
-                                        className="img-fluid border-radius-logo logoSZ"
+                                        className="img-fluid border-radius-logo"
                                     />
                                 </Flip>
                             </a>
                         </MDBView>
-                        <MDBView title="JQuery" hover zoom className="col-lg-2 col-3 logoContainer border-radius-logo p-1">
+                        <MDBView title="JQuery" hover zoom className="col-lg-2 col-2 border-radius-logo p-1">
                             <a href="https://jquery.com/" target="_blank">
                                 <Flip left duration={1500}>
                                     <img
                                         src={logoJQuery}
                                         alt=""
-                                        className="img-fluid border-radius-logo logoSZ"
+                                        className="img-fluid border-radius-logo"
                                     />
                                 </Flip>
                             </a>
                         </MDBView>
-                        <MDBView title="Bootstrap" hover zoom className="col-lg-2 col-3  logoContainer border-radius-logo p-1">
+                        <MDBView title="Bootstrap" hover zoom className="col-lg-2 col-2 border-radius-logo p-1">
                             <a href="https://getbootstrap.com/" target="_blank">
                                 <Flip left duration={1500}>
                                     <img
                                         src={Bootstrap}
                                         alt=""
-                                        className="img-fluid border-radius-logo logoSZ"
+                                        className="img-fluid border-radius-logo pt-md-2 pt-1"
                                     />
                                 </Flip>
                             </a>
                         </MDBView>
-                        <MDBView title="Material-UI" hover zoom className="col-lg-2 col-3  logoContainer border-radius-logo p-1">
+                        <MDBView title="Material-UI" hover zoom className="col-lg-2 col-2 border-radius-logo p-1">
                             <a href="https://mui.com/" target="_blank">
                                 <Flip left duration={1500}>
                                     <img
                                         src={Material}
                                         alt=""
-                                        className="img-fluid border-radius-logo logoSZ"
+                                        className="img-fluid border-radius-logo"
                                     />
                                 </Flip>
                             </a>
                         </MDBView>
-                        <MDBView title="MDBReact" hover zoom className="col-lg-2 col-3  logoContainer border-radius-logo p-1">
+                        <MDBView title="MDBReact" hover zoom className="col-lg-2 col-2 border-radius-logo p-1">
                             <a href="https://mdbootstrap.com/docs/react/" target="_blank">
                                 <Flip left duration={1500}>
                                     <img
                                         src={MDB}
                                         alt=""
-                                        className="img-fluid border-radius-logo logoSZ"
+                                        className="img-fluid border-radius-logo"
                                     />
                                 </Flip>
                             </a>

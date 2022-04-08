@@ -14,6 +14,7 @@ import CSS from "../../assets/Images/css.png"
 import languages from "../../assets/Images/languages.png"
 
 export const LanguagesCard = () => {
+
     return (
         <>
             <MDBRow className="justify-content-start pt-3">
@@ -34,46 +35,46 @@ export const LanguagesCard = () => {
 
                 <MDBCol className="col-6 align-self-center">
                     <MDBRow className="justify-content-around text-center mb-3">
-                        <MDBView title="JavaScript" hover zoom className="col-lg-2 col-3 logoContainer  p-1">
+                        <MDBView title="JavaScript" hover zoom className="col-lg-2 col-2 p-1">
                             <a href="https://www.javascript.com/" target="_blank">
                                 <Flip left duration={1500}>
                                     <img
                                         src={JS}
                                         alt=""
-                                        className="img-fluid  logoSZ"
+                                        className="img-fluid "
                                     />
                                 </Flip>
                             </a>
                         </MDBView>
-                        <MDBView title="Typescript" hover zoom className="col-lg-2 col-3 logoContainer p-1">
+                        <MDBView title="Typescript" hover zoom className="col-lg-2 col-2 p-1">
                             <a href="https://www.typescriptlang.org/" target="_blank">
                                 <Flip left duration={1500}>
                                     <img
                                         src={TS}
                                         alt=""
-                                        className="img-fluid  logoSZ"
+                                        className="img-fluid"
                                     />
                                 </Flip>
                             </a>
                         </MDBView>
-                        <MDBView title="HTML.5" hover zoom className="col-lg-2 col-3 logoContainer border-radius-logo p-1">
+                        <MDBView title="HTML.5" hover zoom className="col-lg-2 col-2 border-radius-logo p-1">
                             <a href="https://html.com/" target="_blank">
                                 <Flip left duration={1500}>
                                     <img
                                         src={HTML}
                                         alt=""
-                                        className="img-fluid border-radius-logo logoSZ"
+                                        className="img-fluid border-radius-logo"
                                     />
                                 </Flip>
                             </a>
                         </MDBView>
-                        <MDBView title="CSS.3" hover zoom className="col-lg-2 col-3 logoContainer border-radius-logo p-1">
+                        <MDBView title="CSS.3" hover zoom className="col-lg-2 col-2 border-radius-logo p-1">
                             <a href="https://www.css3.com/" target="_blank">
                                 <Flip left duration={1500}>
                                     <img
                                         src={CSS}
                                         alt=""
-                                        className="img-fluid border-radius-logo logoSZ"
+                                        className="img-fluid border-radius-logo"
                                     />
                                 </Flip>
                             </a>
