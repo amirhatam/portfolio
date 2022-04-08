@@ -17,7 +17,7 @@ import Postman from "../../assets/Images/postman.png"
 import Robo3t from "../../assets/Images/Robot3.png"
 import Handlebars from "../../assets/Images/Handlebars.png"
 import RestApi from "../../assets/Images/rest.png"
-import NoSQL from "../../assets/Images/nosql.jpg"
+import NoSQL from "../../assets/Images/nosql.png"
 
 export const BackEndCard = () => {
     return (
@@ -92,28 +92,6 @@ export const BackEndCard = () => {
                                 </Flip>
                             </a>
                         </MDBView>
-                        <MDBView title="Postman" hover zoom className="col-lg-2 col-3 my-lg-2 my-1 align-self-center logoContainer border-radius-logo p-1">
-                            <a href="https://www.postman.com/" target="_blank">
-                                <Flip left duration={1500}>
-                                    <img
-                                        src={Postman}
-                                        alt=""
-                                        className="img-fluid border-radius-logo logoSZ"
-                                    />
-                                </Flip>
-                            </a>
-                        </MDBView>
-                        <MDBView title="Robo 3t" hover zoom className="col-lg-2 col-3 my-lg-2 my-1 align-self-center logoContainer border-radius-logo p-1">
-                            <a href="https://robomongo.org/" target="_blank">
-                                <Flip left duration={1500}>
-                                    <img
-                                        src={Robo3t}
-                                        alt=""
-                                        className="img-fluid border-radius-logo logoSZ"
-                                    />
-                                </Flip>
-                            </a>
-                        </MDBView>
                         <MDBView title="Handlebars" hover zoom className="col-lg-2 col-3 my-lg-2 my-1 align-self-center logoContainer border-radius-logo p-1">
                             <a href="https://handlebarsjs.com/" target="_blank">
                                 <Flip left duration={1500}>
@@ -125,22 +103,44 @@ export const BackEndCard = () => {
                                 </Flip>
                             </a>
                         </MDBView>
-                        <MDBView title="REST.Api" hover zoom className="col-lg-2 col-3 align-self-center logoContainer border-radius-logo p-1">
-                            <a href="https://restfulapi.net/" target="_blank">
+                        <MDBView title="Postman" hover zoom className="col-lg-2 col-3 my-lg-2 my-1 align-self-center logoContainer border-radius-logo p-1">
+                            <a href="https://www.postman.com/" target="_blank">
                                 <Flip left duration={1500}>
                                     <img
-                                        src={RestApi}
+                                        src={Postman}
                                         alt=""
                                         className="img-fluid border-radius-logo logoSZ"
                                     />
                                 </Flip>
                             </a>
                         </MDBView>
-                        <MDBView title="NoSQL" hover zoom className="col-lg-2 col-3 align-self-center logoContainer border-radius-logo p-1">
+                        <MDBView title="Robo 3t" hover zoom className="col-lg-2 col-3 my-lg-2 my-1 align-self-center logoContainer p-1">
+                            <a href="https://robomongo.org/" target="_blank">
+                                <Flip left duration={1500}>
+                                    <img
+                                        src={Robo3t}
+                                        alt=""
+                                        className="img-fluid logoSZ"
+                                    />
+                                </Flip>
+                            </a>
+                        </MDBView>
+                        <MDBView title="NoSQL" hover zoom className="col-lg-2 col-3 align-self-center logoContainer p-1">
                             <a href="https://fr.wikipedia.org/wiki/NoSQL" target="_blank">
                                 <Flip left duration={1500}>
                                     <img
                                         src={NoSQL}
+                                        alt=""
+                                        className="img-fluid logoSZ"
+                                    />
+                                </Flip>
+                            </a>
+                        </MDBView>
+                        <MDBView title="REST.Api" hover zoom className="col-lg-2 col-3 align-self-center logoContainer border-radius-logo p-1">
+                            <a href="https://restfulapi.net/" target="_blank">
+                                <Flip left duration={1500}>
+                                    <img
+                                        src={RestApi}
                                         alt=""
                                         className="img-fluid border-radius-logo logoSZ"
                                     />
