@@ -17,12 +17,12 @@ import { Pendu } from "../components/projects/Pendu";
 
 const ProjectsPage = () => {
   return (
-    <section id="projects" className="container">
+    <section id="projects" className="container pb-md-4">
       <h1 className="titre-fs text-center font-light my-lg-5 my-3">Les projets FullStack</h1>
 
       <Azimuto />
-      <TheMoviesDB />
 
+      <TheMoviesDB />
 
       <hr />
       <h1 className="titre-fs text-center font-light my-lg-5 my-3">Les projets Front-End</h1>

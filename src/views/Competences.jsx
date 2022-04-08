@@ -15,11 +15,13 @@ const Competences = () => {
 
 
   return (
-    <section className="gray-container" >
+    <section className="gray-container pb-md-4" >
       <MDBContainer>
         <h1 className="titre-fs text-center font-light py-lg-5 pt-3">Competences</h1>
 
         <ResponsiveCard />
+
+        <hr className="" />
 
         <LanguagesCard />
 

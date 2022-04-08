@@ -10,9 +10,9 @@ export const FrameworkCard = () => {
     return (
         <>
             <MDBCardBody className="pb-lg-5">
-                <h3 className='h4-fs font-light text-center mb-lg-5 pt-lg-5 mb-4'>  J'ai choisi
-                    <span className="blue-text h4-fs fontW"> React.JS </span>
-                    pour mes projets car :</h3>
+                <h3 className='h4-fs font-light text-center mb-lg-5 pt-lg-5 mb-4'>Les Avantage D'utiliser
+                    <span className="blue-text h4-fs fontW"> React </span>
+                    :</h3>
                 <MDBCardGroup className="row justify-content-between">
                     <MDBCard className="col-lg-4 col-12 text-center hoverable">
                         <MDBCardBody className="">

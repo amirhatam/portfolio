@@ -80,7 +80,7 @@ export const FrontEndCard = () => {
                         </MDBView>
                     </MDBRow>
                 </MDBCol>
-                <MDBCol className="col-lg-4 col-6 align-self-center ">
+                <MDBCol className="col-4 align-self-center ">
                     <Slide right duration={1500}>
                         <img
                             src={FRONT}

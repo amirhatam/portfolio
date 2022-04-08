@@ -10,6 +10,7 @@ import {
   MDBCardHeader,
 } from "mdbreact";
 
+import CodeWarsLogo from "../assets/Images/codewars.svg"
 import "../assets/styles/contact.css";
 
 
@@ -19,8 +20,10 @@ const ContactPage = () => {
     <MDBView id="Contact" className="gray-container pb-5">
       <MDBContainer className="nav-space">
         <h1 className="titre-fs text-center font-light py-lg-5 pt-3">Contact</h1>
+
         <MDBRow className="justify-content-around">
-          <MDBCol className="col-lg-5 col-8 lg-0 mb-4">
+
+          <MDBCol className="align-self-center col-lg-5 col-8 lg-0 mb-4">
             <MDBCard>
               <MDBCardHeader className="form-header text-center deep-blue-gradient rounded">
                 <h3 className="my-3 text-white">
@@ -51,22 +54,40 @@ const ContactPage = () => {
               <div className="col-12">
                 <h4 className="h4-fs text-center font-light mb-3 ">Coordonnées</h4>
               </div>
-              <MDBCol className="col-lg-12 col-6">
-                <div className="my-lg-3">
-                  <MDBIcon fab icon="linkedin" className="col-1 px-0 mr-1 text-primary h4-fs" />
-                  <span className="fontW h5-fs ml-1">LINKEDIN</span>
-                  <div className="d-table">
-                    <a href="https://www.linkedin.com/in/amir-hatam-7ba7601ba/" target="_blank" rel="noreferrer" className="li-ic d-block txt-dark h6-fs textColor mb-md-0 my-lg-2 mt-1">https://www.linkedin.com/in/amir-hatam-7ba7601ba/</a>
-                  </div>
-                </div>
-                <div className="mt-lg-4 mt-lg-3">
+              <MDBCol className="col-lg-12 col-12">
+
+                <MDBRow className="my-3">
+                  <MDBCol className="col-md-2 col-2 align-self-center pr-0">
+                    <img
+                      src={CodeWarsLogo}
+                      alt=""
+                      style={{ height: "2vmax" }}
+                      className="img-fluid rounded "
+                    />
+                  </MDBCol>
+                  <MDBCol className="col-md-10 col-8 align-self-center px-0">
+                    <span className="fontW h5-fs ml-1">Codewars</span>
+                  </MDBCol>
+                  <MDBCol className="">
+                    <a href="https://www.codewars.com/users/AmirHatam" target="_blank" rel="noreferrer" className="fb-ic d-block txt-dark h6-fs textColor mb-md-0 my-lg-2 mt-1">https://www.codewars.com/users/AmirHatam</a>
+                  </MDBCol>
+                </MDBRow>
+
+                <div className="my-3">
                   <MDBIcon fab icon="github" className="col-1 px-0 mr-1 h4-fs" />
                   <span className="fontW h5-fs ml-1">GitHub</span>
                   <div className="d-table">
                     <a href="https://github.com/amirhatam" target="_blank" rel="noreferrer" className="fb-ic d-block txt-dark h6-fs textColor mb-md-0 my-lg-2 mt-1">https://github.com/amirhatam</a>
                   </div>
                 </div>
-                <div className="mt-lg-4">
+                <div className="my-3">
+                  <MDBIcon fab icon="linkedin" className="col-1 px-0 mr-1 text-primary h4-fs" />
+                  <span className="fontW h5-fs ml-1">LINKEDIN</span>
+                  <div className="d-table">
+                    <a href="https://www.linkedin.com/in/amir-hatam-7ba7601ba/" target="_blank" rel="noreferrer" className="li-ic d-block txt-dark h6-fs textColor mb-md-0 my-lg-2 mt-1">https://www.linkedin.com/in/amir-hatam-7ba7601ba/</a>
+                  </div>
+                </div>
+                <div className="my-3">
                   <MDBIcon icon="camera-retro" className="col-1 px-0 mr-1 text-muted h4-fs" />
                   <span className="fontW h5-fs ml-1">YouPic</span>
                   <div className="d-table">
@@ -75,22 +96,22 @@ const ContactPage = () => {
                 </div>
               </MDBCol>
 
-              <MDBCol className="col-lg-12 col-6">
-                <div className="my-lg-4">
+              <MDBCol className="col-lg-12 col-12">
+                <div className="mb-3">
                   <MDBIcon icon="envelope" className="col-1 px-0 mr-lg-1 mr-2 text-muted h4-fs" />
                   <span className="fontW h5-fs ml-1">Email</span>
                   <div className="d-table">
                     <a href="mailto:amirhatam136@gmail.com" className="d-block h6-fs txt-dark mb-md-0 my-lg-2 mt-1"> amirhatam136@gmail.com</a>
                   </div>
                 </div>
-                <div className="my-lg-4">
+                <div className="my-3">
                   <MDBIcon icon="phone-alt" className="col-1 px-0 mr-1 text-info h4-fs" />
                   <span className="fontW h5-fs ml-1">Téléphone </span>
                   <div className="d-table">
                     <a href="tel:+33 7 68 57 35 81" className="d-block h6-fs txt-dark mb-md-0 my-lg-2 mt-1">+33 7 68 57 35 81</a>
                   </div>
                 </div>
-                <div className="mb-lg-3 mt-lg-4 ">
+                <div className="my-3">
                   <MDBIcon icon="map-marker-alt" className="col-1 text-danger h4-fs px-0 mr-1" />
                   <span className="fontW h5-fs ml-1">Paris</span>
                 </div>
