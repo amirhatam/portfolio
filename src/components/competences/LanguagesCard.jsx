@@ -6,6 +6,7 @@ import {
 } from "mdbreact";
 import Flip from 'react-reveal/Flip';
 import Slide from 'react-reveal/Slide';
+import '../../assets/styles/Logos.css'
 
 import JS from "../../assets/Images/js.png"
 import TS from "../../assets/Images/Typescript.svg"
@@ -20,7 +21,7 @@ export const LanguagesCard = () => {
             <MDBRow className="justify-content-start pt-3">
                 <MDBCol className="col-12 ">
                     <div className="" >
-                        <h5 className="h5-fs text-center fontW ">Langages de programmation</h5>
+                        <h5 className="h5-fs text-center lighter">Langages de programmation</h5>
                     </div>
                 </MDBCol>
                 <MDBCol className="col-4 align-self-center ">
@@ -35,47 +36,55 @@ export const LanguagesCard = () => {
 
                 <MDBCol className="col-6 align-self-center">
                     <MDBRow className="justify-content-around text-center mb-3">
-                        <MDBView title="JavaScript" hover zoom className="col-lg-2 col-2 p-1">
+                        <MDBView title="JavaScript" hover zoom className="col-lg-2 col-2 p-0">
                             <a href="https://www.javascript.com/" target="_blank">
                                 <Flip left duration={1500}>
-                                    <img
-                                        src={JS}
-                                        alt=""
-                                        className="img-fluid "
-                                    />
+                                    <MDBView title="JavaScript" hover zoom className="p-1">
+                                        <img
+                                            src={JS}
+                                            alt=""
+                                            className="img-fluid "
+                                        />
+                                    </MDBView>
                                 </Flip>
                             </a>
                         </MDBView>
-                        <MDBView title="Typescript" hover zoom className="col-lg-2 col-2 p-1">
+                        <MDBView title="Typescript" hover zoom className="col-lg-2 col-2 p-0">
                             <a href="https://www.typescriptlang.org/" target="_blank">
                                 <Flip left duration={1500}>
-                                    <img
-                                        src={TS}
-                                        alt=""
-                                        className="img-fluid"
-                                    />
+                                    <div className="p-1">
+                                        <img
+                                            src={TS}
+                                            alt=""
+                                            className="img-fluid"
+                                        />
+                                    </div>
                                 </Flip>
                             </a>
                         </MDBView>
-                        <MDBView title="HTML.5" hover zoom className="col-lg-2 col-2 border-radius-logo p-1">
+                        <MDBView title="HTML.5" hover zoom className="col-lg-2 col-2 p-0">
                             <a href="https://html.com/" target="_blank">
                                 <Flip left duration={1500}>
-                                    <img
-                                        src={HTML}
-                                        alt=""
-                                        className="img-fluid border-radius-logo"
-                                    />
+                                    <div className="border-radius-logo p-1">
+                                        <img
+                                            src={HTML}
+                                            alt=""
+                                            className="img-fluid border-radius-logo"
+                                        />
+                                    </div>
                                 </Flip>
                             </a>
                         </MDBView>
-                        <MDBView title="CSS.3" hover zoom className="col-lg-2 col-2 border-radius-logo p-1">
+                        <MDBView title="CSS.3" hover zoom className="col-lg-2 col-2 p-0">
                             <a href="https://www.css3.com/" target="_blank">
                                 <Flip left duration={1500}>
-                                    <img
-                                        src={CSS}
-                                        alt=""
-                                        className="img-fluid border-radius-logo"
-                                    />
+                                    <div className="border-radius-logo p-1">
+                                        <img
+                                            src={CSS}
+                                            alt=""
+                                            className="img-fluid border-radius-logo"
+                                        />
+                                    </div>
                                 </Flip>
                             </a>
                         </MDBView>

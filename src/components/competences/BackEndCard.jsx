@@ -6,6 +6,8 @@ import {
 } from "mdbreact";
 import Flip from 'react-reveal/Flip';
 import Slide from 'react-reveal/Slide';
+import '../../assets/styles/Logos.css'
+
 
 import Backend from "../../assets/Images/Backend.png"
 import MongoDB from "../../assets/Images/mongodb.png"
@@ -24,7 +26,7 @@ export const BackEndCard = () => {
         <>
             <MDBRow className="justify-content-start">
                 <MDBCol className="col-12 py-lg-3">
-                    <h5 className="h5-fs text-center fontW ">Back-End</h5>
+                    <h5 className="h5-fs text-center lighter">Back-End</h5>
                 </MDBCol>
                 <MDBCol className="col-4 align-self-center">
                     <Slide left duration={1500}>
@@ -37,113 +39,133 @@ export const BackEndCard = () => {
                 </MDBCol>
                 <MDBCol className="col-6 align-self-center ">
                     <MDBRow className="justify-content-around text-center ">
-                        <MDBView title="Node.JS" hover zoom className="col-lg-2 col-2 my-lg-2 my-1 mx-lg-1 align-self-center border-radius-logo p-1">
+                        <MDBView title="Node.JS" hover zoom className="col-lg-2 col-2 my-lg-2 my-1 mx-lg-1 align-self-center border-radius-logo p-0">
                             <a href="https://nodejs.org/en/docs/" target="_blank">
                                 <Flip left duration={1500}>
-                                    <img
-                                        src={NodeJS}
-                                        alt=""
-                                        className="img-fluid border-radius-logo logoSZ"
-                                    />
+                                    <div className="col-md-11 col-10 border-radius-logo p-1">
+                                        <img
+                                            src={NodeJS}
+                                            alt=""
+                                            className="img-fluid border-radius-logo"
+                                        />
+                                    </div>
                                 </Flip>
                             </a>
                         </MDBView>
                         <MDBView title="Nest.JS" hover zoom className="col-lg-2 col-2 my-lg-2 my-1 align-self-center border-radius-logo p-1">
                             <a href="https://docs.nestjs.com/" target="_blank">
                                 <Flip left duration={1500}>
-                                    <img
-                                        src={NestJS}
-                                        alt=""
-                                        className="img-fluid border-radius-logo logoSZ"
-                                    />
+                                    <div className="border-radius-logo p-1">
+                                        <img
+                                            src={NestJS}
+                                            alt=""
+                                            className="img-fluid border-radius-logo"
+                                        />
+                                    </div>
                                 </Flip>
                             </a>
                         </MDBView>
                         <MDBView title="MongoDB" hover zoom className="col-lg-2 col-2 my-lg-2 my-1 align-self-center border-radius-logo p-1">
                             <a href="https://www.mongodb.com/" target="_blank">
                                 <Flip left duration={1500}>
-                                    <img
-                                        src={MongoDB}
-                                        alt=""
-                                        className="img-fluid border-radius-logo logoSZ"
-                                    />
+                                    <div className="border-radius-logo p-1">
+                                        <img
+                                            src={MongoDB}
+                                            alt=""
+                                            className="img-fluid border-radius-logo"
+                                        />
+                                    </div>
                                 </Flip>
                             </a>
                         </MDBView>
                         <MDBView title="Express" hover zoom className="col-lg-2 col-2 my-lg-2 my-1 align-self-center border-radius-logo p-1">
                             <a href="https://expressjs.com" target="_blank">
                                 <Flip left duration={1500}>
-                                    <img
-                                        src={Express}
-                                        alt=""
-                                        className="img-fluid border-radius-logo logoSZ"
-                                    />
+                                    <div className="border-radius-logo p-1">
+                                        <img
+                                            src={Express}
+                                            alt=""
+                                            className="img-fluid border-radius-logo"
+                                        />
+                                    </div>
                                 </Flip>
                             </a>
                         </MDBView>
                         <MDBView title="Mongoose" hover zoom className="col-lg-2 col-2 my-lg-2 my-1 align-self-center border-radius-logo p-1">
                             <a href="https://mongoosejs.com/docs/guide.html" target="_blank">
                                 <Flip left duration={1500}>
-                                    <img
-                                        src={Mongoose}
-                                        alt=""
-                                        className="img-fluid border-radius-logo logoSZ"
-                                    />
+                                    <div className="border-radius-logo p-1">
+                                        <img
+                                            src={Mongoose}
+                                            alt=""
+                                            className="img-fluid border-radius-logo"
+                                        />
+                                    </div>
                                 </Flip>
                             </a>
                         </MDBView>
                         <MDBView title="Handlebars" hover zoom className="col-lg-2 col-2 my-lg-2 my-1 align-self-center border-radius-logo p-1">
                             <a href="https://handlebarsjs.com/" target="_blank">
                                 <Flip left duration={1500}>
-                                    <img
-                                        src={Handlebars}
-                                        alt=""
-                                        className="img-fluid border-radius-logo logoSZ"
-                                    />
+                                    <div className="border-radius-logo p-1">
+                                        <img
+                                            src={Handlebars}
+                                            alt=""
+                                            className="img-fluid border-radius-logo"
+                                        />
+                                    </div>
                                 </Flip>
                             </a>
                         </MDBView>
                         <MDBView title="Postman" hover zoom className="col-lg-2 col-2 my-lg-2 my-1 align-self-center border-radius-logo p-1">
                             <a href="https://www.postman.com/" target="_blank">
                                 <Flip left duration={1500}>
-                                    <img
-                                        src={Postman}
-                                        alt=""
-                                        className="img-fluid border-radius-logo logoSZ"
-                                    />
+                                    <div className="border-radius-logo p-1">
+                                        <img
+                                            src={Postman}
+                                            alt=""
+                                            className="img-fluid border-radius-logo"
+                                        />
+                                    </div>
                                 </Flip>
                             </a>
                         </MDBView>
                         <MDBView title="Robo 3t" hover zoom className="col-lg-2 col-2 my-lg-2 my-1 align-self-center p-1">
                             <a href="https://robomongo.org/" target="_blank">
                                 <Flip left duration={1500}>
-                                    <img
-                                        src={Robo3t}
-                                        alt=""
-                                        className="img-fluid logoSZ"
-                                    />
+                                    <div className="border-radius-logo p-1">
+                                        <img
+                                            src={Robo3t}
+                                            alt=""
+                                            className="img-fluid"
+                                        />
+                                    </div>
                                 </Flip>
                             </a>
                         </MDBView>
                         <MDBView title="NoSQL" hover zoom className="col-lg-2 col-2 align-self-center p-1">
                             <a href="https://fr.wikipedia.org/wiki/NoSQL" target="_blank">
                                 <Flip left duration={1500}>
-                                    <img
-                                        src={NoSQL}
-                                        alt=""
-                                        className="img-fluid logoSZ"
-                                    />
+                                    <div className="border-radius-logo p-1">
+                                        <img
+                                            src={NoSQL}
+                                            alt=""
+                                            className="img-fluid"
+                                        />
+                                    </div>
                                 </Flip>
                             </a>
                         </MDBView>
                         <MDBView title="REST.Api" hover zoom className="col-lg-2 col-2 align-self-center border-radius-logo p-1">
                             <a href="https://restfulapi.net/" target="_blank">
                                 <Flip left duration={1500}>
-                                    <img
-                                        src={RestApi}
-                                        alt=""
-                                        className="img-fluid border-radius-logo logoSZ"
-                                    />
+                                    <div className="border-radius-logo p-1">
+                                        <img
+                                            src={RestApi}
+                                            alt=""
+                                            className="img-fluid border-radius-logo"
+                                        />
+                                    </div>
                                 </Flip>
                             </a>
                         </MDBView>

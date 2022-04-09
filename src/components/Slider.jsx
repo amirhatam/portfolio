@@ -39,7 +39,7 @@ export default class Carousel extends Component {
         return (
             <div>
                 <MDBContainer>
-                    <h5 className="text-center h5-fs fontW my-lg-5">Les Outils</h5>
+                    <h5 className="text-center h5-fs lighter my-lg-5">Les Outils</h5>
                     <Slider  {...settings} className="row">
                         <div className="col-2 d-flex px-0 py-lg-3 py-5">
                             <div className="col-12">
