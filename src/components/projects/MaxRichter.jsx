@@ -11,10 +11,11 @@ import Flip from 'react-reveal/Flip';
 
 export const MaxRichter = () => {
     return (
-        <MDBCol className="col-lg-4 col-8">
-            <MDBCard className="p-3 mb-5 ">
+        <MDBCol className="col-lg-6 col-8">
+            <MDBCard className="p-3 mb-5 py-lg-5">
+                <h4 className="h4-fs mb-lg-3 mb-1 fontW">Un événement musical</h4>
                 <p className="h6-fs mb-1 grey-text">Projet personnel E-marketing</p>
-                <Flip left duration={1500}>
+                <Flip left duration={1000}>
                     <MDBBtn
                         href={"https://concert-max-richter.netlify.app/"}
                         color="black"
@@ -34,10 +35,9 @@ export const MaxRichter = () => {
                     Voici un lien vers le projet <MDBIcon far icon="hand-point-up" className="h5-fs text-dark" />
                 </h5>
                 <MDBCardBody className="pb-0">
-                    <h4 className="h4-fs mb-lg-3 mb-1 fontW">Concert</h4>
                     <p className="h6-fs mb-lg-3 mb-1 ">L'information d'un événement consert de Max Richter </p>
                     <p className="h6-fs mb-lg-3 mb-1 grey-text"><i className="fab fa-react text-primary"></i> React JS / Material-UI</p>
-                    <p className="p-fs mb-lg-3 mb-1">Date de realisation : <strong> May/2021</strong> </p>
+                    <p className="p-fs mb-lg-3 mb-1">Date de realisation : <span className='h6-fs'> May/2021</span> </p>
                     <MDBBtn
                         href={"https://github.com/amirhatam/concert-max-richter"}
                         target="_blank"

@@ -11,10 +11,11 @@ import Flip from 'react-reveal/Flip';
 
 export const Bakery = () => {
     return (
-        <MDBCol className="col-lg-4 col-8">
-            <MDBCard className="p-3 mb-5 ">
+        <MDBCol className="col-lg-6 col-8">
+            <MDBCard className="p-3 mb-5 py-lg-5">
+                <h4 className="h4-fs mb-lg-3 mb-1 fontW">The Bakery</h4>
                 <p className="h6-fs mb-1 grey-text">Projet E-Shop pendant la formation</p>
-                <Flip left duration={1500}>
+                <Flip left duration={1000}>
                     <MDBBtn
                         href={"https://bakery-shop-react.netlify.app/"}
                         color="black"
@@ -34,10 +35,9 @@ export const Bakery = () => {
                     Voici un lien vers le projet <MDBIcon far icon="hand-point-up" className="h5-fs text-dark" />
                 </h5>
                 <MDBCardBody className="pb-0">
-                    <h4 className="h4-fs mb-lg-3 mb-1 fontW">Bakery</h4>
                     <p className="h6-fs mb-lg-3 mb-1 ">Les achats des produits de boulangerie</p>
                     <p className="h6-fs mb-lg-3 mb-1 grey-text"><i className="fab fa-react text-primary  mb-2"></i> React JS</p>
-                    <p className="p-fs mb-lg-3 mb-1">Date de realisation : <strong> Juin/2021</strong> </p>
+                    <p className="p-fs mb-lg-3 mb-1">Date de realisation : <span className='h6-fs'> Juin/2021</span> </p>
 
                     <MDBBtn
                         href={"https://github.com/amirhatam/bakery"}

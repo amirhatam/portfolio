@@ -15,12 +15,12 @@ export const TheMoviesDB = () => {
     return (
         <MDBRow className="justify-content-center ">
             <MDBCol className="col-lg-6 col-8">
-                <MDBCard className="p-3 mb-5 pt-lg-5">
-                    <h4 className="h4-fs mb-lg-3 mb-1 fontW text-center m">The MoviesDB</h4>
+                <MDBCard className="p-3 mb-5 py-lg-5">
+                    <h4 className="h4-fs mb-lg-3 mb-1 fontW text-center ">The MoviesDB</h4>
                     <p className="h6-fs mb-1 grey-text text-center">
                         Projet personnel Cinématographiques
                     </p>
-                    <Flip left duration={1500}>
+                    <Flip left duration={1000}>
                         <MDBBtn
                             href={"https://the-movies-database.herokuapp.com/"}
                             color="black"
