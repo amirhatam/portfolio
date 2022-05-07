@@ -174,7 +174,6 @@ const ContactPage = () => {
               style={{ border: 0 }}
             />
           </div>
-
         </MDBCol>
       </MDBRow>
     </MDBView >
