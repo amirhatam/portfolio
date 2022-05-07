@@ -157,6 +157,7 @@ const ContactPage = () => {
           </MDBCol>
         </MDBRow>
       </MDBContainer>
+
       <MDBRow>
         <MDBCol lg="12" className="px-lg-3">
           <div
