@@ -17,7 +17,7 @@ import "../assets/styles/contact.css";
 const ContactPage = () => {
 
   return (
-    <MDBView id="Contact" className="gray-container pb-5">
+    <MDBView id="Contact" className="gray-container">
       <MDBContainer className="nav-space">
         <h1 className="titre-fs text-center font-light py-lg-5 pt-3">Contact</h1>
 
@@ -152,20 +152,30 @@ const ContactPage = () => {
                     >+33 7 68 57 35 81</a>
                   </MDBCol>
                 </MDBRow>
-                <MDBRow className="my-3">
-                  <MDBCol className="col-1 align-self-center">
-                    <MDBIcon icon="map-marker-alt" className="col-1 text-danger h4-fs px-0 mr-1" />
-                  </MDBCol>
-                  <MDBCol className="col-md-10 col-8 align-self-center px-0">
-                    <span className="fontW h5-fs ml-1">Paris</span>
-                  </MDBCol>
-                </MDBRow>
               </MDBCol>
-
             </MDBRow>
           </MDBCol>
         </MDBRow>
       </MDBContainer>
+      <MDBRow>
+        <MDBCol lg="12" className="px-lg-3">
+          <div
+            id="map-container"
+            className="rounded z-depth-1-half map-container"
+            style={{ height: "400px" }}
+          >
+            <iframe
+              src="https://maps.google.com/maps?width=1000&amp;height=700&amp;hl=en&amp;q=Paris%2C%20France+(Titre)&amp;ie=UTF8&amp;t=&amp;z=12&amp;iwloc=B&amp;output=embed"
+              title="This is a unique title"
+              width="100%"
+              height="100%"
+              frameBorder="0"
+              style={{ border: 0 }}
+            />
+          </div>
+
+        </MDBCol>
+      </MDBRow>
     </MDBView >
 
   );
