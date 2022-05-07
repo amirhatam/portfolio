@@ -40,7 +40,7 @@ export const Movies = () => {
                     Informations tous les films au cinéma en ce moment et ancien
                 </p>
                 <p className="h6-fs mb-lg-3 mb-1 grey-text"><i className="fab fa-react text-primary"></i> React JS / API (movieDB)</p>
-                <p className="p-fs mb-lg-3 mb-1">Date de realisation : <span className='h6-fs'> May/2021</span> </p>
+                <p className="p-fs mb-lg-3 mb-1">Date de realisation : <span className='h6-fs'> May / 2021</span> </p>
                 <MDBBtn
                     href={"https://github.com/amirhatam/moviedb"}
                     target="_blank"

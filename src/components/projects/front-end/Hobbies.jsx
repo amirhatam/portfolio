@@ -39,7 +39,7 @@ export const Hobbies = () => {
             <MDBCardBody className="pb-0">
                 <p className="h6-fs mb-lg-3 mb-1">Different Calculatrices et jeux vidéos </p>
                 <p className="h6-fs mb-lg-3 mb-1 grey-text"><i className="fab fa-react text-primary"></i> React JS / API / Material-UI</p>
-                <p className="p-fs mb-lg-3 mb-1">Date de realisation : <span className='h6-fs'> Mars - 2022</span> </p>
+                <p className="p-fs mb-lg-3 mb-1">Date de realisation : <span className='h6-fs'> Mars / 2022</span> </p>
                 <MDBBtn
                     href={"https://github.com/amirhatam/loisir"}
                     target="_blank"

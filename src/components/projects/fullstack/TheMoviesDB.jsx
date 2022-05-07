@@ -66,7 +66,7 @@ export const TheMoviesDB = () => {
 
                 <MDBRow className="">
                     <MDBCol size='12' className='text-center'>
-                        <p className="p-fs mb-lg-3 mb-1">Date de realisation : <strong> Décembre/2021</strong> </p>
+                        <p className="p-fs mb-lg-3 mb-1">Date de realisation : <span className='h6-fs'> Décembre / 2021</span> </p>
                     </MDBCol>
                     <MDBCol size='12' className='text-center'>
                         <MDBBtn

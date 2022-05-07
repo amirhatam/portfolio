@@ -37,7 +37,7 @@ export const LaFrance = () => {
                 <p className="h6-fs mb-lg-3 mb-1 grey-text">
                     <i className="fab fa-html5 text-danger"></i> HTML / <i className="fab fa-css3-alt text-primary"></i> CSS / <i className="fab fa-js-square text-warning"></i> JS
                 </p>
-                <p className="p-fs mb-lg-3 mb-1">Date de realisation : <span className='h6-fs'> Décembre - 2020</span> </p>
+                <p className="p-fs mb-lg-3 mb-1">Date de realisation : <span className='h6-fs'> Décembre / 2020</span> </p>
                 <MDBBtn
                     href={"https://github.com/amirhatam/la-france.io"}
                     target="_blank"

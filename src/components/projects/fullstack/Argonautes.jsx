@@ -65,7 +65,7 @@ export const Argonautes = () => {
 
                 <MDBRow className="projet-footer">
                     <MDBCol size='12' className='text-center'>
-                        <p className=" p-fs mb-lg-3">Date de realisation : <strong> Avril / 2022</strong> </p>
+                        <p className=" p-fs mb-lg-3">Date de realisation : <span className='h6-fs'> Avril / 2022</span> </p>
                     </MDBCol>
                     <MDBCol size='12' className='text-center'>
                         <MDBBtn

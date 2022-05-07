@@ -39,7 +39,7 @@ export const PetitsChevaux = () => {
                     <i className="fab fa-react text-primary"></i> React JS
 
                 </p>
-                <p className="p-fs mb-lg-3 mb-1">Date de realisation : <span className='h6-fs'> April/2021</span> </p>
+                <p className="p-fs mb-lg-3 mb-1">Date de realisation : <span className='h6-fs'> April / 2021</span> </p>
                 <MDBBtn
                     href={"https://github.com/amirhatam/petits"}
                     target="_blank"

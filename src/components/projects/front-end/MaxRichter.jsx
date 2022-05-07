@@ -35,7 +35,7 @@ export const MaxRichter = () => {
             <MDBCardBody className="pb-0">
                 <p className="h6-fs mb-lg-3 mb-1 ">L'information d'un événement consert de Max Richter </p>
                 <p className="h6-fs mb-lg-3 mb-1 grey-text"><i className="fab fa-react text-primary"></i> React JS / Material-UI</p>
-                <p className="p-fs mb-lg-3 mb-1">Date de realisation : <span className='h6-fs'> May/2021</span> </p>
+                <p className="p-fs mb-lg-3 mb-1">Date de realisation : <span className='h6-fs'> May / 2021</span> </p>
                 <MDBBtn
                     href={"https://github.com/amirhatam/concert-max-richter"}
                     target="_blank"

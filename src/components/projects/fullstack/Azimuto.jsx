@@ -97,6 +97,9 @@ export const Azimuto = () => {
                     </div>
                 </MDBCol>
                 <MDBCol className="text-center">
+                    <MDBCol size='12' className='text-center'>
+                        <p className="p-fs mb-lg-3 mb-1">Date de realisation : <span className='h6-fs'> Septembre-Octobre / 2021</span> </p>
+                    </MDBCol>
                     <MDBBtn
                         href={PDF}
                         target="_blank"

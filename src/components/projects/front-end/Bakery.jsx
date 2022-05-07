@@ -35,7 +35,7 @@ export const Bakery = () => {
             <MDBCardBody className="pb-0">
                 <p className="h6-fs mb-lg-3 mb-1 ">Les achats des produits de boulangerie</p>
                 <p className="h6-fs mb-lg-3 mb-1 grey-text"><i className="fab fa-react text-primary  mb-2"></i> React JS</p>
-                <p className="p-fs mb-lg-3 mb-1">Date de realisation : <span className='h6-fs'> Juin/2021</span> </p>
+                <p className="p-fs mb-lg-3 mb-1">Date de realisation : <span className='h6-fs'> Juin / 2021</span> </p>
 
                 <MDBBtn
                     href={"https://github.com/amirhatam/bakery"}
