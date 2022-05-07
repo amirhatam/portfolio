@@ -44,11 +44,11 @@ export const Movies = () => {
                 <MDBBtn
                     href={"https://github.com/amirhatam/moviedb"}
                     target="_blank"
-                    className="rounded-pill px-3"
+                    className="rounded-pill"
                     color="mdb-color"
-                    size="sm"
+                    size="md"
                 >
-                    <MDBIcon fab icon="github" className=" left my-2" /> Les Codes
+                    <MDBIcon fab icon="github" className="fa-2x left icon-align-btn" /> Les Codes
                 </MDBBtn>
             </MDBCardBody>
         </MDBCard>
