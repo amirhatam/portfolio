@@ -13,16 +13,20 @@ import { Countries } from "../components/projects/Countries";
 import { Bakery } from "../components/projects/Bakery";
 import { Hobbies } from "../components/projects/Hobbies";
 import { Pendu } from "../components/projects/Pendu";
+import { Argonautes } from "../components/projects/Argonautes";
 
 
 const ProjectsPage = () => {
   return (
     <section id="projects" className="container pb-md-4">
       <h1 className="titre-fs text-center font-light my-lg-5 my-3">Les projets FullStack</h1>
-
-      <Azimuto />
-
-      <TheMoviesDB />
+      <MDBRow>
+        <Azimuto />
+        <MDBRow className="justify-content-center ">
+          <TheMoviesDB />
+          <Argonautes />
+        </MDBRow>
+      </MDBRow>
 
       <hr />
       <h1 className="titre-fs text-center font-light my-lg-5 my-3">Les projets Front-End</h1>
