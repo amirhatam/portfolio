@@ -9,9 +9,9 @@ import {
 } from "mdbreact";
 import Flip from 'react-reveal/Flip';
 
-import Azi from "../../assets/Images/screenshots/Azimuto.png"
-import MERN from "../../assets/Images/mern.png"
-import PDF from "../../assets/ProjetAzimuto.pdf"
+import Azi from "../../../assets/Images/screenshots/Azimuto.png"
+import MERN from "../../../assets/Images/mern.png"
+import PDF from "../../../assets/ProjetAzimuto.pdf"
 
 export const Azimuto = () => {
     return (
@@ -100,11 +100,11 @@ export const Azimuto = () => {
                     <MDBBtn
                         href={PDF}
                         target="_blank"
-                        className="rounded-pill px-3 mt-lg-3"
+                        className="rounded-pill"
                         color="mdb-color"
-                        size="sm"
+                        size="md"
                     >
-                        <MDBIcon far icon="clone" className="left my-2" /> Les Slides
+                        <MDBIcon far icon="clone" className="fa-2x left icon-align-btn" /> Les Slides
                     </MDBBtn>
                 </MDBCol>
             </MDBRow>
