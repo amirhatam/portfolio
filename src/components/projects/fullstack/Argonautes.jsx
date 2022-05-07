@@ -16,7 +16,7 @@ export const Argonautes = () => {
         <MDBCard className="col-lg-5 col-8 p-3 mb-5 py-lg-5">
             <h4 className="h4-fs mb-lg-3 mb-1 fontW text-center ">Argonaute</h4>
             <p className="h6-fs mb-1 grey-text text-center">
-                Un challenge technique de la Wild Code School
+                Un challenge technique de la Wild Codes School
             </p>
             <Flip left duration={1000}>
                 <MDBBtn

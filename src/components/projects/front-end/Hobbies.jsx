@@ -18,7 +18,7 @@ export const Hobbies = () => {
             <p className="h6-fs mb-1 grey-text">Projet personnel d'Algorithmique</p>
             <Flip left duration={1000}>
                 <MDBBtn
-                    href={"https://hobbies-leisure.herokuapp.com/"}
+                    href={"https://hobbies-leisure.netlify.app/"}
                     color="black"
                     target="_blank"
                     className="p-0"
