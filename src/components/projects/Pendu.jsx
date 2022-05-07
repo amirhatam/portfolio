@@ -18,7 +18,7 @@ export const Pendu = () => {
                 <p className="h6-fs mb-1 grey-text">Projet personnel jeu vidéo</p>
                 <Flip left duration={1000}>
                     <MDBBtn
-                        href={"https://jeu-pendu.herokuapp.com/"}
+                        href={"https://game-the-hangman.netlify.app/"}
                         color="black"
                         target="_blank"
                         className="p-0"
