@@ -35,7 +35,6 @@ export const Hobbies = () => {
             <h5 className="p-fs fontW grey-text mt-lg-2">
                 Voici un lien vers le projet <MDBIcon far icon="hand-point-up" className="h5-fs text-dark" />
             </h5>
-
             <MDBCardBody className="pb-0">
                 <p className="h6-fs mb-lg-3 mb-1">Different Calculatrices et jeux vidéos </p>
                 <p className="h6-fs mb-lg-3 mb-1 grey-text"><i className="fab fa-react text-primary"></i> React JS / API / Material-UI</p>
