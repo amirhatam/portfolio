@@ -36,7 +36,6 @@ export const Countries = () => {
                 <p className="h6-fs mb-lg-3 mb-1 ">Images et informations de tous les pays du Monde</p>
                 <p className="h6-fs mb-lg-3 mb-1 grey-text"> <i className="fab fa-react text-primary"></i> React JS  / API / Material-UI</p>
                 <p className="p-fs mb-lg-3 mb-1">Date de realisation : <span className='h6-fs'> Décembre / 2021</span> </p>
-
                 <MDBBtn
                     href={"https://github.com/amirhatam/country"}
                     target="_blank"
