@@ -6,15 +6,9 @@ import {
 
 import { Azimuto } from "../components/projects/fullstack/Azimuto";
 import { TheMoviesDB } from "../components/projects/fullstack/TheMoviesDB";
-import { LaFrance } from "../components/projects/front-end/LaFrance";
-import { MaxRichter } from "../components/projects/front-end/MaxRichter";
-import { PetitsChevaux } from "../components/projects/front-end/PetitsChevaux";
-import { Movies } from "../components/projects/front-end/Movies";
-import { Countries } from "../components/projects/front-end/Countries";
-import { Bakery } from "../components/projects/front-end/Bakery";
-import { Hobbies } from "../components/projects/front-end/Hobbies";
-import { Pendu } from "../components/projects/front-end/Pendu";
 import { Argonautes } from "../components/projects/fullstack/Argonautes";
+
+import FrontEnd from "../components/projects/front-end/FrontEnd";
 
 
 const ProjectsPage = () => {
@@ -31,18 +25,8 @@ const ProjectsPage = () => {
 
       <hr />
       <h1 className="titre-fs text-center font-light my-lg-5 my-3">Les projets Front-End</h1>
-      <MDBCardGroup >
-        <MDBRow className="justify-content-around text-center">
-          <LaFrance />
-          <Hobbies />
-          <MaxRichter />
-          <Pendu />
-          <Countries />
-          <Bakery />
-          <Movies />
-          <PetitsChevaux />
-        </MDBRow>
-      </MDBCardGroup>
+
+      <FrontEnd />
     </section >
 
   );
