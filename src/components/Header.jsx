@@ -14,7 +14,6 @@ import {
   MDBRow,
   MDBNavbarToggler,
   MDBCollapse,
-  MDBIcon,
   MDBNavLink,
 } from "mdbreact";
 import CV from "../assets/CV.pdf";
