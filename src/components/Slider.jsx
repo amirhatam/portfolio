@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { MDBContainer, MDBView } from "mdbreact";
+import { MDBContainer } from "mdbreact";
 import Slider from "react-slick";
 
 import "slick-carousel/slick/slick.css";

@@ -38,7 +38,7 @@ export default function Coordonnees() {
 
                     <MDBRow className="my-3">
                         <MDBCol className="col-md-2 col-2 align-self-center pr-0">
-                            <MDBIcon fab icon="github" className="col-1 px-0 mr-1 h4-fs" />
+                            <MDBIcon fab icon="github" className="col-1 px-0 h4-fs" />
                         </MDBCol>
                         <MDBCol className="col-md-10 col-8 align-self-center px-0">
                             <span className="fontW h5-fs ml-1">GitHub</span>
@@ -53,7 +53,8 @@ export default function Coordonnees() {
 
                     <MDBRow className="my-3">
                         <MDBCol className="col-md-2 col-2 align-self-center pr-0">
-                            <MDBIcon fab icon="linkedin" className="col-1 px-0 mr-1 text-primary h4-fs" />
+                            {/* <MDBIcon fab icon="linkedin" className="col-1 px-0 mr-1 text-primary h4-fs" /> */}
+                            <MDBIcon fab icon="linkedin-in" className='h4-fs text-primary' />
                         </MDBCol>
                         <MDBCol className="col-md-10 col-8 align-self-center px-0">
                             <span className="fontW h5-fs ml-1">LINKEDIN</span>
@@ -88,7 +89,7 @@ export default function Coordonnees() {
 
                     <MDBRow className="mb-3">
                         <MDBCol className="col-md-2 col-2 align-self-center pr-0">
-                            <MDBIcon icon="envelope" className="col-1 px-0 mr-lg-1 mr-2 text-muted h4-fs" />
+                            <MDBIcon icon="envelope" className="col-1 text-muted h4-fs px-0" />
                         </MDBCol>
                         <MDBCol className="col-md-10 col-8 align-self-center px-0">
                             <span className="fontW h5-fs ml-1">Email</span>
@@ -101,7 +102,7 @@ export default function Coordonnees() {
                     </MDBRow>
                     <MDBRow className="my-3">
                         <MDBCol className="col-md-2 col-2 align-self-center pr-0">
-                            <MDBIcon icon="phone-alt" className="col-1 px-0 mr-1 text-info h4-fs" />
+                            <MDBIcon icon="phone-alt" className="col-1 px-0 text-info h4-fs" />
                         </MDBCol>
                         <MDBCol className="col-md-10 col-8 align-self-center px-0">
                             <span className="fontW h5-fs ml-1">Téléphone </span>

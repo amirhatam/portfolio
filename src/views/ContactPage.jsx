@@ -17,13 +17,9 @@ const ContactPage = () => {
     <MDBView id="Contact" className="gray-container">
       <MDBContainer className="nav-space">
         <h1 className="titre-fs text-center font-light py-lg-5 pt-3">Contact</h1>
-
         <MDBRow className="justify-content-around">
-
           <Form />
-
           <Coordonnees />
-
         </MDBRow>
       </MDBContainer>
 
