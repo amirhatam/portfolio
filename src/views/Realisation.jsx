@@ -14,7 +14,7 @@ import FrontEnd from "../components/projects/front-end/FrontEnd";
 const ProjectsPage = () => {
   return (
     <section id="projects" className="container pb-md-4">
-      <h1 className="titre-fs text-center font-light my-lg-5 my-3">Les projets FullStack</h1>
+      <h1 className="titre-fs text-center font-light my-lg-5 my-3">Des Projets FullStack</h1>
       <MDBCardGroup>
         <Azimuto />
         <MDBRow className="row justify-content-around">
@@ -24,7 +24,7 @@ const ProjectsPage = () => {
       </MDBCardGroup>
 
       <hr />
-      <h1 className="titre-fs text-center font-light my-lg-5 my-3">Les projets Front-End</h1>
+      <h1 className="titre-fs text-center font-light my-lg-5 my-3">Des Projets Front-End</h1>
 
       <FrontEnd />
     </section >

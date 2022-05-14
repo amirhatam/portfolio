@@ -4,6 +4,7 @@ import {
     MDBCard,
     MDBCardBody,
     MDBCardTitle,
+    MDBCardText,
 } from "mdbreact";
 
 export const FrameworkCard = () => {
@@ -19,7 +20,7 @@ export const FrameworkCard = () => {
                             <MDBCardTitle className="h6-fs my-lg-5" tag="h6">
                                 Le contenu est référençable
                             </MDBCardTitle>
-                            <p className="text-muted p-fs text-justify text-box">
+                            <MDBCardText className="text-justify mb-lg-4">
                                 C’est LA fonctionnalité qui fait la différence par rapport
                                 aux autres frameworks. Grâce à l’utilisation d’un serveur
                                 Node, le code va pouvoir être généré côté client ET côté
@@ -31,14 +32,14 @@ export const FrameworkCard = () => {
                                 présent il était obligatoire de faire passer un bot
                                 (service gratuit ou payant) pour qu’il crée des fichiers
                                 HTML référençables.
-                            </p>
+                            </MDBCardText>
                         </MDBCardBody>
                     </MDBCard>
                     <MDBCard className="col-lg-4 col-12 mx-lg-4 mx-1 text-center hoverable">
                         <MDBCardBody className="">
                             <MDBCardTitle className="h6-fs my-lg-5" tag="h5">
                                 ReactJS est très rapide</MDBCardTitle>
-                            <p className="text-muted p-fs text-justify text-box">
+                            <MDBCardText className="text-justify">
                                 ReactJS crée son propre DOM virtuel où sont rattachés vos
                                 composants. Cette approche vous donne énormément de
                                 flexibilité et des performances exceptionnelles, car
@@ -46,7 +47,7 @@ export const FrameworkCard = () => {
                                 d’être fait, et change juste LA PARTIE qui a besoin d’être
                                 mise à jour. De cette façon, ReactJS évite des opérations
                                 coûteuses dans le DOM.
-                            </p>
+                            </MDBCardText>
                         </MDBCardBody>
                     </MDBCard>
                     <MDBCard className="col-lg-4 col-12 text-center hoverable">
@@ -54,7 +55,7 @@ export const FrameworkCard = () => {
                             <MDBCardTitle className="h6-fs my-lg-5 px-3" tag="h5">
                                 Les composants sont le futur du développement web
                             </MDBCardTitle>
-                            <p className="text-muted p-fs text-justify  text-box">
+                            <MDBCardText className="text-justify">
                                 ReactJS à pris le concept de Shadow DOM et du framework
                                 PolymerJS et l’a poussé à un niveau supérieur. React.js
                                 n’utilise pas Shadow DOM – à la place il vous donne
@@ -63,7 +64,7 @@ export const FrameworkCard = () => {
                                 de votre contenu. Cette fonctionnalité à elle seule est un
                                 gage de productivité de par la facilité à définir et
                                 manipuler vos propres composants.
-                            </p>
+                            </MDBCardText>
                         </MDBCardBody>
                     </MDBCard>
                 </MDBCardGroup>

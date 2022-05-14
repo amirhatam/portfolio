@@ -6,7 +6,8 @@ import {
     MDBIcon,
     MDBBtn,
     MDBView,
-    MDBCard
+    MDBCard,
+    MDBCardText
 } from "mdbreact";
 import Flip from 'react-reveal/Flip';
 import Movies from "../../../assets/Images/screenshots/movies.png"
@@ -39,34 +40,18 @@ export const TheMoviesDB = () => {
                 </h5>
                 <MDBRow>
                     <ul>
-                        <li className="p-fs my-lg-3 ">
+                        <li className="h6-fs my-lg-3 ">
                             Informations et bande annonce de tous les films au cinéma en ce moment et ancien.
                         </li>
-                        <li className="p-fs my-lg-3 "> Création de une liste favoris personnalisée.</li>
-                        <li className="p-fs my-lg-3 ">API-Rest : <strong> TheMovieDB.org </strong></li>
+                        <li className="h6-fs my-lg-3 "> Création de une liste favoris personnalisée.</li>
+                        <li className="h6-fs my-lg-3 ">API-Rest : <strong> TheMovieDB.org </strong></li>
                     </ul>
                 </MDBRow>
 
-                <MDBRow className="justify-content-center mt-lg-2 mt-4 mb-lg-4">
-                    <div className="col-5 ">
-                        <h6 className="h6-fs mb-lg-4 mb-3 fontW">Back-End :</h6>
-                        <p className="p-fs mb-lg-3 mb-2 grey-text "><MDBIcon icon="arrow-alt-circle-down" /> Mongoose</p>
-                        <p className="p-fs mb-lg-3 mb-2 grey-text "><MDBIcon icon="arrow-alt-circle-down" /> Express</p>
-                        <p className="p-fs mb-lg-3 mb-2 grey-text "><MDBIcon icon="arrow-alt-circle-down" /> Bcryptjs</p>
-                        <p className="p-fs mb-lg-3 mb-2 grey-text "><MDBIcon icon="arrow-alt-circle-down" /> Express-validator</p>
-                        <p className="p-fs mb-lg-3 mb-2 grey-text "><MDBIcon icon="arrow-alt-circle-down" /> Password-validator</p>
-                    </div>
-                    <div className="col-5 ">
-                        <h6 className="h6-fs mb-lg-4 mb-3 fontW">Front-End :</h6>
-                        <p className="p-fs mb-lg-3 mb-2 grey-text "><MDBIcon icon="arrow-alt-circle-down" /> MDBReact</p>
-                        <p className="p-fs mb-lg-3 mb-2 grey-text "><MDBIcon icon="arrow-alt-circle-down" /> Bootstrap</p>
-                        <p className="p-fs mb-lg-3 mb-2 grey-text "><MDBIcon icon="arrow-alt-circle-down" /> Axios</p>
-                    </div>
-                </MDBRow>
-
-                <MDBRow className="">
+                <MDBRow className="block-example border-bottom border-light pb-lg-4">
                     <MDBCol size='12' className='text-center'>
-                        <p className="p-fs mb-lg-3 mb-1">Date de realisation : <span className='h6-fs'> Décembre / 2021</span> </p>
+                        <p className="grey-text p-fs mb-0">Date de réalisation </p>
+                        <h6 className='h6-fs mb-lg-3 mb-1'> Décembre / 2021</h6>
                     </MDBCol>
                     <MDBCol size='12' className='text-center'>
                         <MDBBtn
@@ -80,6 +65,25 @@ export const TheMoviesDB = () => {
                         </MDBBtn>
                     </MDBCol>
                 </MDBRow>
+
+                <MDBRow className="justify-content-center mt-4 mb-lg-4">
+                    <h5 className="h5-fs fontW text-center mb-lg-5">Bibliothèques & Frameworks</h5>
+                    <div className="col-5 ">
+                        <h6 className="h6-fs mb-lg-4 mb-3 fontW">Back-End :</h6>
+                        <MDBCardText className="mb-lg-3 mb-2 grey-text"><MDBIcon icon="arrow-alt-circle-down" /> Mongoose</MDBCardText>
+                        <MDBCardText className="mb-lg-3 mb-2 grey-text"><MDBIcon icon="arrow-alt-circle-down" /> Express</MDBCardText>
+                        <MDBCardText className="mb-lg-3 mb-2 grey-text"><MDBIcon icon="arrow-alt-circle-down" /> Bcryptjs</MDBCardText>
+                        <MDBCardText className="mb-lg-3 mb-2 grey-text"><MDBIcon icon="arrow-alt-circle-down" /> Express-validator</MDBCardText>
+                        <MDBCardText className="mb-lg-3 mb-2 grey-text"><MDBIcon icon="arrow-alt-circle-down" /> Password-validator</MDBCardText>
+                    </div>
+                    <div className="col-5 ">
+                        <h6 className="h6-fs mb-lg-4 mb-3 fontW">Front-End :</h6>
+                        <MDBCardText className="mb-lg-3 mb-2 grey-text"><MDBIcon icon="arrow-alt-circle-down" /> MDBReact</MDBCardText>
+                        <MDBCardText className="mb-lg-3 mb-2 grey-text"><MDBIcon icon="arrow-alt-circle-down" /> Bootstrap</MDBCardText>
+                        <MDBCardText className="mb-lg-3 mb-2 grey-text"><MDBIcon icon="arrow-alt-circle-down" /> Axios</MDBCardText>
+                    </div>
+                </MDBRow>
+
             </MDBCardBody>
         </MDBCard>
     )

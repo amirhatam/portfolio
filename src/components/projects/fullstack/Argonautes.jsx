@@ -6,7 +6,8 @@ import {
     MDBIcon,
     MDBBtn,
     MDBView,
-    MDBCard
+    MDBCard,
+    MDBCardText
 } from "mdbreact";
 import Flip from 'react-reveal/Flip';
 import Argonaute from "../../../assets/Images/screenshots/argonaute.png"
@@ -15,9 +16,9 @@ export const Argonautes = () => {
     return (
         <MDBCard className="col-lg-5 col-8 p-3 mb-5 py-lg-5">
             <h4 className="h4-fs mb-lg-3 mb-1 fontW text-center ">Argonaute</h4>
-            <p className="h6-fs mb-1 grey-text text-center">
+            <MDBCardText className="h6-fs mb-1 grey-text text-center">
                 Un challenge technique de la Wild Codes School
-            </p>
+            </MDBCardText>
             <Flip left duration={1000}>
                 <MDBBtn
                     href={"https://wildcodesschool-argonaute.herokuapp.com/"}
@@ -40,32 +41,19 @@ export const Argonautes = () => {
 
                 <MDBRow className=''>
                     <ul>
-                        <li className="p-fs my-lg-3">
+                        <li className="h6-fs my-lg-3">
                             Afficher les membres d'équipage récupérés depuis une base de données.
                         </li>
-                        <li className="p-fs my-lg-3">
+                        <li className="h6-fs my-lg-3">
                             stocker les noms des nouveaux membres d'équipage en base de données.
                         </li>
                     </ul>
                 </MDBRow>
 
-                <MDBRow className="justify-content-center mt-lg-2 mt-4 mb-lg-5">
-                    <div className="col-5 ">
-                        <h6 className="h6-fs mb-lg-4 mb-3 fontW">Back-End :</h6>
-                        <p className="p-fs mb-lg-3 mb-2 grey-text "><MDBIcon icon="arrow-alt-circle-down" /> Mongoose</p>
-                        <p className="p-fs mb-lg-3 mb-2 grey-text "><MDBIcon icon="arrow-alt-circle-down" /> Express</p>
-                    </div>
-                    <div className="col-5 ">
-                        <h6 className="h6-fs mb-lg-4 mb-3 fontW">Front-End :</h6>
-                        <p className="p-fs mb-lg-3 mb-2 grey-text "><MDBIcon icon="arrow-alt-circle-down" /> MDBReact</p>
-                        <p className="p-fs mb-lg-3 mb-2 grey-text "><MDBIcon icon="arrow-alt-circle-down" /> Bootstrap</p>
-                        <p className="p-fs mb-lg-3 mb-2 grey-text "><MDBIcon icon="arrow-alt-circle-down" /> Axios</p>
-                    </div>
-                </MDBRow>
-
-                <MDBRow className="projet-footer">
+                <MDBRow className="block-example border-bottom border-light pb-lg-4">
                     <MDBCol size='12' className='text-center'>
-                        <p className=" p-fs mb-lg-3">Date de realisation : <span className='h6-fs'> Avril / 2022</span> </p>
+                        <p className="grey-text p-fs mb-0">Date de réalisation </p>
+                        <h6 className='h6-fs mb-lg-3 mb-1'> Avril / 2022</h6>
                     </MDBCol>
                     <MDBCol size='12' className='text-center'>
                         <MDBBtn
@@ -79,6 +67,23 @@ export const Argonautes = () => {
                         </MDBBtn>
                     </MDBCol>
                 </MDBRow>
+
+                <MDBRow className="justify-content-center mt-4 mb-lg-5">
+                    <h5 className="h5-fs fontW text-center mb-lg-5 ">Bibliothèques & Frameworks</h5>
+                    <div className="col-5 ">
+                        <h6 className="h6-fs mb-lg-4 mb-3 fontW">Back-End :</h6>
+                        <MDBCardText className="mb-lg-3 mb-2 grey-text"><MDBIcon icon="arrow-alt-circle-down" /> Mongoose</MDBCardText>
+                        <MDBCardText className="mb-lg-3 mb-2 grey-text"><MDBIcon icon="arrow-alt-circle-down" /> Express</MDBCardText>
+                    </div>
+                    <div className="col-5 ">
+                        <h6 className="h6-fs mb-lg-4 mb-3 fontW">Front-End :</h6>
+                        <MDBCardText className="mb-lg-3 mb-2 grey-text"><MDBIcon icon="arrow-alt-circle-down" /> MDBReact</MDBCardText>
+                        <MDBCardText className="mb-lg-3 mb-2 grey-text"><MDBIcon icon="arrow-alt-circle-down" /> Bootstrap</MDBCardText>
+                        <MDBCardText className="mb-lg-3 mb-2 grey-text"><MDBIcon icon="arrow-alt-circle-down" /> Axios</MDBCardText>
+                    </div>
+                </MDBRow>
+
+
             </MDBCardBody>
         </MDBCard>
     )

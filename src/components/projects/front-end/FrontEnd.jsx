@@ -68,7 +68,7 @@ export default function FrontEnd() {
                                     </MDBCardText>
 
                                     {
-                                        e.tools.map((t, l) => <p key={l} className="p-fs mb-lg-3 mb-2 grey-text mx-2"><MDBIcon icon="arrow-alt-circle-down" /> {t} </p>)
+                                        e.tools.map((t, l) => <MDBCardText key={l} className=" mb-lg-3 mb-2 grey-text mx-2"><MDBIcon icon="arrow-alt-circle-down" /> {t} </MDBCardText>)
                                     }
 
 

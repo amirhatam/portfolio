@@ -107,7 +107,7 @@ export default function Coordonnees() {
                         <MDBCol className="col-md-10 col-8 align-self-center px-0">
                             <span className="fontW h5-fs ml-1">Téléphone </span>
                         </MDBCol>
-                        <MDBCol className="my-2">
+                        <MDBCol className="col-12 my-2">
                             <a href="tel:+33 7 68 57 35 81"
                                 className="d-block txt-dark h6-fs"
                             >+33 7 68 57 35 81</a>

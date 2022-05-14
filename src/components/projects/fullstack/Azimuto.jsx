@@ -5,7 +5,8 @@ import {
     MDBIcon,
     MDBBtn,
     MDBView,
-    MDBCard
+    MDBCard,
+    MDBCardText
 } from "mdbreact";
 import Flip from 'react-reveal/Flip';
 
@@ -19,7 +20,7 @@ export const Azimuto = () => {
             <MDBRow className="justify-content-center ">
                 <MDBCol className="col-12 text-center">
                     <h4 className="h4-fs mb-lg-3 mb-1 fontW ">Azimuto</h4>
-                    <p className="h6-fs mb-1 grey-text">Le projet pendant mon stage</p>
+                    <p className="h6-fs mb-1 grey-text">Le projet de stage</p>
                 </MDBCol>
                 <MDBCol className="col-lg-4 col-10 mt-lg-0 mt-4">
                     <h5 className="h5-fs fontW text-center">Bibliothèques & Frameworks</h5>
@@ -31,21 +32,21 @@ export const Azimuto = () => {
                     <MDBRow className="justify-content-center mt-lg-5 mt-4">
                         <div className="col-5 ">
                             <h6 className="h6-fs mb-lg-4 mb-3 fontW">Back-End :</h6>
-                            <p className="p-fs mb-lg-3 mb-2 grey-text "><MDBIcon icon="arrow-alt-circle-down" /> Mongoose</p>
-                            <p className="p-fs mb-lg-3 mb-2 grey-text "><MDBIcon icon="arrow-alt-circle-down" /> Express</p>
-                            <p className="p-fs mb-lg-3 mb-2 grey-text "><MDBIcon icon="arrow-alt-circle-down" /> Bcryptjs</p>
-                            <p className="p-fs mb-lg-3 mb-2 grey-text "><MDBIcon icon="arrow-alt-circle-down" /> Dotenv</p>
-                            <p className="p-fs mb-lg-3 mb-2 grey-text "><MDBIcon icon="arrow-alt-circle-down" /> Multer</p>
-                            <p className="p-fs mb-lg-3 mb-2 grey-text "><MDBIcon icon="arrow-alt-circle-down" /> Express-validator</p>
-                            <p className="p-fs mb-lg-3 mb-2 grey-text "><MDBIcon icon="arrow-alt-circle-down" /> Password-validator</p>
+                            <MDBCardText className="mb-lg-3 mb-2 grey-text"><MDBIcon icon="arrow-alt-circle-down" /> Mongoose</MDBCardText>
+                            <MDBCardText className="mb-lg-3 mb-2 grey-text"><MDBIcon icon="arrow-alt-circle-down" /> Express</MDBCardText>
+                            <MDBCardText className="mb-lg-3 mb-2 grey-text"><MDBIcon icon="arrow-alt-circle-down" /> Bcryptjs</MDBCardText>
+                            <MDBCardText className="mb-lg-3 mb-2 grey-text"><MDBIcon icon="arrow-alt-circle-down" /> Dotenv</MDBCardText>
+                            <MDBCardText className="mb-lg-3 mb-2 grey-text"><MDBIcon icon="arrow-alt-circle-down" /> Multer</MDBCardText>
+                            <MDBCardText className="mb-lg-3 mb-2 grey-text"><MDBIcon icon="arrow-alt-circle-down" /> Express-validator</MDBCardText>
+                            <MDBCardText className="mb-lg-3 mb-2 grey-text"><MDBIcon icon="arrow-alt-circle-down" /> Password-validator</MDBCardText>
                         </div>
                         <div className="col-5 ">
                             <h6 className="h6-fs mb-lg-4 mb-3 fontW">Front-End :</h6>
-                            <p className="p-fs mb-lg-3 mb-2 grey-text "><MDBIcon icon="arrow-alt-circle-down" /> MDBReact</p>
-                            <p className="p-fs mb-lg-3 mb-2 grey-text "><MDBIcon icon="arrow-alt-circle-down" /> Bootstrap</p>
-                            <p className="p-fs mb-lg-3 mb-2 grey-text "><MDBIcon icon="arrow-alt-circle-down" /> Axios</p>
-                            <p className="p-fs mb-lg-3 mb-2 grey-text "><MDBIcon icon="arrow-alt-circle-down" /> React-router-dom</p>
-                            <p className="p-fs mb-lg-3 mb-2 grey-text "><MDBIcon icon="arrow-alt-circle-down" /> React-scripts</p>
+                            <MDBCardText className="mb-lg-3 mb-2 grey-text"><MDBIcon icon="arrow-alt-circle-down" /> MDBReact</MDBCardText>
+                            <MDBCardText className="mb-lg-3 mb-2 grey-text"><MDBIcon icon="arrow-alt-circle-down" /> Bootstrap</MDBCardText>
+                            <MDBCardText className="mb-lg-3 mb-2 grey-text"><MDBIcon icon="arrow-alt-circle-down" /> Axios</MDBCardText>
+                            <MDBCardText className="mb-lg-3 mb-2 grey-text"><MDBIcon icon="arrow-alt-circle-down" /> React-router-dom</MDBCardText>
+                            <MDBCardText className="mb-lg-3 mb-2 grey-text"><MDBIcon icon="arrow-alt-circle-down" /> React-scripts</MDBCardText>
                         </div>
                     </MDBRow>
                 </MDBCol>
@@ -98,7 +99,8 @@ export const Azimuto = () => {
                 </MDBCol>
                 <MDBCol className="text-center">
                     <MDBCol size='12' className='text-center'>
-                        <p className="p-fs mb-lg-3 mb-1">Date de realisation : <span className='h6-fs'> Septembre-Octobre / 2021</span> </p>
+                        <p className="grey-text p-fs mb-0">Date de réalisation </p>
+                        <h6 className='h6-fs mb-lg-3 mb-1'> Septembre-Octobre / 2021</h6>
                     </MDBCol>
                     <MDBBtn
                         href={PDF}
