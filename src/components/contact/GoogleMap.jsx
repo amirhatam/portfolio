@@ -1,7 +1,8 @@
 import { MDBCol, MDBRow } from 'mdbreact'
-import React from 'react'
+import React, { useEffect } from 'react'
 
 export default function GoogleMap() {
+
     return (
         <MDBRow>
             <MDBCol lg="12" className="px-lg-3">
