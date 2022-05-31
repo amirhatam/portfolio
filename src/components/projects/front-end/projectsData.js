@@ -1,5 +1,6 @@
 const HobbiesImg = require('../../../assets/Images/Hobbies.png')
 const Hangman = require('../../../assets/Images/screenshots/hangman.png')
+const Catfacts = require('../../../assets/Images/screenshots/catfacts.png')
 
 const projectData = [
 
@@ -18,10 +19,20 @@ const projectData = [
         img: ` ${HobbiesImg.default}`,
         projectName: 'Hobbies & Leisure',
         projectHeadline: "Projet personnel d'algorithmique",
-        projectInfo: 'Different Calculatrices et jeux vidéos',
+        projectInfo: 'Différent Calculatrices et jeux vidéos',
         tools: ['MDBReact', 'API (Dictionary API)', 'Material-UI'],
         date: 'Mars / 2022',
         githubUrl: 'https://github.com/amirhatam/loisir'
+    },
+    {
+        projectUrl: 'https://the-cat-facts.netlify.app/',
+        img: ` ${Catfacts.default}`,
+        projectName: 'The Cat Facts',
+        projectHeadline: "Un challenge technique d'utilisation les différents types d'Api",
+        projectInfo: "Une plateforme d'information tout sur les chats",
+        tools: ['MDBReact', 'API (The Cat API, CatFact)'],
+        date: 'Mai / 2022',
+        githubUrl: 'https://github.com/amirhatam/cat-fact'
     },
     {
         projectUrl: 'https://concert-max-richter.netlify.app/',
