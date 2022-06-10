@@ -20,12 +20,7 @@ import CV from "../assets/CV.pdf";
 import Canvas from "./Particles.jsx";
 
 function Header() {
-  const [collapsed, setCollapsed] = useState([false]);
-
-  const handleTogglerClick = () => {
-    setCollapsed(!collapsed)
-  };
-
+  const [collapsed, setCollapsed] = useState(false);
 
   const scrollToElement = (elem) => {
     scroller.scrollTo(elem, {
@@ -51,7 +46,9 @@ function Header() {
               <strong className="white-text h5-fs">Amir Hatam</strong>
             </MDBNavbarBrand>
 
-            <MDBNavbarToggler onClick={handleTogglerClick} />
+            <MDBNavbarToggler
+              onClick={() => setCollapsed(!collapsed)}
+            />
 
             <MDBCollapse isOpen={collapsed} navbar>
 

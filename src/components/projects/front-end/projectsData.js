@@ -41,7 +41,7 @@ const projectData = [
         projectHeadline: "Projet personnel E-marketing",
         projectInfo: "L'information d'un événement consert de Max Richter",
         tools: ['React.JS', 'Material-UI'],
-        date: 'May / 2021',
+        date: 'Mai / 2021',
         githubUrl: 'https://github.com/amirhatam/concert-max-richter'
     },
     {
@@ -81,7 +81,7 @@ const projectData = [
         projectHeadline: 'Projet personnel Cinématographiques',
         projectInfo: 'Informations tous les films au cinéma en ce moment et ancien',
         tools: ['MDBReact', 'API (The Movie Database)'],
-        date: 'May / 2021',
+        date: 'Mai / 2021',
         githubUrl: 'https://github.com/amirhatam/moviedb'
     },
     {

@@ -1,5 +1,5 @@
 import { MDBCol, MDBRow } from 'mdbreact'
-import React, { useEffect } from 'react'
+import React from 'react'
 
 export default function GoogleMap() {
 
