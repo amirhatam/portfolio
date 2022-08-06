@@ -1,6 +1,10 @@
 const HobbiesImg = require('../../../assets/Images/Hobbies.png')
 const Hangman = require('../../../assets/Images/screenshots/hangman.png')
 const Catfacts = require('../../../assets/Images/screenshots/catfacts.png')
+const StudioZerance = require('../../../assets/Images/screenshots/studio-zerance.png')
+const Artpoint = require('../../../assets/Images/screenshots/artpoint.png')
+const Pokemon = require('../../../assets/Images/screenshots/pokemon.png')
+const CasinoSlot = require('../../../assets/Images/screenshots/casino-slot.png')
 
 const projectData = [
 
@@ -11,7 +15,7 @@ const projectData = [
         projectHeadline: 'Mon premier projet personnel',
         projectInfo: "L'information des départements de France",
         tools: ['HTML', 'CSS', 'JavaScript'],
-        date: 'Décembre / 2020',
+        date: 'Décembre, 2020',
         githubUrl: 'https://github.com/amirhatam/la-france.io'
     },
     {
@@ -21,7 +25,7 @@ const projectData = [
         projectHeadline: "Projet personnel d'algorithmique",
         projectInfo: 'Différent Calculatrices et jeux vidéos',
         tools: ['MDBReact', 'API (Dictionary API)', 'Material-UI'],
-        date: 'Mars / 2022',
+        date: 'Mars, 2022',
         githubUrl: 'https://github.com/amirhatam/loisir'
     },
     {
@@ -31,18 +35,8 @@ const projectData = [
         projectHeadline: "Un challenge technique d'utilisation les différents types d'Api",
         projectInfo: "Une plateforme d'information tout sur les chats",
         tools: ['MDBReact', 'API (The Cat API, CatFact)'],
-        date: 'Mai / 2022',
+        date: 'Mai, 2022',
         githubUrl: 'https://github.com/amirhatam/cat-fact'
-    },
-    {
-        projectUrl: 'https://concert-max-richter.netlify.app/',
-        img: 'https://d33wubrfki0l68.cloudfront.net/60b28a502f3747f62ffcdd30/screenshot_2021-05-29-18-40-49-0000.png',
-        projectName: 'Un Événement Musicaux',
-        projectHeadline: "Projet personnel E-marketing",
-        projectInfo: "L'information d'un événement consert de Max Richter",
-        tools: ['React.JS', 'Material-UI'],
-        date: 'Mai / 2021',
-        githubUrl: 'https://github.com/amirhatam/concert-max-richter'
     },
     {
         projectUrl: 'https://game-the-hangman.netlify.app/',
@@ -51,8 +45,59 @@ const projectData = [
         projectHeadline: 'Projet personnel Jeu vidéo',
         projectInfo: 'Trouver un mot en devinant les lettres qui le composent',
         tools: ['MDBReact', 'API (The Movie Database)', 'Material-UI'],
-        date: 'Mars / 2022',
+        date: 'Mars, 2022',
         githubUrl: 'https://github.com/amirhatam/game-hangman'
+    },
+    {
+        projectUrl: 'https://concert-max-richter.netlify.app/',
+        img: 'https://d33wubrfki0l68.cloudfront.net/60b28a502f3747f62ffcdd30/screenshot_2021-05-29-18-40-49-0000.png',
+        projectName: 'Un Événement Musicaux',
+        projectHeadline: "Projet personnel E-marketing",
+        projectInfo: "L'information d'un événement consert de Max Richter",
+        tools: ['React.JS', 'Material-UI'],
+        date: 'Mai, 2021',
+        githubUrl: 'https://github.com/amirhatam/concert-max-richter'
+    },
+
+    {
+        projectUrl: 'https://casinoslot.netlify.app/',
+        img: `${CasinoSlot.default}`,
+        projectName: 'Jeu de casino slot',
+        projectHeadline: "Projet personnel Jeu vidéo",
+        projectInfo: "Trouver aléatoirement des slots et calculer score",
+        tools: ['React.JS'],
+        date: 'Août, 2022',
+        githubUrl: 'https://github.com/amirhatam/fruit-machine-game'
+    },
+    {
+        projectUrl: 'https://listof-pokemon.netlify.app/',
+        img: `${Pokemon.default}`,
+        projectName: 'List of Pokemon',
+        projectHeadline: "Un challenge technique d'utilisation des API Pokemon avec le framework Next.Js",
+        projectInfo: "Liste des Pokémon et leurs informations",
+        tools: ['Next.JS', 'Tailwind'],
+        date: 'Juillet, 2022',
+        githubUrl: 'https://github.com/amirhatam/pokemon'
+    },
+    {
+        projectUrl: 'https://preview-artpoint.netlify.app/',
+        img: `${Artpoint.default}`,
+        projectName: 'Artpoint',
+        projectHeadline: "Un challenge technique d'utilisation des données statistiques avec le framework Next.Js",
+        projectInfo: "L'informations et des oeuvres d'Artistes",
+        tools: ['Next.JS', 'Bootstrap', 'react-slick'],
+        date: 'Juillet, 2022',
+        githubUrl: 'https://github.com/amirhatam/artpoint'
+    },
+    {
+        projectUrl: 'https://hompage-studio-zerance.netlify.app/',
+        img: `${StudioZerance.default}`,
+        projectName: "L'accueil studio-zerance.fr",
+        projectHeadline: "Un challenge technique de Studio Zerance",
+        projectInfo: "Refaire la page d'accueil studio-zerance.fr avec Html et Css",
+        tools: ['HTML', 'CSS'],
+        date: 'Juillet, 2022',
+        githubUrl: 'https://github.com/amirhatam/studio-zerance'
     },
     {
         projectUrl: 'https://search-info-country.netlify.app/',
@@ -61,7 +106,7 @@ const projectData = [
         projectHeadline: 'Projet personnel',
         projectInfo: 'Images et informations de tous les pays du Monde',
         tools: ['MDBReact', 'API (The Countries & Images Database)', 'Material-UI'],
-        date: 'Décembre / 2021',
+        date: 'Décembre, 2021',
         githubUrl: 'https://github.com/amirhatam/country'
     },
     {
@@ -71,7 +116,7 @@ const projectData = [
         projectHeadline: 'Projet E-Shop pendant la formation',
         projectInfo: "D'achat des produits boulangerie",
         tools: ['React.JS'],
-        date: 'Juin / 2021',
+        date: 'Juin, 2021',
         githubUrl: 'https://github.com/amirhatam/bakery'
     },
     {
@@ -81,7 +126,7 @@ const projectData = [
         projectHeadline: 'Projet personnel Cinématographiques',
         projectInfo: 'Informations tous les films au cinéma en ce moment et ancien',
         tools: ['MDBReact', 'API (The Movie Database)'],
-        date: 'Mai / 2021',
+        date: 'Mai, 2021',
         githubUrl: 'https://github.com/amirhatam/moviedb'
     },
     {
@@ -91,7 +136,7 @@ const projectData = [
         projectHeadline: 'Projet de groupe pendant la formation',
         projectInfo: 'Jeu des Petits Chevaux. Nombre de joueurs : 2',
         tools: ['React.JS'],
-        date: 'Avril / 2021',
+        date: 'Avril, 2021',
         githubUrl: 'https://github.com/amirhatam/petits'
     },
 ]
